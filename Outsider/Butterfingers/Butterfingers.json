@@ -1,0 +1,12 @@
+{
+  "id": "butterfingers",
+  "edition": "custom",
+  "reminders": [
+    "Died today"
+  ],
+  "remindersGlobal": [],
+  "name": "Butterfingers",
+  "team": "outsider",
+  "ability": "When you are executed, each good potion in play is emptied.",
+  "flavor": "It took a special kind of man to cut his sword hand with his own sword."
+}

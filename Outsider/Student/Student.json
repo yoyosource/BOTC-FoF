@@ -1,0 +1,8 @@
+{
+  "id": "student",
+  "edition": "custom",
+  "name": "Student",
+  "team": "outsider",
+  "ability": "You may not nominate or vote if you have eyed the cauldron since dusk.",
+  "flavor": "Education is not the filling of a pail, but the lighting of a fire."
+}
