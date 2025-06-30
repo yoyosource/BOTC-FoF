@@ -6,6 +6,9 @@
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image_good.png?raw=true",
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image_evil.png?raw=true"
   ],
+  "remindersGlobal": [
+    "Empty"
+  ],
   "name": "Empty Potion",
   "team": "special",
   "ability": "You can hold multiple Empty Potions. Empty Potions might break at any time."

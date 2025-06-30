@@ -10,8 +10,53 @@
     "bootlegger": [
       "When a player is about to die or be exiled all their potions break before death. [+0/+1 Storyteller]"
     ],
-    "firstNight": [],
-    "otherNight": [],
+    "firstNight": [
+      "DUSK",
+      "MINIONINFO",
+      "DEMONINFO",
+      "glassblower",
+      "thug",
+      "megalomaniac",
+      "chemist",
+      "snakeoilseller",
+      "toxicologist",
+      "botanist",
+      "scout",
+      "farrier",
+      "potionofobsession",
+      "potionofempathy",
+      "potionofconviction",
+      "DAWN"
+    ],
+    "otherNight": [
+      "DUSK",
+      "solicitor",
+      "butterfingers",
+      "glassblower",
+      "potionofdisdain",
+      "thug",
+      "baptist",
+      "snakeoilseller",
+      "toxicologist",
+      "harlot",
+      "fugitive",
+      "megalomaniac",
+      "commira",
+      "caetrum",
+      "clofou",
+      "merchant",
+      "chemist",
+      "tollinspector",
+      "aberration",
+      "druid",
+      "distiller",
+      "farrier",
+      "clerk",
+      "potionofobsession",
+      "potionofempathy",
+      "potionofconviction",
+      "DAWN"
+    ],
     "characterTypes": {
       "potion good": {
         "color": "#1f65ff",
@@ -244,6 +289,9 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image_evil.png?raw=true"
     ],
+    "reminders": [
+      "In Play"
+    ],
     "name": "Botanist",
     "team": "townsfolk",
     "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff."
@@ -340,7 +388,7 @@
     "setup": true,
     "name": "Scout",
     "team": "townsfolk",
-    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders.]"
+    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]"
   },
   {
     "id": "tollinspector",
@@ -351,8 +399,37 @@
     ],
     "name": "Toll Inspector",
     "team": "townsfolk",
-    "ability": "Each night eye the cauldron.",
+    "ability": "Each night* eye the cauldron.",
     "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
+  },
+
+  {
+    "id": "glassblower",
+    "edition": "custom",
+    "name": "Glassblower",
+    "team": "fabled",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
+    ],
+    "ability": "Each night potions equal to the vote majority minus 1 are given out.",
+    "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
+  },
+  {
+    "id": "solicitor",
+    "edition": "custom",
+    "otherNightReminder": "Remove any 'No Ability' Reminder token. Put the 'No Ability' Reminder on any Townsfolk with any 'Trade' Reminder token on them. Wake each player with a 'Trade' Reminder on them and tell them they have received the Potions of the player with the corresponding 'Trade' Reminder on them.",
+    "reminders": [
+      "Trade 1",
+      "Trade 2",
+      "Trade 3",
+      "No Ability"
+    ],
+    "name": "Solicitor",
+    "team": "fabled",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
+    ],
+    "ability": "2 living players may choose to trade all potions, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability."
   },
 
   {
@@ -428,6 +505,9 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image_good.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image_evil.png?raw=true"
     ],
+    "remindersGlobal": [
+      "Empty"
+    ],
     "name": "Empty Potion",
     "team": "special",
     "ability": "You can hold multiple Empty Potions. Empty Potions might break at any time."
@@ -439,6 +519,9 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image_good.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image_evil.png?raw=true"
+    ],
+    "remindersGlobal": [
+      "Panic"
     ],
     "name": "Potion of Panic",
     "team": "special",

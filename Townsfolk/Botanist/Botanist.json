@@ -5,6 +5,9 @@
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image.png?raw=true",
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image_evil.png?raw=true"
   ],
+  "reminders": [
+    "In Play"
+  ],
   "name": "Botanist",
   "team": "townsfolk",
   "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff."
