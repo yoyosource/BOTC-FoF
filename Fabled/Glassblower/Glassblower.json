@@ -1,0 +1,11 @@
+{
+  "id": "glassblower",
+  "edition": "custom",
+  "name": "Glassblower",
+  "team": "fabled",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
+  ],
+  "ability": "Each night potions equal to the vote majority minus 1 are given out.",
+  "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
+}

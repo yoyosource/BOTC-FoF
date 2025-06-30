@@ -1,0 +1,15 @@
+{
+  "id": "megalomaniac",
+  "edition": "custom",
+  "reminders": [
+    "Dead"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image_good.png?raw=true"
+  ],
+  "name": "Megalomaniac",
+  "team": "demon",
+  "ability": "Each night give out a Potion of Panic. Each night*, choose a player; they die. If every good alive player holds a Potion of Panic, evil wins.",
+  "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
+}

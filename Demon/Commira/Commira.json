@@ -1,0 +1,14 @@
+{
+  "id": "commira",
+  "edition": "custom",
+  "reminders": [
+    "Dead"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image_good.png?raw=true"
+  ],
+  "name": "Commira",
+  "team": "demon",
+  "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion."
+}

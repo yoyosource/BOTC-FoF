@@ -1,0 +1,15 @@
+{
+  "id": "caetrum",
+  "edition": "custom",
+  "reminders": [
+    "Dead"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image_good.png?raw=true"
+  ],
+  "name": "Caetrum",
+  "team": "demon",
+  "ability": "Each night*, choose a player; they die. When a player dies this way, instead of breaking another player might receive 1 of their potions. Each night, a potion might break.",
+  "flavor": "Guaranteed to solve any minor problem by turning it into a major desaster."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "clofou",
+  "edition": "custom",
+  "reminders": [
+    "Dead"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image_good.png?raw=true"
+  ],
+  "name": "Clofou",
+  "team": "demon",
+  "setup": true,
+  "ability": "Each night*, choose a player; they die. Then an Outsider receives an evil potion. [+1 Outsider]"
+}
