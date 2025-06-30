@@ -1,0 +1,13 @@
+{
+  "id": "toxicologist",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Toxicologist/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Toxicologist/image_good.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Toxicologist/image_evil.png?raw=true"
+  ],
+  "name": "Toxicologist",
+  "team": "traveler",
+  "ability": "Each night eye the cauldron; choose 2 players (not yourself). A potion one of them holds break.",
+  "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
+}

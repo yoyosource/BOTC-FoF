@@ -1,0 +1,13 @@
+{
+  "id": "harlot",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Harlot/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Harlot/image_good.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Harlot/image_evil.png?raw=true"
+  ],
+  "name": "Harlot",
+  "team": "traveler",
+  "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+  "flavor": "Enchanté, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good."
+}

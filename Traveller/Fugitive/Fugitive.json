@@ -1,0 +1,12 @@
+{
+  "id": "fugitive",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Fugitive/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Fugitive/image_good.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Fugitive/image_evil.png?raw=true"
+  ],
+  "name": "Fugitive",
+  "team": "traveler",
+  "ability": "Each night* 2 players choose either 1) The other receives a Good potion, or 2) to learn the other’s potions. If both choose 2,  each receive an Evil potion instead."
+}
