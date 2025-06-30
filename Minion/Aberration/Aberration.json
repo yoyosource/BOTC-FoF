@@ -1,6 +1,10 @@
 {
   "id": "aberration",
   "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image_good.png?raw=true"
+  ],
   "name": "Aberration",
   "team": "minion",
   "ability": "When a Potion of Panic is revealed a Townsfolk player might receive false info until dawn; tonight you eye the cauldron and choose a player to receive a Potion of Panic."

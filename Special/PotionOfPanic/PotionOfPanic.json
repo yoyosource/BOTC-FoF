@@ -1,0 +1,12 @@
+{
+  "id": "potionofpanic",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image_good.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image_evil.png?raw=true"
+  ],
+  "name": "Potion of Panic",
+  "team": "special",
+  "ability": "This potion cannot be flipped back face down even if nullified."
+}

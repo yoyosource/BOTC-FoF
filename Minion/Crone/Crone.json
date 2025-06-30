@@ -1,6 +1,10 @@
 {
   "id": "crone",
   "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image_good.png?raw=true"
+  ],
   "name": "Crone",
   "team": "minion",
   "ability": "When you are attacked by the Demon you do not die and you and they swap characters."

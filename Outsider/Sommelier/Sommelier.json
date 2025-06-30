@@ -1,6 +1,10 @@
 {
   "id": "sommelier",
   "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image_evil.png?raw=true"
+  ],
   "name": "Sommelier",
   "team": "outsider",
   "ability": "Each night one player who would receive a potion might receive one of the opposite alignment instead.",

@@ -1,6 +1,10 @@
 {
   "id": "student",
   "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image_evil.png?raw=true"
+  ],
   "name": "Student",
   "team": "outsider",
   "ability": "You may not nominate or vote if you have eyed the cauldron since dusk.",

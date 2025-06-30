@@ -4,6 +4,10 @@
   "reminders": [
     "Mad"
   ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image_good.png?raw=true"
+  ],
   "name": "Thug",
   "team": "minion",
   "ability": "Each night, choose a player and an evil character; tomorrow they are \"mad\" that that character is in play or 2 living players might receive an evil potion.",

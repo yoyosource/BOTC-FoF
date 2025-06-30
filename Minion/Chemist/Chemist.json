@@ -1,6 +1,10 @@
 {
   "id": "chemist",
   "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image_good.png?raw=true"
+  ],
   "name": "Chemist",
   "team": "minion",
   "ability": "Each night eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",

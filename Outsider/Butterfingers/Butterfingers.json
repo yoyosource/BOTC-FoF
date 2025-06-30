@@ -4,7 +4,10 @@
   "reminders": [
     "Died today"
   ],
-  "remindersGlobal": [],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image_evil.png?raw=true"
+  ],
   "name": "Butterfingers",
   "team": "outsider",
   "ability": "When you are executed, each good potion in play is emptied.",
