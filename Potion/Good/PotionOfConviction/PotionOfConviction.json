@@ -1,0 +1,13 @@
+{
+  "id": "potionofconviction",
+  "edition": "custom",
+  "remindersGlobal": [
+    "Conviction"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
+  ],
+  "name": "Conviction",
+  "team": "potion good",
+  "ability": "Each night, a living neighbor’s potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions."
+}

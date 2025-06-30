@@ -1,0 +1,13 @@
+{
+  "id": "potionofgenerosity",
+  "edition": "custom",
+  "remindersGlobal": [
+    "Generosity"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfGenerosity/image.png?raw=true"
+  ],
+  "name": "Generosity",
+  "team": "potion good",
+  "ability": "If you would receive an evil Potion this one breaks and another person receives that potion instead."
+}

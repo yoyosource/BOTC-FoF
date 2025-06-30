@@ -1,0 +1,13 @@
+{
+  "id": "potionofempathy",
+  "edition": "custom",
+  "remindersGlobal": [
+    "Empathy"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
+  ],
+  "name": "Empathy",
+  "team": "potion good",
+  "ability": "Each night you learn what evil potions you alive neighbors are holding."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "potionofcuriosity",
+  "edition": "custom",
+  "remindersGlobal": [
+    "Curiosity"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfCuriosity/image.png?raw=true"
+  ],
+  "name": "Curiosity",
+  "team": "potion good",
+  "ability": "Each day you may exchange this Potion with the Storyteller for an Empty Potion to learn a player you have something in common with."
+}
