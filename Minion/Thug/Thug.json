@@ -1,0 +1,11 @@
+{
+  "id": "thug",
+  "edition": "custom",
+  "reminders": [
+    "Mad"
+  ],
+  "name": "Thug",
+  "team": "minion",
+  "ability": "Each night, choose a player and an evil character; tomorrow they are \"mad\" that that character is in play or 2 living players might receive an evil potion.",
+  "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
+}

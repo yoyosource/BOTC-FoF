@@ -1,0 +1,8 @@
+{
+  "id": "chemist",
+  "edition": "custom",
+  "name": "Chemist",
+  "team": "minion",
+  "ability": "Each night eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
+  "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
+}
