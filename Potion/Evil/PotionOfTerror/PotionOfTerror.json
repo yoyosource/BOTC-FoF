@@ -1,0 +1,13 @@
+{
+  "id": "potionofterror",
+  "edition": "custom",
+  "remindersGlobal": [
+    "Terror"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
+  ],
+  "name": "Terror",
+  "team": "potion evil",
+  "ability": "Your good potions are face up during the night."
+}

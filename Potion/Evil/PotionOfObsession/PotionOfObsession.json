@@ -1,0 +1,16 @@
+{
+  "id": "potionofobsession",
+  "edition": "custom",
+  "reminders": [
+    "Broke"
+  ],
+  "remindersGlobal": [
+    "Obsession"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
+  ],
+  "name": "Obsession",
+  "team": "potion evil",
+  "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion."
+}

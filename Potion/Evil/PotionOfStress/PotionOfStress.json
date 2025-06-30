@@ -1,0 +1,16 @@
+{
+  "id": "potionofstress",
+  "edition": "custom",
+  "reminders": [
+    "Stressed"
+  ],
+  "remindersGlobal": [
+    "Stress"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfStress/image.png?raw=true"
+  ],
+  "name": "Stress",
+  "team": "potion evil",
+  "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment."
+}

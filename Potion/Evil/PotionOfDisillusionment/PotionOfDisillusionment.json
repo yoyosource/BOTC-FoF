@@ -1,0 +1,13 @@
+{
+  "id": "potionofdisillusionment",
+  "edition": "custom",
+  "remindersGlobal": [
+    "Disillusionment"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisillusionment/image.png?raw=true"
+  ],
+  "name": "Disillusionment",
+  "team": "potion evil",
+  "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character."
+}
