@@ -1,0 +1,11 @@
+{
+  "id": "farrier",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image_evil.png?raw=true"
+  ],
+  "name": "Farrier",
+  "team": "townsfolk",
+  "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (other than themselves) than you are."
+}

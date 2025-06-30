@@ -1,0 +1,12 @@
+{
+  "id": "merchant",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image_evil.png?raw=true"
+  ],
+  "name": "Merchant",
+  "team": "townsfolk",
+  "ability": "Each night* either 1) receive a potion, or if you hold a potion 2) choose a potion you think you are holding and a player (not yourself) to receive that potion.",
+  "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
+}

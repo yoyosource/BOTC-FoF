@@ -1,0 +1,11 @@
+{
+  "id": "pigeonfancier",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image_evil.png?raw=true"
+  ],
+  "name": "Pigeon Fancier",
+  "team": "townsfolk",
+  "ability": "You can only receive evil potions from evil characters."
+}

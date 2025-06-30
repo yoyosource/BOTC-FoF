@@ -1,0 +1,11 @@
+{
+  "id": "auctioneer",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image_evil.png?raw=true"
+  ],
+  "name": "Auctioneer",
+  "team": "townsfolk",
+  "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive on the Market Day, at dawn good potions equal to the day number are given out."
+}

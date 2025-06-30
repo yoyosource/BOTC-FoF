@@ -1,0 +1,12 @@
+{
+  "id": "distiller",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image_evil.png?raw=true"
+  ],
+  "name": "Distiller",
+  "team": "townsfolk",
+  "ability": "Each night*, choose 2 players; 1 receives a good potion or 1 of their evil potions break.",
+  "flavor": "Ein Glas ist fabelhaft, zwei sind zu viel, und drei zu wenig."
+}

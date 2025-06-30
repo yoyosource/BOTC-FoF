@@ -1,0 +1,12 @@
+{
+  "id": "druid",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image_evil.png?raw=true"
+  ],
+  "name": "Druid",
+  "team": "townsfolk",
+  "ability": "Each night* you may choose a dead player; learn their character type and you might receive an evil potion.",
+  "flavor": "The great use of life is to spend it for something that will outlast it."
+}

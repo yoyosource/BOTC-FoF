@@ -1,0 +1,12 @@
+{
+  "id": "scout",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image_evil.png?raw=true"
+  ],
+  "setup": true,
+  "name": "Scout",
+  "team": "townsfolk",
+  "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders.]"
+}

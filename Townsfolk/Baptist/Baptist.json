@@ -1,0 +1,15 @@
+{
+  "id": "baptist",
+  "edition": "custom",
+  "reminders": [
+    "Cannot die"
+  ],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Baptist/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Baptist/image_evil.png?raw=true"
+  ],
+  "name": "Baptist",
+  "team": "townsfolk",
+  "ability": "Each night, choose 2 living players (not yourself), they might receive a potion. If either received an evil potion you cannot die tonight.",
+  "flavor": "It's never too soon to contemplate eternal damnation, sir!"
+}

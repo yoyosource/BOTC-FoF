@@ -1,0 +1,12 @@
+{
+  "id": "tollinspector",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image_evil.png?raw=true"
+  ],
+  "name": "Toll Inspector",
+  "team": "townsfolk",
+  "ability": "Each night eye the cauldron.",
+  "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "clerk",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image_evil.png?raw=true"
+  ],
+  "name": "Clerk",
+  "team": "townsfolk",
+  "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
+  "flavor": "Employers are like horses — they require management."
+}
