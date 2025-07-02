@@ -8,7 +8,9 @@
     "level": "Expert",
     "description": "\"The time has come yet again; a wondrous new spring, the Swallows fly high in the Sky, the world is turning green around us and it is time to celebrate its renewal.\nIt is at this time we honor our old tradition and for just a day distill and share our emotions, give of ourselves and bring our experiences together\nfor a bright and beautiful year to come. Welcome, dear friends, to the Festival of Swallows.\"\n\nLanterns glow along the winding streets, and stalls overflow with shimmering vials—each containing a carefully brewed Potion of Emotion. Love, joy, courage, even nostalgia—every bottle a promise of fleeting but potent feeling, shared among friends, lovers, and strangers alike.\n\nMusic swells as revelers sip their chosen brews, laughter spilling into the night like spilled honeyed mead. Couples dance, old grudges dissolve, and for one enchanted evening, the town beats with a single jubilant heart. But among the euphoria, a shadow stirs.\n\nAs the festival goes on, a bitter note creeps into the air, unnoticed at first, save for the unlucky few. A smiling youth who drinks a vial of giddy delight collapses into silent horror. A merchant's toast to prosperity leaves him trembling, his mind consumed by unseen terrors. A lonely soul seeking warmth in a flask of affection finds only a deep, seething hatred instead.\n\nEyes dart nervously. Fearful whispers ripple through the crowds. Somewhere in the throng, an unseen hand has tainted the celebration. A masked figure slips between the stalls, watching, waiting, delighting in the slow unraveling of joy.\n\nThe Festival of Fears has begun.",
     "bootlegger": [
-      "When a player is about to die or be exiled all their potions break before death. [+0/+1 Storyteller]"
+      "When a player is about to die or be exiled all their potions break before death. You cannot hold multiple Potion of the same type. [+0/+1 Storyteller]",
+      "This Script is run with a Cauldron which contains the public information of potions held by players. During the day all potions are by default displayed as face down. During the night all evil potions are displayed as face up. Once nominations begin players may not eye the cauldron.",
+      "While eyeing the cauldron any player may once per day request to reveal the good potions they are holding to all currently eyeing the cauldron. After such a reveal the potions are once again flipped face down. While eyeing the cauldron players may not document its content."
     ],
     "firstNight": [
       "DUSK",
@@ -22,6 +24,7 @@
       "toxicologist",
       "botanist",
       "scout",
+      "aberration",
       "farrier",
       "potionofobsession",
       "potionofempathy",
@@ -151,7 +154,7 @@
     ],
     "name": "Aberration",
     "team": "minion",
-    "ability": "When a Potion of Panic is revealed a Townsfolk player might receive false info until dawn; tonight you eye the cauldron and choose a player to receive a Potion of Panic."
+    "ability": "When a Potion of Panic is revealed a Townsfolk player might receive false info until dawn. Each night eye the cauldron and choose a player to receive a Potion of Panic."
   },
   {
     "id": "chemist",
@@ -525,7 +528,7 @@
     ],
     "name": "Potion of Panic",
     "team": "special",
-    "ability": "This potion cannot be flipped back face down even if nullified."
+    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced."
   },
 
   {
@@ -587,7 +590,7 @@
     ],
     "name": "Stress",
     "team": "potion evil",
-    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment."
+    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment once until dawn."
   },
   {
     "id": "potionofterror",
@@ -614,7 +617,7 @@
     ],
     "name": "Conviction",
     "team": "potion good",
-    "ability": "Each night, a living neighbor’s potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions."
+    "ability": "Each night, a living neighbor’s non empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions."
   },
   {
     "id": "potionofcuriosity",

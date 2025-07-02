@@ -9,5 +9,5 @@
   ],
   "name": "Conviction",
   "team": "potion good",
-  "ability": "Each night, a living neighbor’s potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions."
+  "ability": "Each night, a living neighbor’s non empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions."
 }

@@ -11,5 +11,5 @@
   ],
   "name": "Potion of Panic",
   "team": "special",
-  "ability": "This potion cannot be flipped back face down even if nullified."
+  "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced."
 }
