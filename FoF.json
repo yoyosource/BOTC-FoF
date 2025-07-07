@@ -550,7 +550,7 @@
     "special": [
       {
         "type": "selection",
-        "value": "bag-disabled"
+        "name": "bag-disabled"
       }
     ]
   },
