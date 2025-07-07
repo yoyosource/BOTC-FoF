@@ -605,6 +605,17 @@
     "team": "potion evil",
     "ability": "Your good potions are face up during the night."
   },
+  {
+    "id": "potionevil",
+    "edition": "custom",
+    "remindersGlobal": [],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/image.png?raw=true"
+    ],
+    "name": "Evil",
+    "team": "potion evil",
+    "ability": ""
+  },
 
   {
     "id": "potionofconviction",
@@ -670,5 +681,16 @@
     "name": "Joy",
     "team": "potion good",
     "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion."
+  },
+  {
+    "id": "potiongood",
+    "edition": "custom",
+    "remindersGlobal": [],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/image.png?raw=true"
+    ],
+    "name": "Good",
+    "team": "potion good",
+    "ability": ""
   }
 ]

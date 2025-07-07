@@ -1,0 +1,11 @@
+{
+  "id": "potiongood",
+  "edition": "custom",
+  "remindersGlobal": [],
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/image.png?raw=true"
+  ],
+  "name": "Good",
+  "team": "potion good",
+  "ability": ""
+}
