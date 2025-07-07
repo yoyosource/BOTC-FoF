@@ -22,6 +22,6 @@
 - Cauldron works online (Unofficial!)
 - Tramp Icon bigger
 - Baptist -> Each night Info with Potion?
-- Traveller to Harlot design!
 - Travellers not on night order if not in play
 - Bootlegger icon for fabled replaced by own icon
+- Official Icons look weird (too big and too far to the top)
