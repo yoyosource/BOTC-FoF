@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Almanac</title>
+</head>
+<style>
+    .center {
+        margin: auto;
+        width: 30%;
+        padding: 10px;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+
+    .container > .left > img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 0px;
+    }
+
+    .container > .text > h3 {
+        padding-top: 1em;
+        text-align: left;
+        margin-bottom: -1em;
+    }
+</style>
+<body>
+<div class="center">
+    <h1>Festival of Fears</h1>
+    <div id="description"></div>
+    <script>
+        fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
+            .then(value => value.text())
+            .then(value => {
+                const data = JSON.parse(value);
+                for (const key of data) {
+                    if (key.id === '_meta') {
+                        return key;
+                    }
+                }
+                return {};
+            })
+            .then(value => {
+                return value.description.replaceAll("\n", "<br>")
+            })
+            .then(value => {
+                document.getElementById("description").innerHTML = value;
+            });
+    </script>
+
+    <h2>Townsfolk</h2>
+    <div id="townsfolk"></div>
+
+    <h2>Outsider</h2>
+    <div id="outsider"></div>
+
+    <h2>Minion</h2>
+    <div id="minion"></div>
+
+    <h2>Demon</h2>
+    <div id="demon"></div>
+
+    <h2>Traveller</h2>
+    <div id="traveler"></div>
+
+    <h2>Fabled</h2>
+    <div id="fabled"></div>
+
+    <h2>Potions</h2>
+    <div class="container">
+        <div class="left">
+            <h3>Emptied</h3>
+        </div>
+        <div class="text">
+            A potion that is "Emptied" is removed and replaced by an Empty Potion.
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h3>Cauldron</h3>
+        </div>
+        <div class="text">
+            A separate town square specifically for potions.
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h3>Nullified</h3>
+        </div>
+        <div class="text">
+            A potion being nullified means that its ability has been removed.
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h3>Type of Potion</h3>
+        </div>
+        <div class="text">
+            Specific Potion i.e. the name of the Potion.
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h3>Potion Alignment</h3>
+        </div>
+        <div class="text">
+            The good and evil categories like for characters.
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h3>Becomes</h3>
+        </div>
+        <div class="text">
+            The potion is changed from its current type to another, and is treated as if being received.
+        </div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h3>Special</h3>
+        </div>
+        <div class="text">
+            A character type that is not included in the bag setup and can only be created by another character's ability. Special characters are neither good nor evil.
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <h2>Special Potions</h2>
+    <div id="special"></div>
+
+    <h2>Good Potions</h2>
+    <div id="potion good"></div>
+
+    <h2>Evil Potions</h2>
+    <div id="potion evil"></div>
+
+    <script>
+        fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
+            .then(value => value.text())
+            .then(value => {
+                const data = JSON.parse(value);
+                const result = {};
+                for (const key of data) {
+                    if (key["team"] !== undefined && key.ability !== ' ') {
+                        if (result[key.team] === undefined) {
+                            result[key.team] = [];
+                        }
+                        result[key.team].push(key);
+                    }
+                }
+                return result;
+            })
+            .then(value => {
+                for (const key in value) {
+                    const elements = value[key];
+                    console.log(elements);
+                    for (const data of elements) {
+                        document.getElementById(key).innerHTML += "<div class='container'><div class='left'><img src='" + data.image[0] + "'></div><div class='text'><h3>" + data.name + "</h3><br>" + data.ability + "</div></div>"
+                    }
+                }
+            });
+    </script>
+</div>
+</body>
+</html>
