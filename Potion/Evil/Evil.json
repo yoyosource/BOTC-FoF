@@ -1,11 +1,13 @@
 {
   "id": "potionevil",
   "edition": "custom",
-  "remindersGlobal": [],
+  "remindersGlobal": [
+    " "
+  ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/image.png?raw=true"
   ],
   "name": "Evil",
   "team": "potion evil",
-  "ability": ""
+  "ability": " "
 }

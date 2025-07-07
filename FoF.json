@@ -12,6 +12,7 @@
       "This Script is run with a Cauldron which contains the public information of potions held by players. During the day all potions are by default displayed as face down. During the night all evil potions are displayed as face up. Once nominations begin players may not eye the cauldron.",
       "While eyeing the cauldron any player may once per day request to reveal the good potions they are holding to all currently eyeing the cauldron. After such a reveal the potions are once again flipped face down. While eyeing the cauldron players may not document its content."
     ],
+    "background": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/refs/heads/main/assets/background.webp",
     "firstNight": [
       "DUSK",
       "MINIONINFO",
@@ -608,13 +609,15 @@
   {
     "id": "potionevil",
     "edition": "custom",
-    "remindersGlobal": [],
+    "remindersGlobal": [
+      " "
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/image.png?raw=true"
     ],
     "name": "Evil",
     "team": "potion evil",
-    "ability": ""
+    "ability": " "
   },
 
   {
@@ -685,12 +688,14 @@
   {
     "id": "potiongood",
     "edition": "custom",
-    "remindersGlobal": [],
+    "remindersGlobal": [
+      " "
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/image.png?raw=true"
     ],
     "name": "Good",
     "team": "potion good",
-    "ability": ""
+    "ability": " "
   }
 ]
