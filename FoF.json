@@ -42,7 +42,7 @@
       "baptist",
       "snakeoilseller",
       "toxicologist",
-      "harlot",
+      "fof_harlot",
       "fugitive",
       "megalomaniac",
       "commira",
@@ -487,7 +487,7 @@
     "ability": "Each night* 2 players choose either 1) The other receives a Good potion, or 2) to learn the other’s potions. If both choose 2,  each receive an Evil potion instead."
   },
   {
-    "id": "harlot",
+    "id": "fof_harlot",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Harlot/image.png?raw=true",
