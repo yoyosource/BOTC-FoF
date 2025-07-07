@@ -546,7 +546,13 @@
     ],
     "name": "Disdain",
     "team": "potion evil",
-    "ability": "When this potion breaks the Demon learns a not in play Character. If you nominate this potion breaks. At dusk this potion is nullified and breaks."
+    "ability": "When this potion breaks the Demon learns a not in play Character. If you nominate this potion breaks. At dusk this potion is nullified and breaks.",
+    "special": [
+      {
+        "type": "selection",
+        "value": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofdisillusionment",
