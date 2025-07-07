@@ -3,8 +3,6 @@
   "edition": "custom",
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image.png?raw=true",
-    "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image_good.png?raw=true",
-    "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image_evil.png?raw=true"
   ],
   "remindersGlobal": [
     "Empty"
