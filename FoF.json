@@ -571,7 +571,7 @@
     "remindersGlobal": [
       "Panic"
     ],
-    "name": "Potion of Panic",
+    "name": "Panic",
     "team": "special",
     "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced.",
     "special": [
