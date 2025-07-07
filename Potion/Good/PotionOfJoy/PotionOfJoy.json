@@ -9,5 +9,11 @@
   ],
   "name": "Joy",
   "team": "potion good",
-  "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion."
+  "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion.",
+  "special": [
+    {
+      "type": "selection",
+      "name": "bag-disabled"
+    }
+  ]
 }

@@ -298,7 +298,15 @@
     ],
     "name": "Botanist",
     "team": "townsfolk",
-    "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff."
+    "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your characters",
+        "time": "firstNight"
+      }
+    ]
   },
   {
     "id": "clerk",
@@ -310,7 +318,15 @@
     "name": "Clerk",
     "team": "townsfolk",
     "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
-    "flavor": "Employers are like horses — they require management."
+    "flavor": "Employers are like horses — they require management.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "An evil player received this potion",
+        "time": "otherNight"
+      }
+    ]
   },
   {
     "id": "connoisseur",
@@ -357,7 +373,21 @@
     ],
     "name": "Farrier",
     "team": "townsfolk",
-    "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (other than themselves) than you are."
+    "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (other than themselves) than you are.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are closer to an evil player.",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "They are closer to an evil player.",
+        "time": "night"
+      }
+    ]
   },
   {
     "id": "merchant",
@@ -392,7 +422,15 @@
     "setup": true,
     "name": "Scout",
     "team": "townsfolk",
-    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]"
+    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The longest chain of townsfolk players is:",
+        "time": "firstNight"
+      }
+    ]
   },
   {
     "id": "tollinspector",
@@ -514,7 +552,13 @@
     ],
     "name": "Empty Potion",
     "team": "special",
-    "ability": "You can hold multiple Empty Potions. Empty Potions might break at any time."
+    "ability": "You can hold multiple Empty Potions. Empty Potions might break at any time.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofpanic",
@@ -529,7 +573,13 @@
     ],
     "name": "Potion of Panic",
     "team": "special",
-    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced."
+    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
 
   {
@@ -565,7 +615,13 @@
     ],
     "name": "Disillusionment",
     "team": "potion evil",
-    "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character."
+    "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofobsession",
@@ -581,7 +637,13 @@
     ],
     "name": "Obsession",
     "team": "potion evil",
-    "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion."
+    "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofstress",
@@ -597,7 +659,13 @@
     ],
     "name": "Stress",
     "team": "potion evil",
-    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment once until dawn."
+    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment once until dawn.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofterror",
@@ -610,7 +678,13 @@
     ],
     "name": "Terror",
     "team": "potion evil",
-    "ability": "Your good potions are face up during the night."
+    "ability": "Your good potions are face up during the night.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionevil",
@@ -623,7 +697,13 @@
     ],
     "name": "Evil",
     "team": "potion evil",
-    "ability": " "
+    "ability": " ",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
 
   {
@@ -637,7 +717,13 @@
     ],
     "name": "Conviction",
     "team": "potion good",
-    "ability": "Each night, a living neighbor’s non empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions."
+    "ability": "Each night, a living neighbor’s non empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofcuriosity",
@@ -650,7 +736,13 @@
     ],
     "name": "Curiosity",
     "team": "potion good",
-    "ability": "Each day you may exchange this Potion with the Storyteller for an Empty Potion to learn a player you have something in common with."
+    "ability": "Each day you may exchange this Potion with the Storyteller for an Empty Potion to learn a player you have something in common with.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potionofempathy",
@@ -663,8 +755,57 @@
     ],
     "name": "Empathy",
     "team": "potion good",
-    "ability": "Each night you learn what evil potions you alive neighbors are holding."
-  },
+    "ability": "Each night you learn what evil potions you alive neighbors are holding.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "outsider"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "minion"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "demon"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "traveller"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "traveler"
+      }
+    ]
+  }
+,
   {
     "id": "potionofgenerosity",
     "edition": "custom",
@@ -676,7 +817,13 @@
     ],
     "name": "Generosity",
     "team": "potion good",
-    "ability": "If you would receive an evil Potion this one breaks and another person receives that potion instead."
+    "ability": "If you would receive an evil Potion this one breaks and another person receives that potion instead.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": " potionofjoy",
@@ -689,7 +836,13 @@
     ],
     "name": "Joy",
     "team": "potion good",
-    "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion."
+    "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "potiongood",
@@ -702,6 +855,12 @@
     ],
     "name": "Good",
     "team": "potion good",
-    "ability": " "
+    "ability": " ",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   }
 ]

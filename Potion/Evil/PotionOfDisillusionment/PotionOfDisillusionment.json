@@ -9,5 +9,11 @@
   ],
   "name": "Disillusionment",
   "team": "potion evil",
-  "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character."
+  "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
+  "special": [
+    {
+      "type": "selection",
+      "name": "bag-disabled"
+    }
+  ]
 }

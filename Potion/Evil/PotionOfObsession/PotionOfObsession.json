@@ -12,5 +12,11 @@
   ],
   "name": "Obsession",
   "team": "potion evil",
-  "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion."
+  "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
+  "special": [
+    {
+      "type": "selection",
+      "name": "bag-disabled"
+    }
+  ]
 }

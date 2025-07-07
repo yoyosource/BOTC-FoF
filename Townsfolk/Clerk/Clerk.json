@@ -8,5 +8,13 @@
   "name": "Clerk",
   "team": "townsfolk",
   "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
-  "flavor": "Employers are like horses — they require management."
+  "flavor": "Employers are like horses — they require management.",
+  "special": [
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "An evil player received this potion",
+      "time": "otherNight"
+    }
+  ]
 }

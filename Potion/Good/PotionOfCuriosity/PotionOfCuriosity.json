@@ -9,5 +9,11 @@
   ],
   "name": "Curiosity",
   "team": "potion good",
-  "ability": "Each day you may exchange this Potion with the Storyteller for an Empty Potion to learn a player you have something in common with."
+  "ability": "Each day you may exchange this Potion with the Storyteller for an Empty Potion to learn a player you have something in common with.",
+  "special": [
+    {
+      "type": "selection",
+      "name": "bag-disabled"
+    }
+  ]
 }

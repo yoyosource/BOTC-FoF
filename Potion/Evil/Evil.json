@@ -9,5 +9,11 @@
   ],
   "name": "Evil",
   "team": "potion evil",
-  "ability": " "
+  "ability": " ",
+  "special": [
+    {
+      "type": "selection",
+      "name": "bag-disabled"
+    }
+  ]
 }
