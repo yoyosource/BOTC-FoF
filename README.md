@@ -1,0 +1,6 @@
+# Festival of Fears
+
+**JSON**: [here](https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json)
+**Almanac**: [here](https://raw.githack.com/yoyosource/BOTC-FoF/refs/heads/master/Almanac.html)
+**Design Philosopher**: [here](https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.md)
+**Current Open Points**: [here](https://github.com/yoyosource/BOTC-FoF/issues)

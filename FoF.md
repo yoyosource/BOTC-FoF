@@ -16,12 +16,3 @@
 **Potion Alignment**: The good and evil categories like for characters.  
 **Becomes**: The potion is changed from its current type to another, and is treated as if being received.  
 **Special**: A character type that is not included in the bag setup and can only be created by another character's ability. Special characters are neither good nor evil.  
-
-### Fixes
-- Auctioneer Bluffability?
-- Cauldron works online (Unofficial!)
-- Tramp Icon bigger
-- Baptist -> Each night Info with Potion?
-- Travellers not on night order if not in play
-- Bootlegger icon for fabled replaced by own icon
-- Official Icons look weird (too big and too far to the top)
