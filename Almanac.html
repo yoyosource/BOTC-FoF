@@ -50,6 +50,16 @@
             grid-area: 1 / 1;
         }
 
+        #logo {
+            width: min(300px, 100%);
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 0;
+            padding-top: 50px
+        }
+
         .character {
             display: grid;
             grid-template-columns: 1fr 2fr;
@@ -89,15 +99,26 @@
         .glossary {
             padding-bottom: 0.5em;
         }
+
+        .character-type {
+            position: sticky;
+            top: 0;
+            align-self: flex-start;
+            width: 10px;
+            height: 40px;
+            margin-bottom: auto;
+            white-space: nowrap;
+        }
     </style>
 </head>
 <body>
 <div id="almanac">
     <div id="almanac-background"></div>
     <div id="almanac-content">
-        <img src="" id="logo" style="width: min(300px, 100%); height: auto; margin-left: auto; margin-right: auto; display: block; margin-top: 0; padding-top: 50px">
+        <img src="" id="logo">
         <div style="text-align: center; margin-left: -13px">by</div>
-        <div id="author" style="text-align: center"></div><br><br>
+        <div id="author" style="text-align: center"></div>
+        <br><br>
         <div id="description"></div>
         <script>
             fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
@@ -120,7 +141,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 110px 10px 10px 10px;">
+            <div class="character-type" style="padding: 110px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg); color: #1f65ff">Townsfolk</h1>
             </div>
 
@@ -130,7 +151,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
+            <div class="character-type" style="padding: 95px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg); color: #1f65ff">Outsider</h1>
             </div>
 
@@ -140,7 +161,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
+            <div class="character-type" style="padding: 70px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg); color: #ce0100">Minion</h1>
             </div>
 
@@ -150,7 +171,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
+            <div class="character-type" style="padding: 70px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg); color: #ce0100">Demon</h1>
             </div>
 
@@ -160,7 +181,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
+            <div class="character-type" style="padding: 95px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg); color: #cc04ff">Traveller</h1>
             </div>
 
@@ -170,7 +191,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 65px 10px 10px 10px;">
+            <div class="character-type" style="padding: 65px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg); color: #000000">Fabled</h1>
             </div>
 
@@ -205,7 +226,8 @@
         </div>
         <div class="glossary">
             <h3>Special</h3>
-            A character type that is not included in the bag setup and can only be created by another character's ability.
+            A character type that is not included in the bag setup and can only be created by another character's
+            ability.
             Special characters are neither good nor evil.
         </div>
         <br>
@@ -214,7 +236,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 175px 10px 10px 10px; white-space: nowrap;">
+            <div class="character-type" style="padding: 175px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg);">Special Potions</h1>
             </div>
 
@@ -224,7 +246,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 155px 10px 10px 10px; white-space: nowrap;">
+            <div class="character-type" style="padding: 155px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg);">Good Potions</h1>
             </div>
 
@@ -234,7 +256,7 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 135px 10px 10px 10px; white-space: nowrap;">
+            <div class="character-type" style="padding: 135px 10px 10px 10px;">
                 <h1 style="transform:rotate(270deg);">Evil Potions</h1>
             </div>
 
