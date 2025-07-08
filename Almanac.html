@@ -18,21 +18,27 @@
         text-align: center;
     }
 
-    .container > .left > img {
+    .character > .token > img {
         max-width: 100%;
         max-height: 100%;
     }
 
-    .container {
+    .character {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 0px;
     }
 
-    .container > .text > h3 {
+    .character > .ability > h3 {
         padding-top: 1em;
         text-align: left;
         margin-bottom: -1em;
+    }
+
+    .character > .ability > .flavor {
+        padding-top: 5px;
+        font-style: italic;
+        font-size: smaller;
     }
 </style>
 <body>
@@ -78,7 +84,7 @@
     <div id="fabled"></div>
 
     <h2>Potions</h2>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Emptied</h3>
         </div>
@@ -86,7 +92,7 @@
             A potion that is "Emptied" is removed and replaced by an Empty Potion.
         </div>
     </div>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Cauldron</h3>
         </div>
@@ -94,7 +100,7 @@
             A separate town square specifically for potions.
         </div>
     </div>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Nullified</h3>
         </div>
@@ -102,7 +108,7 @@
             A potion being nullified means that its ability has been removed.
         </div>
     </div>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Type of Potion</h3>
         </div>
@@ -110,7 +116,7 @@
             Specific Potion i.e. the name of the Potion.
         </div>
     </div>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Potion Alignment</h3>
         </div>
@@ -118,7 +124,7 @@
             The good and evil categories like for characters.
         </div>
     </div>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Becomes</h3>
         </div>
@@ -126,7 +132,7 @@
             The potion is changed from its current type to another, and is treated as if being received.
         </div>
     </div>
-    <div class="container">
+    <div class="character">
         <div class="left">
             <h3>Special</h3>
         </div>
@@ -166,10 +172,16 @@
             .then(value => {
                 for (const key in value) {
                     const elements = value[key];
-                    console.log(elements);
+                    const htmlElement = document.getElementById(key);
+                    let html = "";
                     for (const data of elements) {
-                        document.getElementById(key).innerHTML += "<div class='container'><div class='left'><img src='" + data.image[0] + "'></div><div class='text'><h3>" + data.name + "</h3><br>" + data.ability + "</div></div>"
+                        html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3>" + data.name + "</h3><br>" + data.ability;
+                        if (data.flavor !== undefined) {
+                            html += "<div class='flavor'>" + data.flavor + "</div>";
+                        }
+                        html += "</div></div>";
                     }
+                    htmlElement.innerHTML = html;
                 }
             });
     </script>
