@@ -50,6 +50,7 @@
 <body>
 <div class="center">
     <h1>Festival of Fears</h1>
+    <img src="" id="logo" style="width: min(300px, 100%); height: auto; margin-left: auto; margin-right: auto; display: block;">
     <div id="description"></div>
     <script>
         fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
@@ -64,10 +65,8 @@
                 return {};
             })
             .then(value => {
-                return value.description.replaceAll("\n", "<br>")
-            })
-            .then(value => {
-                document.getElementById("description").innerHTML = value;
+                document.getElementById("description").innerHTML = value.description.replaceAll("\n", "<br>");
+                document.getElementById("logo").src = value.logo;
             });
     </script>
 
