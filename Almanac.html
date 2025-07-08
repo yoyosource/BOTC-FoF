@@ -5,241 +5,276 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Festival of Fears</title>
-    <link rel="icon" type="image/x-icon"
-          href="https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image.png?raw=true">
+    <title>Document</title>
+
+    <style>
+        body {
+            padding: 0;
+            background-image: url("https://github.com/yoyosource/BOTC-FoF/blob/master/Background.webp?raw=true");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        #almanac {
+            width: min(950px, 100%);
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+        }
+
+        #almanac-background {
+            top: 0;
+            z-index: -1;
+            width: inherit;
+            height: 100%;
+            grid-area: 1 / 1;
+            margin-top: -10px;
+            padding-bottom: 20px;
+
+            background-image: url('https://github.com/yoyosource/BOTC-FoF/blob/master/AlmanacBackground.png?raw=true');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        #almanac-content {
+            width: min(600px, calc(100% - 20px));
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+
+            padding: 10px;
+
+            grid-area: 1 / 1;
+        }
+
+        .character {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 0;
+        }
+
+        h3 {
+            padding-top: 0.5em;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .token > img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .token > h3 {
+            padding-top: 0;
+            margin-top: 0;
+            padding-bottom: 0.5em;
+        }
+
+        .ability > h3 {
+            padding-top: 10px;
+            text-align: left;
+            margin-bottom: -1em;
+        }
+
+        .flavor {
+            padding-top: 5px;
+            font-style: italic;
+            font-size: smaller;
+        }
+
+        .glossary {
+            padding-bottom: 0.5em;
+        }
+    </style>
 </head>
-<style>
-    .center {
-        margin-left: auto;
-        margin-right: auto;
-        width: min(600px, calc(100% - 20px));
-        padding: 10px;
-    }
-
-    h1, h2 {
-        text-align: center;
-    }
-
-    h3 {
-        padding-top: 0.5em;
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-
-    .token > img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .token > h3 {
-        padding-top: 0;
-        margin-top: 0;
-        padding-bottom: 0.5em;
-    }
-
-    .character {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        column-gap: 0;
-    }
-
-    .ability > h3 {
-        padding-top: 10px;
-        text-align: left;
-        margin-bottom: -1em;
-    }
-
-    .flavor {
-        padding-top: 5px;
-        font-style: italic;
-        font-size: smaller;
-    }
-
-    .glossary {
-        padding-bottom: 0.5em;
-    }
-</style>
 <body>
-
-<div class="center">
-    <img src="" id="logo" style="width: min(300px, 100%); height: auto; margin-left: auto; margin-right: auto; display: block;">
-    <div id="description" style="padding-left: 37px"></div>
-    <script>
-        fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
-            .then(value => value.text())
-            .then(value => {
-                const data = JSON.parse(value);
-                for (const key of data) {
-                    if (key.id === '_meta') {
-                        return key;
-                    }
-                }
-                return {};
-            })
-            .then(value => {
-                document.getElementById("description").innerHTML = value.description.replaceAll("\n", "<br>");
-                document.getElementById("logo").src = value.logo;
-            });
-    </script>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 110px 10px 10px 10px;">
-            <h1 style="transform:rotate(270deg);">Townsfolk</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="townsfolk"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
-            <h1 style="transform:rotate(270deg);">Outsider</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="outsider"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
-            <h1 style="transform:rotate(270deg);">Minion</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="minion"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
-            <h1 style="transform:rotate(270deg);">Demon</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="demon"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
-            <h1 style="transform:rotate(270deg);">Traveller</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="traveler"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 65px 10px 10px 10px;">
-            <h1 style="transform:rotate(270deg);">Fabled</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="fabled"></div>
-    </div>
-
-    <h1>Potions</h1>
-    <div class="glossary">
-        <h3>Emptied</h3>
-        A potion that is "Emptied" is removed and replaced by an Empty Potion.
-    </div>
-    <div class="glossary">
-        <h3>Cauldron</h3>
-        A separate town square specifically for potions.
-    </div>
-    <div class="glossary">
-        <h3>Nullified</h3>
-        A potion being nullified means that its ability has been removed.
-    </div>
-    <div class="glossary">
-        <h3>Type of Potion</h3>
-        Specific Potion i.e. the name of the Potion.
-    </div>
-    <div class="glossary">
-        <h3>Potion Alignment</h3>
-        The good and evil categories like for characters.
-    </div>
-    <div class="glossary">
-        <h3>Becomes</h3>
-        The potion is changed from its current type to another, and is treated as if being received.
-    </div>
-    <div class="glossary">
-        <h3>Special</h3>
-        A character type that is not included in the bag setup and can only be created by another character's ability.
-        Special characters are neither good nor evil.
-    </div>
-    <br>
-    <br>
-    <br>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 175px 10px 10px 10px; white-space: nowrap;">
-            <h1 style="transform:rotate(270deg);">Special Potions</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="special"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 155px 10px 10px 10px; white-space: nowrap;">
-            <h1 style="transform:rotate(270deg);">Good Potions</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="potion good"></div>
-    </div>
-
-    <div style="display: flex; position: relative; padding-top: 20px">
-        <!-- Sticky Left Label -->
-        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 135px 10px 10px 10px; white-space: nowrap;">
-            <h1 style="transform:rotate(270deg);">Evil Potions</h1>
-        </div>
-
-        <!-- Scrollable Content -->
-        <div id="potion evil"></div>
-    </div>
-
-    <script>
-        fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
-            .then(value => value.text())
-            .then(value => {
-                const data = JSON.parse(value);
-                const result = {};
-                for (const key of data) {
-                    if (key["team"] !== undefined && key.ability !== ' ') {
-                        if (result[key.team] === undefined) {
-                            result[key.team] = [];
+<div id="almanac">
+    <div id="almanac-background"></div>
+    <div id="almanac-content">
+        <img src="" id="logo" style="width: min(300px, 100%); height: auto; margin-left: auto; margin-right: auto; display: block; margin-top: 0; padding-top: 50px">
+        <div style="text-align: center; margin-left: -13px">by</div>
+        <div id="author" style="text-align: center"></div><br><br>
+        <div id="description"></div>
+        <script>
+            fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
+                .then(value => value.text())
+                .then(value => {
+                    const data = JSON.parse(value);
+                    for (const key of data) {
+                        if (key.id === '_meta') {
+                            return key;
                         }
-                        result[key.team].push(key);
                     }
-                }
-                return result;
-            })
-            .then(value => {
-                for (const key in value) {
-                    const elements = value[key];
-                    const htmlElement = document.getElementById(key);
-                    let html = "";
-                    for (const data of elements) {
-                        html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3>" + data.name + "</h3><br>" + data.ability;
-                        if (data.flavor !== undefined) {
-                            html += "<div class='flavor'>" + data.flavor + "</div>";
+                    return {};
+                })
+                .then(value => {
+                    document.getElementById("author").innerHTML = value.author;
+                    document.getElementById("description").innerHTML = value.description.replaceAll("\n", "<br>");
+                    document.getElementById("logo").src = value.logo;
+                });
+        </script>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 110px 10px 10px 10px;">
+                <h1 style="transform:rotate(270deg); color: #1f65ff">Townsfolk</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="townsfolk"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
+                <h1 style="transform:rotate(270deg); color: #1f65ff">Outsider</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="outsider"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
+                <h1 style="transform:rotate(270deg); color: #ce0100">Minion</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="minion"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
+                <h1 style="transform:rotate(270deg); color: #ce0100">Demon</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="demon"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
+                <h1 style="transform:rotate(270deg); color: #cc04ff">Traveller</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="traveler"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 65px 10px 10px 10px;">
+                <h1 style="transform:rotate(270deg); color: #000000">Fabled</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="fabled"></div>
+        </div>
+
+        <h1>Potions</h1>
+        <div class="glossary">
+            <h3>Emptied</h3>
+            A potion that is "Emptied" is removed and replaced by an Empty Potion.
+        </div>
+        <div class="glossary">
+            <h3>Cauldron</h3>
+            A separate town square specifically for potions.
+        </div>
+        <div class="glossary">
+            <h3>Nullified</h3>
+            A potion being nullified means that its ability has been removed.
+        </div>
+        <div class="glossary">
+            <h3>Type of Potion</h3>
+            Specific Potion i.e. the name of the Potion.
+        </div>
+        <div class="glossary">
+            <h3>Potion Alignment</h3>
+            The good and evil categories like for characters.
+        </div>
+        <div class="glossary">
+            <h3>Becomes</h3>
+            The potion is changed from its current type to another, and is treated as if being received.
+        </div>
+        <div class="glossary">
+            <h3>Special</h3>
+            A character type that is not included in the bag setup and can only be created by another character's ability.
+            Special characters are neither good nor evil.
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 175px 10px 10px 10px; white-space: nowrap;">
+                <h1 style="transform:rotate(270deg);">Special Potions</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="special"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 155px 10px 10px 10px; white-space: nowrap;">
+                <h1 style="transform:rotate(270deg);">Good Potions</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="potion good"></div>
+        </div>
+
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 135px 10px 10px 10px; white-space: nowrap;">
+                <h1 style="transform:rotate(270deg);">Evil Potions</h1>
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="potion evil"></div>
+        </div>
+
+        <script>
+            fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
+                .then(value => value.text())
+                .then(value => {
+                    const data = JSON.parse(value);
+                    const result = {};
+                    for (const key of data) {
+                        if (key["team"] !== undefined && key.ability !== ' ') {
+                            if (result[key.team] === undefined) {
+                                result[key.team] = [];
+                            }
+                            result[key.team].push(key);
                         }
-                        html += "</div></div>";
                     }
-                    htmlElement.innerHTML = html;
-                }
-            });
-    </script>
+                    return result;
+                })
+                .then(value => {
+                    for (const key in value) {
+                        const elements = value[key];
+                        const htmlElement = document.getElementById(key);
+                        let html = "";
+                        for (const data of elements) {
+                            html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3>" + data.name + "</h3><br>" + data.ability;
+                            if (data.flavor !== undefined) {
+                                html += "<div class='flavor'>" + data.flavor + "</div>";
+                            }
+                            html += "</div></div>";
+                        }
+                        htmlElement.innerHTML = html;
+                    }
+                });
+        </script>
+    </div>
 </div>
 </body>
 </html>
