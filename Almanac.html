@@ -6,11 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Festival of Fears</title>
-    <link rel="icon" type="image/x-icon" href="https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image.png?raw=true">
+    <link rel="icon" type="image/x-icon"
+          href="https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image.png?raw=true">
 </head>
 <style>
     .center {
-        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
         width: min(600px, calc(100% - 20px));
         padding: 10px;
     }
@@ -60,9 +62,10 @@
     }
 </style>
 <body>
+
 <div class="center">
     <img src="" id="logo" style="width: min(300px, 100%); height: auto; margin-left: auto; margin-right: auto; display: block;">
-    <div id="description"></div>
+    <div id="description" style="padding-left: 37px"></div>
     <script>
         fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
             .then(value => value.text())
@@ -81,25 +84,67 @@
             });
     </script>
 
-    <h2>Townsfolk</h2>
-    <div id="townsfolk"></div>
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 110px 10px 10px 10px;">
+            <h1 style="transform:rotate(270deg);">Townsfolk</h1>
+        </div>
 
-    <h2>Outsider</h2>
-    <div id="outsider"></div>
+        <!-- Scrollable Content -->
+        <div id="townsfolk"></div>
+    </div>
 
-    <h2>Minion</h2>
-    <div id="minion"></div>
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
+            <h1 style="transform:rotate(270deg);">Outsider</h1>
+        </div>
 
-    <h2>Demon</h2>
-    <div id="demon"></div>
+        <!-- Scrollable Content -->
+        <div id="outsider"></div>
+    </div>
 
-    <h2>Traveller</h2>
-    <div id="traveler"></div>
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
+            <h1 style="transform:rotate(270deg);">Minion</h1>
+        </div>
 
-    <h2>Fabled</h2>
-    <div id="fabled"></div>
+        <!-- Scrollable Content -->
+        <div id="minion"></div>
+    </div>
 
-    <h2>Potions</h2>
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 70px 10px 10px 10px;">
+            <h1 style="transform:rotate(270deg);">Demon</h1>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div id="demon"></div>
+    </div>
+
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 95px 10px 10px 10px;">
+            <h1 style="transform:rotate(270deg);">Traveller</h1>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div id="traveler"></div>
+    </div>
+
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 65px 10px 10px 10px;">
+            <h1 style="transform:rotate(270deg);">Fabled</h1>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div id="fabled"></div>
+    </div>
+
+    <h1>Potions</h1>
     <div class="glossary">
         <h3>Emptied</h3>
         A potion that is "Emptied" is removed and replaced by an Empty Potion.
@@ -126,20 +171,42 @@
     </div>
     <div class="glossary">
         <h3>Special</h3>
-        A character type that is not included in the bag setup and can only be created by another character's ability. Special characters are neither good nor evil.
+        A character type that is not included in the bag setup and can only be created by another character's ability.
+        Special characters are neither good nor evil.
     </div>
     <br>
     <br>
     <br>
 
-    <h2>Special Potions</h2>
-    <div id="special"></div>
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 175px 10px 10px 10px; white-space: nowrap;">
+            <h1 style="transform:rotate(270deg);">Special Potions</h1>
+        </div>
 
-    <h2>Good Potions</h2>
-    <div id="potion good"></div>
+        <!-- Scrollable Content -->
+        <div id="special"></div>
+    </div>
 
-    <h2>Evil Potions</h2>
-    <div id="potion evil"></div>
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 155px 10px 10px 10px; white-space: nowrap;">
+            <h1 style="transform:rotate(270deg);">Good Potions</h1>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div id="potion good"></div>
+    </div>
+
+    <div style="display: flex; position: relative; padding-top: 20px">
+        <!-- Sticky Left Label -->
+        <div style="position: sticky; top: 0; align-self: flex-start; width: 10px; height: 40px; margin-bottom: auto; padding: 135px 10px 10px 10px; white-space: nowrap;">
+            <h1 style="transform:rotate(270deg);">Evil Potions</h1>
+        </div>
+
+        <!-- Scrollable Content -->
+        <div id="potion evil"></div>
+    </div>
 
     <script>
         fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
