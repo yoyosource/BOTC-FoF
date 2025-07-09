@@ -10,7 +10,7 @@
     <style>
         body {
             padding: 0;
-            background-image: url("https://github.com/yoyosource/BOTC-FoF/blob/master/_images/Background.webp?raw=true");
+            background-image: url("_images/Background.webp");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center center;
@@ -33,7 +33,7 @@
             margin-top: -10px;
             padding-bottom: 20px;
 
-            background-image: url('https://github.com/yoyosource/BOTC-FoF/blob/master/_images/AlmanacBackground.webp?raw=true');
+            background-image: url('_images/AlmanacBackground.webp');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center center;
@@ -120,7 +120,7 @@
         <br><br>
         <div id="description"></div>
         <script>
-            fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
+            fetch("FoF.json")
                 .then(value => value.text())
                 .then(value => {
                     const data = JSON.parse(value);
@@ -198,7 +198,7 @@
             <div id="fabled"></div>
         </div>
 
-        <div style="display: flex; position: relative; padding-top: 20px">
+        <div style="display: flex; position: relative; padding-top: 20px; padding-bottom: 50px">
             <!-- Sticky Left Label -->
             <div class="character-type">
                 <img src="_images/Glossary.webp">
@@ -270,7 +270,7 @@
         </div>
 
         <script>
-            fetch("https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/FoF.json")
+            fetch("FoF.json")
                 .then(value => value.text())
                 .then(value => {
                     const data = JSON.parse(value);
