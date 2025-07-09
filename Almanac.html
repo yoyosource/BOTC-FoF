@@ -104,10 +104,9 @@
             position: sticky;
             top: 0;
             align-self: flex-start;
-            width: 10px;
-            height: 40px;
             margin-bottom: auto;
             white-space: nowrap;
+            padding-right: 5px;
         }
     </style>
 </head>
@@ -141,8 +140,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 110px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg); color: #1f65ff">Townsfolk</h1>
+            <div class="character-type">
+                <img src="_images/Townsfolk.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -151,8 +150,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 95px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg); color: #1f65ff">Outsider</h1>
+            <div class="character-type">
+                <img src="_images/Outsider.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -161,8 +160,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 70px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg); color: #ce0100">Minion</h1>
+            <div class="character-type">
+                <img src="_images/Minion.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -171,8 +170,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 70px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg); color: #ce0100">Demon</h1>
+            <div class="character-type">
+                <img src="_images/Demon.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -181,8 +180,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 95px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg); color: #cc04ff">Traveller</h1>
+            <div class="character-type">
+                <img src="_images/Traveller.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -191,53 +190,59 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 65px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg); color: #000000">Fabled</h1>
+            <div class="character-type">
+                <img src="_images/Fabled.webp">
             </div>
 
             <!-- Scrollable Content -->
             <div id="fabled"></div>
         </div>
 
-        <h1>Potions</h1>
-        <div class="glossary">
-            <h3>Emptied</h3>
-            A potion that is "Emptied" is removed and replaced by an Empty Potion.
+        <div style="display: flex; position: relative; padding-top: 20px">
+            <!-- Sticky Left Label -->
+            <div class="character-type">
+                <img src="_images/Glossary.webp">
+            </div>
+
+            <!-- Scrollable Content -->
+            <div id="glossary" style="padding-left: 35px">
+                <div class="glossary">
+                    <h3>Emptied</h3>
+                    A potion that is "Emptied" is removed and replaced by an Empty Potion.
+                </div>
+                <div class="glossary">
+                    <h3>Cauldron</h3>
+                    A separate town square specifically for potions.
+                </div>
+                <div class="glossary">
+                    <h3>Nullified</h3>
+                    A potion being nullified means that its ability has been removed.
+                </div>
+                <div class="glossary">
+                    <h3>Type of Potion</h3>
+                    Specific Potion i.e. the name of the Potion.
+                </div>
+                <div class="glossary">
+                    <h3>Potion Alignment</h3>
+                    The good and evil categories like for characters.
+                </div>
+                <div class="glossary">
+                    <h3>Becomes</h3>
+                    The potion is changed from its current type to another, and is treated as if being received.
+                </div>
+                <div class="glossary">
+                    <h3>Special</h3>
+                    A character type that is not included in the bag setup and can only be created by another character's
+                    ability.
+                    Special characters are neither good nor evil.
+                </div>
+            </div>
         </div>
-        <div class="glossary">
-            <h3>Cauldron</h3>
-            A separate town square specifically for potions.
-        </div>
-        <div class="glossary">
-            <h3>Nullified</h3>
-            A potion being nullified means that its ability has been removed.
-        </div>
-        <div class="glossary">
-            <h3>Type of Potion</h3>
-            Specific Potion i.e. the name of the Potion.
-        </div>
-        <div class="glossary">
-            <h3>Potion Alignment</h3>
-            The good and evil categories like for characters.
-        </div>
-        <div class="glossary">
-            <h3>Becomes</h3>
-            The potion is changed from its current type to another, and is treated as if being received.
-        </div>
-        <div class="glossary">
-            <h3>Special</h3>
-            A character type that is not included in the bag setup and can only be created by another character's
-            ability.
-            Special characters are neither good nor evil.
-        </div>
-        <br>
-        <br>
-        <br>
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 175px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg);">Special Potions</h1>
+            <div class="character-type">
+                <img src="_images/SpecialPotions.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -246,8 +251,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 155px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg);">Good Potions</h1>
+            <div class="character-type">
+                <img src="_images/GoodPotions.webp">
             </div>
 
             <!-- Scrollable Content -->
@@ -256,8 +261,8 @@
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
-            <div class="character-type" style="padding: 135px 10px 10px 10px;">
-                <h1 style="transform:rotate(270deg);">Evil Potions</h1>
+            <div class="character-type">
+                <img src="_images/EvilPotions.webp">
             </div>
 
             <!-- Scrollable Content -->
