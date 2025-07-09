@@ -303,6 +303,7 @@
     "name": "Botanist",
     "team": "townsfolk",
     "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
+    "flavor": "Man, that's groovy.",
     "special": [
       {
         "type": "signal",
