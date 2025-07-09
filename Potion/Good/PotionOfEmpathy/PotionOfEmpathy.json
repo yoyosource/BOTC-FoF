@@ -9,7 +9,7 @@
   ],
   "name": "Empathy",
   "team": "potion good",
-  "ability": "Each night you learn what evil potions you alive neighbors are holding.",
+  "ability": "Each night you learn what evil potions your living neighbors are holding.",
   "special": [
     {
       "type": "selection",

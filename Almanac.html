@@ -133,7 +133,7 @@
                 })
                 .then(value => {
                     document.getElementById("author").innerHTML = value.author;
-                    document.getElementById("description").innerHTML = value.description.replaceAll("\n", "<br>");
+                    document.getElementById("description").innerHTML = value.description.replaceAll("\n\n", "<br><br>").replace("\n", " ");
                     document.getElementById("logo").src = value.logo;
                 });
         </script>

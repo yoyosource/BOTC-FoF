@@ -9,7 +9,7 @@
   ],
   "name": "Generosity",
   "team": "potion good",
-  "ability": "If you would receive an evil Potion this one breaks and another person receives that potion instead.",
+  "ability": "If you would receive an evil Potion, this one breaks and another person receives that potion instead.",
   "special": [
     {
       "type": "selection",

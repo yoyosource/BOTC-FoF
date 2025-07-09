@@ -156,7 +156,7 @@
     ],
     "name": "Aberration",
     "team": "minion",
-    "ability": "When a Potion of Panic is revealed a Townsfolk player might receive false info until dawn. Each night eye the cauldron and choose a player to receive a Potion of Panic."
+    "ability": "When a Potion of Panic is revealed, a Townsfolk player might receive false info until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic."
   },
   {
     "id": "chemist",
@@ -167,7 +167,7 @@
     ],
     "name": "Chemist",
     "team": "minion",
-    "ability": "Each night eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
+    "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
   },
   {
@@ -179,7 +179,7 @@
     ],
     "name": "Crone",
     "team": "minion",
-    "ability": "When you are attacked by the Demon you do not die and you and they swap characters."
+    "ability": "When you are attacked by the Demon you do not die. Instead, you swap characters."
   },
   {
     "id": "thug",
@@ -284,7 +284,7 @@
     ],
     "name": "Baptist",
     "team": "townsfolk",
-    "ability": "Each night*, choose 2 living players (not yourself), they might receive a potion. If either received an evil potion you cannot die tonight.",
+    "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. If either received an evil potion you cannot die tonight.",
     "flavor": "It's never too soon to contemplate eternal damnation, sir!"
   },
   {
@@ -374,7 +374,7 @@
     ],
     "name": "Farrier",
     "team": "townsfolk",
-    "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (other than themselves) than you are.",
+    "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (not themselves) than you are.",
     "flavor": "Well, that is close. But close only counts for hand grenades.",
     "special": [
       {
@@ -443,7 +443,7 @@
     ],
     "name": "Toll Inspector",
     "team": "townsfolk",
-    "ability": "Each night* eye the cauldron.",
+    "ability": "Each night*, eye the cauldron.",
     "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
   },
 
@@ -455,7 +455,7 @@
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
     ],
-    "ability": "Each night potions equal to the vote majority minus 1 are given out.",
+    "ability": "Each night, potions equal to the voting majority minus 1 are given out.",
     "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
   },
   {
@@ -486,7 +486,7 @@
     ],
     "name": "Fugitive",
     "team": "traveler",
-    "ability": "Each night* 2 players choose either 1) The other receives a Good potion, or 2) to learn the other’s potions. If both choose 2,  each receive an Evil potion instead."
+    "ability": "Each night* 2 players choose either 1) The other receives a Good potion, or 2) to learn the other and their potions. If both choose 2, each receive an Evil potion instead."
   },
   {
     "id": "fof_harlot",
@@ -552,7 +552,7 @@
     ],
     "name": "Empty Potion",
     "team": "special",
-    "ability": "You can hold multiple Empty Potions. Empty Potions might break at any time.",
+    "ability": "You can hold duplicates of Empty Potion. This potion might break at any time.",
     "special": [
       {
         "type": "selection",
@@ -594,7 +594,7 @@
     ],
     "name": "Disdain",
     "team": "potion evil",
-    "ability": "When this potion breaks the Demon learns a not in play Character. If you nominate this potion breaks. At dusk this potion is nullified and breaks.",
+    "ability": "At dusk this potion is nullified and breaks. If you nominate this potion breaks. When this potion breaks, the Demon learns a not-in-play Character.",
     "special": [
       {
         "type": "selection",
@@ -715,7 +715,7 @@
     ],
     "name": "Conviction",
     "team": "potion good",
-    "ability": "Each night, a living neighbor’s non empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, break all Empty Potions.",
+    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
     "special": [
       {
         "type": "selection",
@@ -734,7 +734,7 @@
     ],
     "name": "Curiosity",
     "team": "potion good",
-    "ability": "Each day you may exchange this Potion with the Storyteller for an Empty Potion to learn a player you have something in common with.",
+    "ability": "Each day you may exchange this Potion with the Storyteller privately for an Empty Potion to learn a player you have something in common with.",
     "special": [
       {
         "type": "selection",
@@ -753,7 +753,7 @@
     ],
     "name": "Empathy",
     "team": "potion good",
-    "ability": "Each night you learn what evil potions you alive neighbors are holding.",
+    "ability": "Each night you learn what evil potions your living neighbors are holding.",
     "special": [
       {
         "type": "selection",
@@ -815,7 +815,7 @@
     ],
     "name": "Generosity",
     "team": "potion good",
-    "ability": "If you would receive an evil Potion this one breaks and another person receives that potion instead.",
+    "ability": "If you would receive an evil Potion, this one breaks and another person receives that potion instead.",
     "special": [
       {
         "type": "selection",

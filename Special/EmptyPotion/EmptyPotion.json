@@ -9,7 +9,7 @@
   ],
   "name": "Empty Potion",
   "team": "special",
-  "ability": "You can hold multiple Empty Potions. Empty Potions might break at any time.",
+  "ability": "You can hold duplicates of Empty Potion. This potion might break at any time.",
   "special": [
     {
       "type": "selection",
