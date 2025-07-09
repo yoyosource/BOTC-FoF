@@ -10,6 +10,7 @@
   "name": "Empathy",
   "team": "potion good",
   "ability": "Each night you learn what evil potions your living neighbors are holding.",
+  "flavor": "Now I know for certain; you feel for me as I feel for you.",
   "special": [
     {
       "type": "selection",

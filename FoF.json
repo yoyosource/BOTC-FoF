@@ -158,7 +158,8 @@
     ],
     "name": "Aberration",
     "team": "minion",
-    "ability": "When a Potion of Panic is revealed, a Townsfolk player might receive false info until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic."
+    "ability": "When a Potion of Panic is revealed, a Townsfolk player might receive false info until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic.",
+    "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range."
   },
   {
     "id": "chemist",
@@ -618,6 +619,7 @@
     "name": "Disillusionment",
     "team": "potion evil",
     "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
+    "flavor": "No death, no doom, no anguish can arouse the surpassing despair which flows from a loss of identity.",
     "special": [
       {
         "type": "selection",
@@ -758,6 +760,7 @@
     "name": "Empathy",
     "team": "potion good",
     "ability": "Each night you learn what evil potions your living neighbors are holding.",
+    "flavor": "Now I know for certain; you feel for me as I feel for you.",
     "special": [
       {
         "type": "selection",
