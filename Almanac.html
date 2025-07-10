@@ -26,26 +26,24 @@
             margin-left: auto;
             margin-right: auto;
             display: grid;
+            z-index: 10;
         }
 
         #almanac-background {
-            top: 0;
+            width: min(950px, 100%);
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            display: grid;
             z-index: -1;
-            width: inherit;
-            height: 100%;
-            grid-area: 1 / 1;
             margin-top: -10px;
-            padding-bottom: 20px;
-
-            background-image: url('_images/AlmanacBackground.webp');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
         }
-
-        @media (hover: none) {
+        
+        @media (max-width: 950px) {
             #almanac-background {
-                background-attachment: initial;
+                left: 0;
+                margin-left: calc(calc(100% - 950px) / 2);
+                transform: none;
             }
         }
 
@@ -58,6 +56,10 @@
             padding: 10px;
 
             grid-area: 1 / 1;
+        }
+
+        #almanac-content * {
+            z-index: 10;
         }
 
         #logo {
@@ -121,8 +123,10 @@
     </style>
 </head>
 <body>
+<div id="almanac-background">
+<img src="_images/AlmanacBackground.webp">
+</div>
 <div id="almanac">
-    <div id="almanac-background"></div>
     <div id="almanac-content">
         <img src="" id="logo">
         <div style="text-align: center; margin-left: -13px">by</div>
