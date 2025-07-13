@@ -10,6 +10,7 @@
   "name": "Empty Potion",
   "team": "special",
   "ability": "You can hold duplicates of Empty Potion. This potion might break at any time.",
+  "flavor": "A bottle is at it's most useful when it's empty.",
   "special": [
     {
       "type": "selection",

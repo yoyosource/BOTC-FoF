@@ -274,7 +274,8 @@
     ],
     "name": "Auctioneer",
     "team": "townsfolk",
-    "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive on the Market Day, at dawn good potions equal to the day number are given out."
+    "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive on the Market Day, at dawn good potions equal to the day number are given out.",
+    "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
   },
   {
     "id": "baptist",
@@ -558,6 +559,7 @@
     "name": "Empty Potion",
     "team": "special",
     "ability": "You can hold duplicates of Empty Potion. This potion might break at any time.",
+    "flavor": "A bottle is at it's most useful when it's empty.",
     "special": [
       {
         "type": "selection",
