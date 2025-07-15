@@ -610,15 +610,15 @@
     ]
   },
   {
-    "id": "potionofdisillusionment",
+    "id": "potionofapathy",
     "edition": "custom",
     "remindersGlobal": [
-      "Disillusionment"
+      "Apathy"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisillusionment/image.png?raw=true"
     ],
-    "name": "Disillusionment",
+    "name": "Apathy",
     "team": "potion evil",
     "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
     "flavor": "No death, no doom, no anguish can arouse the surpassing despair which flows from a loss of identity.",
