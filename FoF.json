@@ -298,7 +298,15 @@
     "name": "Druid",
     "team": "townsfolk",
     "ability": "Each night* you may choose a dead player; learn their character type and you might receive an evil potion.",
-    "flavor": "The great use of life is to spend it for something that will outlast it."
+    "flavor": "The great use of life is to spend it for something that will outlast it.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Select a dead player.",
+        "time": "otherNight"
+      }
+    ]
   },
   {
     "id": "commira",
@@ -313,7 +321,15 @@
     "name": "Commira",
     "team": "demon",
     "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion.",
-    "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation."
+    "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Choose 3 players to receive potions.",
+        "time": "otherNight"
+      }
+    ]
   },
   {
     "id": "clerk",
