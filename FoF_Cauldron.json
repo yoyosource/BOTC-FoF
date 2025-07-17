@@ -1,0 +1,664 @@
+[
+  {
+    "id": "_meta",
+    "name": "Festival of Fears",
+    "author": "YoyoNow & Grumbletok",
+    "logo": "",
+    "hideTitle": true,
+    "level": "Expert",
+    "background": "https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/_images/BackgroundCauldron.webp",
+    "characterTypes": {
+      "potion good": {
+        "color": "#1f65ff",
+        "assignable": false,
+        "showRemindersOnGlobal": true,
+        "showRemindersInNightOrder": true,
+        "goodAndEvilImages": false
+      },
+      "potion evil": {
+        "color": "#ce0100",
+        "assignable": false,
+        "showRemindersOnGlobal": true,
+        "showRemindersInNightOrder": true,
+        "goodAndEvilImages": false
+      },
+      "special": {
+        "color": "#ffffff",
+        "assignable": true,
+        "showRemindersOnGlobal": false,
+        "showRemindersInNightOrder": false,
+        "goodAndEvilImages": true
+      }
+    }
+  },
+
+  {
+    "id": "emptypotion",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image.png?raw=true"
+    ],
+    "remindersGlobal": [
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty",
+      "Empty"
+    ],
+    "name": "Empty Potion",
+    "team": "special",
+    "ability": "You can hold duplicates of Empty Potion. This potion might break at any time.",
+    "flavor": "A bottle is at it's most useful when it's empty.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofpanic",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
+    ],
+    "remindersGlobal": [
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic"
+    ],
+    "name": "Panic",
+    "team": "special",
+    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+
+  {
+    "id": "potionofdisdain",
+    "edition": "custom",
+    "reminders": [
+      "Learn Character"
+    ],
+    "remindersGlobal": [
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+    ],
+    "name": "Disdain",
+    "team": "potion evil",
+    "ability": "At dusk this potion is nullified and breaks. If you nominate this potion breaks. When this potion breaks, the Demon learns a not-in-play Character.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofapathy",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy",
+      "Apathy"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfApathy/image.png?raw=true"
+    ],
+    "name": "Apathy",
+    "team": "potion evil",
+    "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
+    "flavor": "No death, no doom, no anguish can arouse the surpassing despair which flows from a loss of identity.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofobsession",
+    "edition": "custom",
+    "reminders": [
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke",
+      "Broke"
+    ],
+    "remindersGlobal": [
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
+    ],
+    "name": "Obsession",
+    "team": "potion evil",
+    "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofstress",
+    "edition": "custom",
+    "reminders": [
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed"
+    ],
+    "remindersGlobal": [
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfStress/image.png?raw=true"
+    ],
+    "name": "Stress",
+    "team": "potion evil",
+    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment once until dawn.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofterror",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
+    ],
+    "name": "Terror",
+    "team": "potion evil",
+    "ability": "Your good potions are face up during the night.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionevil",
+    "edition": "custom",
+    "remindersGlobal": [
+      " "
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/image.png?raw=true"
+    ],
+    "name": "Evil",
+    "team": "potion evil",
+    "ability": " ",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+
+  {
+    "id": "potionofconviction",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
+    ],
+    "name": "Conviction",
+    "team": "potion good",
+    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofcuriosity",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfCuriosity/image.png?raw=true"
+    ],
+    "name": "Curiosity",
+    "team": "potion good",
+    "ability": "Each day you may exchange this Potion with the Storyteller privately for an Empty Potion to learn a player you have something in common with.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofempathy",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
+    ],
+    "name": "Empathy",
+    "team": "potion good",
+    "ability": "Each night you learn what evil potions your living neighbors are holding.",
+    "flavor": "Now I know for certain; you feel for me as I feel for you.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "outsider"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "minion"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "demon"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "traveller"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "traveler"
+      }
+    ]
+  }
+,
+  {
+    "id": "potionofgenerosity",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfGenerosity/image.png?raw=true"
+    ],
+    "name": "Generosity",
+    "team": "potion good",
+    "ability": "If you would receive an evil Potion, this one breaks and another person receives that potion instead.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potionofjoy",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy",
+      "Joy"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfJoy/image.png?raw=true"
+    ],
+    "name": "Joy",
+    "team": "potion good",
+    "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  },
+  {
+    "id": "potiongood",
+    "edition": "custom",
+    "remindersGlobal": [
+      " "
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/image.png?raw=true"
+    ],
+    "name": "Good",
+    "team": "potion good",
+    "ability": " ",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
+  }
+]
