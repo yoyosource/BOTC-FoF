@@ -7,6 +7,6 @@
   ],
   "name": "Apothecary",
   "team": "townsfolk",
-  "ability": "While you are holding any potions, all potions of those types are nullified.",
+  "ability": "All types of potions you are holding are nullified.",
   "flavor": "Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided."
 }
