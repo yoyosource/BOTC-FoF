@@ -38,7 +38,7 @@
             z-index: -1;
             margin-top: -10px;
         }
-        
+
         @media (max-width: 950px) {
             #almanac-background {
                 left: 0;
@@ -124,7 +124,7 @@
 </head>
 <body>
 <div id="almanac-background">
-<img src="_images/AlmanacBackground.webp">
+    <img src="_images/AlmanacBackground.webp">
 </div>
 <div id="almanac">
     <div id="almanac-content">
@@ -134,40 +134,6 @@
         <br><br>
         <div id="description"></div>
         <br><br>
-        <script>
-            fetch("FoF.json")
-                .then(value => value.text())
-                .then(value => {
-                    const data = JSON.parse(value);
-                    for (const key of data) {
-                        if (key.id === '_meta') {
-                            return key;
-                        }
-                    }
-                    return {};
-                })
-                .then(value => {
-                    document.getElementById("author").innerHTML = value.author;
-                    document.getElementById("description").innerHTML = value.description.replaceAll("\n\n", "<br><br>").replace("\n", " ");
-                    // document.getElementById("logo").src = value.logo;
-
-                    let bootlegger = value.bootlegger;
-                    if (bootlegger.length === 0) {
-                        document.getElementById("bootlegger").parentElement.style.display = 'none';
-                    } else {
-                        const htmlElement = document.getElementById("bootlegger");
-                        let html = "<div class='character'><div class='token'><img src='Fabled/Bootlegger/image.png'></div><div class='ability'><h3>Rules</h3><br>";
-                        for (const index in bootlegger) {
-                            html += bootlegger[index];
-                            if (index < bootlegger.length - 1) {
-                                html += "<br><br>";
-                            }
-                        }
-                        html += "</div></div>";
-                        htmlElement.innerHTML = html;
-                    }
-                });
-        </script>
 
         <div style="display: flex; position: relative; padding-top: 20px">
             <!-- Sticky Left Label -->
@@ -311,6 +277,39 @@
         </div>
 
         <script>
+            fetch("FoF.json")
+                .then(value => value.text())
+                .then(value => {
+                    const data = JSON.parse(value);
+                    for (const key of data) {
+                        if (key.id === '_meta') {
+                            return key;
+                        }
+                    }
+                    return {};
+                })
+                .then(value => {
+                    document.getElementById("author").innerHTML = value.author;
+                    document.getElementById("description").innerHTML = value.description.replaceAll("\n\n", "<br><br>").replace("\n", " ");
+                    // document.getElementById("logo").src = value.logo;
+
+                    let bootlegger = value.bootlegger;
+                    if (bootlegger.length === 0) {
+                        document.getElementById("bootlegger").parentElement.style.display = 'none';
+                    } else {
+                        const htmlElement = document.getElementById("bootlegger");
+                        let html = "<div class='character'><div class='token'><img src='Fabled/Bootlegger/image.png'></div><div class='ability'><h3>Rules</h3><br>";
+                        for (const index in bootlegger) {
+                            html += bootlegger[index];
+                            if (index < bootlegger.length - 1) {
+                                html += "<br><br>";
+                            }
+                        }
+                        html += "</div></div>";
+                        htmlElement.innerHTML = html;
+                    }
+                });
+
             fetch("FoF.json")
                 .then(value => value.text())
                 .then(value => {
