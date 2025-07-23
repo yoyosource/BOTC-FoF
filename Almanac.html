@@ -279,21 +279,20 @@
         <script>
             fetch("FoF.json")
                 .then(value => value.text())
+                .then(value => JSON.parse(value))
                 .then(value => {
-                    const data = JSON.parse(value);
-                    for (const key of data) {
+                    let meta = {};
+                    for (const key of value) {
                         if (key.id === '_meta') {
-                            return key;
+                            meta = key;
                         }
                     }
-                    return {};
-                })
-                .then(value => {
-                    document.getElementById("author").innerHTML = value.author;
-                    document.getElementById("description").innerHTML = value.description.replaceAll("\n\n", "<br><br>").replace("\n", " ");
-                    // document.getElementById("logo").src = value.logo;
 
-                    let bootlegger = value.bootlegger;
+                    document.getElementById("author").innerHTML = meta.author;
+                    document.getElementById("description").innerHTML = meta.description.replaceAll("\n\n", "<br><br>").replace("\n", " ");
+                    // document.getElementById("logo").src = meta.logo;
+
+                    let bootlegger = meta.bootlegger;
                     if (bootlegger.length === 0) {
                         document.getElementById("bootlegger").parentElement.style.display = 'none';
                     } else {
@@ -308,14 +307,12 @@
                         html += "</div></div>";
                         htmlElement.innerHTML = html;
                     }
-                });
 
-            fetch("FoF.json")
-                .then(value => value.text())
+                    return value;
+                })
                 .then(value => {
-                    const data = JSON.parse(value);
                     const result = {};
-                    for (const key of data) {
+                    for (const key of value) {
                         if (key["team"] !== undefined && key.ability !== ' ') {
                             if (result[key.team] === undefined) {
                                 result[key.team] = [];
@@ -323,11 +320,9 @@
                             result[key.team].push(key);
                         }
                     }
-                    return result;
-                })
-                .then(value => {
-                    for (const key in value) {
-                        const elements = value[key];
+
+                    for (const key in result) {
+                        const elements = result[key];
                         const htmlElement = document.getElementById(key);
                         let html = "";
                         for (const data of elements) {
@@ -339,6 +334,8 @@
                         }
                         htmlElement.innerHTML = html;
                     }
+
+                    return value;
                 });
         </script>
     </div>
