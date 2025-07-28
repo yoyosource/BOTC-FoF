@@ -33,7 +33,7 @@
   },
 
   {
-    "id": "emptypotion",
+    "id": "botc_fof:emptypotion",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image.png?raw=true"
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "id": "potionofpanic",
+    "id": "botc_fof:potionofpanic",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
@@ -151,7 +151,7 @@
   },
 
   {
-    "id": "potionofdisdain",
+    "id": "botc_fof:potionofdisdain",
     "edition": "custom",
     "reminders": [
       "Learn Character"
@@ -192,7 +192,7 @@
     ]
   },
   {
-    "id": "potionofapathy",
+    "id": "botc_fof:potionofapathy",
     "edition": "custom",
     "remindersGlobal": [
       "Apathy",
@@ -231,7 +231,7 @@
     ]
   },
   {
-    "id": "potionofobsession",
+    "id": "botc_fof:potionofobsession",
     "edition": "custom",
     "reminders": [
       "Broke",
@@ -291,7 +291,7 @@
     ]
   },
   {
-    "id": "potionofstress",
+    "id": "botc_fof:potionofstress",
     "edition": "custom",
     "reminders": [
       "Stressed",
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "id": "potionofterror",
+    "id": "botc_fof:potionofterror",
     "edition": "custom",
     "remindersGlobal": [
       "Terror",
@@ -389,7 +389,7 @@
     ]
   },
   {
-    "id": "potionevil",
+    "id": "botc_fof:potionevil",
     "edition": "custom",
     "remindersGlobal": [
       " "
@@ -409,7 +409,7 @@
   },
 
   {
-    "id": "potionofconviction",
+    "id": "botc_fof:potionofconviction",
     "edition": "custom",
     "remindersGlobal": [
       "Conviction",
@@ -447,7 +447,7 @@
     ]
   },
   {
-    "id": "potionofcuriosity",
+    "id": "botc_fof:potionofcuriosity",
     "edition": "custom",
     "remindersGlobal": [
       "Curiosity",
@@ -485,7 +485,7 @@
     ]
   },
   {
-    "id": "potionofempathy",
+    "id": "botc_fof:potionofempathy",
     "edition": "custom",
     "remindersGlobal": [
       "Empathy",
@@ -567,7 +567,7 @@
   }
 ,
   {
-    "id": "potionofgenerosity",
+    "id": "botc_fof:potionofgenerosity",
     "edition": "custom",
     "remindersGlobal": [
       "Generosity",
@@ -605,7 +605,7 @@
     ]
   },
   {
-    "id": "potionofjoy",
+    "id": "botc_fof:potionofjoy",
     "edition": "custom",
     "remindersGlobal": [
       "Joy",
@@ -643,7 +643,7 @@
     ]
   },
   {
-    "id": "potiongood",
+    "id": "botc_fof:potiongood",
     "edition": "custom",
     "remindersGlobal": [
       " "

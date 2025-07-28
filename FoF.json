@@ -18,49 +18,49 @@
       "DUSK",
       "MINIONINFO",
       "DEMONINFO",
-      "glassblower",
-      "thug",
-      "megalomaniac",
-      "chemist",
-      "snakeoilseller",
-      "toxicologist",
-      "botanist",
-      "scout",
-      "aberration",
-      "farrier",
-      "potionofobsession",
-      "potionofempathy",
-      "potionofconviction",
+      "botc_fof:glassblower",
+      "botc_fof:thug",
+      "botc_fof:megalomaniac",
+      "botc_fof:chemist",
+      "botc_fof:snakeoilseller",
+      "botc_fof:toxicologist",
+      "botc_fof:botanist",
+      "botc_fof:scout",
+      "botc_fof:aberration",
+      "botc_fof:farrier",
+      "botc_fof:potionofobsession",
+      "botc_fof:potionofempathy",
+      "botc_fof:potionofconviction",
       "DAWN"
     ],
     "otherNight": [
       "DUSK",
-      "potionofobsession",
-      "solicitor",
-      "butterfingers",
-      "glassblower",
-      "potionofdisdain",
-      "thug",
-      "baptist",
-      "snakeoilseller",
-      "toxicologist",
-      "fof_harlot",
-      "fugitive",
-      "megalomaniac",
-      "commira",
-      "caetrum",
-      "clofou",
-      "merchant",
-      "chemist",
-      "tollinspector",
-      "aberration",
-      "druid",
-      "distiller",
-      "farrier",
-      "clerk",
-      "potionofobsession",
-      "potionofempathy",
-      "potionofconviction",
+      "botc_fof:potionofobsession",
+      "botc_fof:solicitor",
+      "botc_fof:butterfingers",
+      "botc_fof:glassblower",
+      "botc_fof:potionofdisdain",
+      "botc_fof:thug",
+      "botc_fof:baptist",
+      "botc_fof:snakeoilseller",
+      "botc_fof:toxicologist",
+      "botc_fof:fof_harlot",
+      "botc_fof:fugitive",
+      "botc_fof:megalomaniac",
+      "botc_fof:commira",
+      "botc_fof:caetrum",
+      "botc_fof:clofou",
+      "botc_fof:merchant",
+      "botc_fof:chemist",
+      "botc_fof:tollinspector",
+      "botc_fof:aberration",
+      "botc_fof:druid",
+      "botc_fof:distiller",
+      "botc_fof:farrier",
+      "botc_fof:clerk",
+      "botc_fof:potionofobsession",
+      "botc_fof:potionofempathy",
+      "botc_fof:potionofconviction",
       "DAWN"
     ],
     "characterTypes": {
@@ -89,7 +89,7 @@
   },
 
   {
-    "id": "botanist",
+    "id": "botc_fof:botanist",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image.png?raw=true",
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "id": "scout",
+    "id": "botc_fof:scout",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image.png?raw=true",
@@ -133,7 +133,7 @@
   },
 
   {
-    "id": "glassblower",
+    "id": "botc_fof:glassblower",
     "edition": "custom",
     "name": "Glassblower",
     "team": "fabled",
@@ -144,7 +144,7 @@
     "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
   },
   {
-    "id": "toxicologist",
+    "id": "botc_fof:toxicologist",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Toxicologist/image.png?raw=true",
@@ -157,7 +157,7 @@
     "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
   },
   {
-    "id": "sommelier",
+    "id": "botc_fof:sommelier",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image.png?raw=true",
@@ -170,7 +170,7 @@
     "howtorun": "If a person would receive a duplicate potion they cannot and this ability cannot trigger!"
   },
   {
-    "id": "farrier",
+    "id": "botc_fof:farrier",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image.png?raw=true",
@@ -196,7 +196,7 @@
     ]
   },
   {
-    "id": "snakeoilseller",
+    "id": "botc_fof:snakeoilseller",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/SnakeOilSeller/image.png?raw=true",
@@ -209,7 +209,7 @@
     "flavor": "In my scientific opinion, the existence of a Demon would have an impact of gigantic proportions: mythology and legend would become history and science. One could really make a quick buck with it"
   },
   {
-    "id": "chemist",
+    "id": "botc_fof:chemist",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image.png?raw=true",
@@ -221,7 +221,7 @@
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
   },
   {
-    "id": "thug",
+    "id": "botc_fof:thug",
     "edition": "custom",
     "reminders": [
       "Mad"
@@ -237,7 +237,7 @@
   },
 
   {
-    "id": "tollinspector",
+    "id": "botc_fof:tollinspector",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image.png?raw=true",
@@ -249,7 +249,7 @@
     "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
   },
   {
-    "id": "distiller",
+    "id": "botc_fof:distiller",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image.png?raw=true",
@@ -261,7 +261,7 @@
     "flavor": "Ein Glas ist fabelhaft, zwei sind zu viel, und drei zu wenig."
   },
   {
-    "id": "clofou",
+    "id": "botc_fof:clofou",
     "edition": "custom",
     "reminders": [
       "Dead"
@@ -277,7 +277,7 @@
     "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him."
   },
   {
-    "id": "fof_harlot",
+    "id": "botc_fof:fof_harlot",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Harlot/image.png?raw=true",
@@ -290,7 +290,7 @@
     "flavor": "Enchanté, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good."
   },
   {
-    "id": "druid",
+    "id": "botc_fof:druid",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image.png?raw=true",
@@ -310,7 +310,7 @@
     ]
   },
   {
-    "id": "commira",
+    "id": "botc_fof:commira",
     "edition": "custom",
     "reminders": [
       "Dead"
@@ -333,7 +333,7 @@
     ]
   },
   {
-    "id": "clerk",
+    "id": "botc_fof:clerk",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image.png?raw=true",
@@ -353,7 +353,7 @@
     ]
   },
   {
-    "id": "baptist",
+    "id": "botc_fof:baptist",
     "edition": "custom",
     "reminders": [
       "Cannot die"
@@ -368,7 +368,7 @@
     "flavor": "It's never too soon to contemplate eternal damnation, sir!"
   },
   {
-    "id": "merchant",
+    "id": "botc_fof:merchant",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image.png?raw=true",
@@ -380,7 +380,7 @@
     "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
   },
   {
-    "id": "megalomaniac",
+    "id": "botc_fof:megalomaniac",
     "edition": "custom",
     "reminders": [
       "Dead"
@@ -395,7 +395,7 @@
     "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
   },
   {
-    "id": "caetrum",
+    "id": "botc_fof:caetrum",
     "edition": "custom",
     "reminders": [
       "Dead"
@@ -410,7 +410,7 @@
     "flavor": "Guaranteed to solve any minor problem by turning it into a major desaster."
   },
   {
-    "id": "fugitive",
+    "id": "botc_fof:fugitive",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Fugitive/image.png?raw=true",
@@ -424,7 +424,7 @@
   },
 
   {
-    "id": "tramp",
+    "id": "botc_fof:tramp",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
@@ -436,7 +436,7 @@
     "flavor": "Bugrit, millennium hand an' shrimp..."
   },
   {
-    "id": "connoisseur",
+    "id": "botc_fof:connoisseur",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image.png?raw=true",
@@ -449,7 +449,7 @@
   },
 
   {
-    "id": "auctioneer",
+    "id": "botc_fof:auctioneer",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
@@ -462,7 +462,7 @@
   },
 
   {
-    "id": "student",
+    "id": "botc_fof:student",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image.png?raw=true",
@@ -475,7 +475,7 @@
   },
 
   {
-    "id": "butterfingers",
+    "id": "botc_fof:butterfingers",
     "edition": "custom",
     "reminders": [
       "Died today"
@@ -490,7 +490,7 @@
     "flavor": "It took a special kind of man to cut his sword hand with his own sword."
   },
   {
-    "id": "crone",
+    "id": "botc_fof:crone",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image.png?raw=true",
@@ -501,7 +501,7 @@
     "ability": "When you are attacked by the Demon you do not die. Instead, you swap characters."
   },
   {
-    "id": "aberration",
+    "id": "botc_fof:aberration",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image.png?raw=true",
@@ -514,7 +514,7 @@
   },
 
   {
-    "id": "apothecary",
+    "id": "botc_fof:apothecary",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image.png?raw=true",
@@ -527,7 +527,7 @@
   },
 
   {
-    "id": "pigeonfancier",
+    "id": "botc_fof:pigeonfancier",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image.png?raw=true",
@@ -538,7 +538,7 @@
     "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]"
   },
   {
-    "id": "solicitor",
+    "id": "botc_fof:solicitor",
     "edition": "custom",
     "otherNightReminder": "Remove any 'No Ability' Reminder token. Put the 'No Ability' Reminder on any Townsfolk with any 'Trade' Reminder token on them. Wake each player with a 'Trade' Reminder on them and tell them they have received the Potions of the player with the corresponding 'Trade' Reminder on them.",
     "reminders": [
@@ -555,7 +555,7 @@
     "ability": "2 living players may choose to trade all potions, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability."
   },
   {
-    "id": "socialist",
+    "id": "botc_fof:socialist",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image.png?raw=true",
@@ -569,7 +569,7 @@
   },
 
   {
-    "id": "emptypotion",
+    "id": "botc_fof:emptypotion",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/EmptyPotion/image.png?raw=true"
@@ -648,7 +648,7 @@
     ]
   },
   {
-    "id": "potionofpanic",
+    "id": "botc_fof:potionofpanic",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
@@ -687,7 +687,7 @@
   },
 
   {
-    "id": "potionofdisdain",
+    "id": "botc_fof:potionofdisdain",
     "edition": "custom",
     "reminders": [
       "Learn Character"
@@ -728,7 +728,7 @@
     ]
   },
   {
-    "id": "potionofapathy",
+    "id": "botc_fof:potionofapathy",
     "edition": "custom",
     "remindersGlobal": [
       "Apathy",
@@ -767,7 +767,7 @@
     ]
   },
   {
-    "id": "potionofobsession",
+    "id": "botc_fof:potionofobsession",
     "edition": "custom",
     "reminders": [
       "Broke",
@@ -827,7 +827,7 @@
     ]
   },
   {
-    "id": "potionofstress",
+    "id": "botc_fof:potionofstress",
     "edition": "custom",
     "reminders": [
       "Stressed",
@@ -887,7 +887,7 @@
     ]
   },
   {
-    "id": "potionofterror",
+    "id": "botc_fof:potionofterror",
     "edition": "custom",
     "remindersGlobal": [
       "Terror",
@@ -925,7 +925,7 @@
     ]
   },
   {
-    "id": "potionevil",
+    "id": "botc_fof:potionevil",
     "edition": "custom",
     "remindersGlobal": [
       " "
@@ -945,7 +945,7 @@
   },
 
   {
-    "id": "potionofconviction",
+    "id": "botc_fof:potionofconviction",
     "edition": "custom",
     "remindersGlobal": [
       "Conviction",
@@ -983,7 +983,7 @@
     ]
   },
   {
-    "id": "potionofcuriosity",
+    "id": "botc_fof:potionofcuriosity",
     "edition": "custom",
     "remindersGlobal": [
       "Curiosity",
@@ -1021,7 +1021,7 @@
     ]
   },
   {
-    "id": "potionofempathy",
+    "id": "botc_fof:potionofempathy",
     "edition": "custom",
     "remindersGlobal": [
       "Empathy",
@@ -1103,7 +1103,7 @@
   }
 ,
   {
-    "id": "potionofgenerosity",
+    "id": "botc_fof:potionofgenerosity",
     "edition": "custom",
     "remindersGlobal": [
       "Generosity",
@@ -1141,7 +1141,7 @@
     ]
   },
   {
-    "id": "potionofjoy",
+    "id": "botc_fof:potionofjoy",
     "edition": "custom",
     "remindersGlobal": [
       "Joy",
@@ -1179,7 +1179,7 @@
     ]
   },
   {
-    "id": "potiongood",
+    "id": "botc_fof:potiongood",
     "edition": "custom",
     "remindersGlobal": [
       " "
