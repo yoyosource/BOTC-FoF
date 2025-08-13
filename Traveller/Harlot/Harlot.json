@@ -8,6 +8,7 @@
   ],
   "name": "Harlot",
   "team": "traveler",
+  "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the 'This character selected you' token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die.",
   "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
   "flavor": "Enchanté, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good."
 }
