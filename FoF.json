@@ -100,6 +100,7 @@
     ],
     "name": "Botanist",
     "team": "townsfolk",
+    "First Night Reminder": "Wake up the Botanist and show them the tokens of 2 good characters, 1 which is in play and 1 that is one of the demon's bluffs.",
     "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
     "flavor": "Man, that's groovy.",
     "special": [
@@ -121,6 +122,7 @@
     "setup": true,
     "name": "Scout",
     "team": "townsfolk",
+    "First Night Reminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
     "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
     "special": [
       {
@@ -137,6 +139,8 @@
     "edition": "custom",
     "name": "Glassblower",
     "team": "fabled",
+    "First Night Reminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of players."
+    "Other Night Reminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of alive players."
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
     ],
@@ -153,7 +157,9 @@
     ],
     "name": "Toxicologist",
     "team": "traveler",
-    "ability": "Each night eye the cauldron; choose 2 players (not yourself). A potion one of them holds break.",
+    "First Night Reminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
+    "Other Night Reminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other, alive players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
+    "ability": "Each night eye the cauldron, choose 2 alive players (not yourself); a potion one of them holds break.",
     "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
   },
   {
@@ -178,6 +184,8 @@
     ],
     "name": "Farrier",
     "team": "townsfolk",
+    "First Night Reminder": "Wake up the Farrier and have them choose another player. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
+    "Other Night Reminder": "Wake up the Farrier and have them choose another player that they have not chosen previously. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
     "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (not themselves) than you are.",
     "flavor": "Well, that is close. But close only counts for hand grenades.",
     "special": [
@@ -219,6 +227,8 @@
     ],
     "name": "Chemist",
     "team": "minion",
+    "First Night Reminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "Other Night Reminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
   },
@@ -234,7 +244,9 @@
     ],
     "name": "Thug",
     "team": "minion",
-    "ability": "Each night, choose a player and an evil character; tomorrow they are \"mad\" that that character is in play or 2 living players might receive an evil potion.",
+    "firstNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's Mad reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
+    "otherNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's Mad reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug."
+    "ability": "Each night, choose a player and a character; tomorrow they are \"mad\" that that character is NOT play or 2 players might receive an evil potion.",
     "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
   },
 
@@ -247,6 +259,7 @@
     ],
     "name": "Toll Inspector",
     "team": "townsfolk",
+    "otherNightReminder":"Wake up the Toll Inspector and show them the cauldron.",
     "ability": "Each night*, eye the cauldron.",
     "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
   },
@@ -259,7 +272,8 @@
     ],
     "name": "Distiller",
     "team": "townsfolk",
-    "ability": "Each night*, choose 2 players; 1 receives a good potion or 1 of their evil potions break.",
+    "otherNightReminder": "Wake up the Distiller and have them choose 2 alive players. Then put them to sleep and either put a good Potion on one of the choosen players, or remove an evil potion from one of the choosen players.",
+    "ability": "Each night*, choose 2 alive players; 1 receives a good potion or 1 of their evil potions break.",
     "flavor": "Ein Glas ist fabelhaft, zwei sind zu viel, und drei zu wenig."
   },
   {
@@ -274,6 +288,7 @@
     ],
     "name": "Clofou",
     "team": "demon",
+    "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's Dead reminder token on the chosen player. Then put an evil potion on an Outsider if possible.",
     "setup": true,
     "ability": "Each night*, choose a player; they die. Then an Outsider receives an evil potion. [+1 Outsider]",
     "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him."
@@ -302,6 +317,7 @@
     "name": "Druid",
     "team": "townsfolk",
     "ability": "Each night* you may choose a dead player; learn their character type and you might receive an evil potion.",
+    "otherNightReminder": "Wake up the Druid and have them signal if they wish to use their ability. If they do, have them choose a dead player; they learn that player's character type. Put them to sleep, then decide if you want to put an evil potion of them or not.",
     "flavor": "The great use of life is to spend it for something that will outlast it.",
     "special": [
       {
@@ -324,6 +340,7 @@
     ],
     "name": "Commira",
     "team": "demon",
+    "otherNightReminder":"Wake up the Commira and have them choose a player, put the Commira's Dead reminder token on that player. Then show them the Cauldron and have them pick up to 3 players (their choice) and put them back to sleep. Put a potion on each of the chosen players.",
     "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion.",
     "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation.",
     "special": [
@@ -345,6 +362,7 @@
     "name": "Clerk",
     "team": "townsfolk",
     "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
+    "otherNightReminder":"Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
     "flavor": "Employers are like horses — they require management.",
     "special": [
       {
@@ -368,6 +386,7 @@
     "name": "Baptist",
     "team": "townsfolk",
     "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. If either received an evil potion you cannot die tonight.",
+    "otherNightReminder": "Wake up the Baptist and have them choose 2 other, living players. Put the Baptist back to sleep. Then decide if you will put a Potion on one of them chosen players, and what type. If you put an evil Potion on either player, put the Cannot Die reminder token on the Baptist.",
     "flavor": "It's never too soon to contemplate eternal damnation, sir!"
   },
   {
@@ -379,7 +398,8 @@
     ],
     "name": "Merchant",
     "team": "townsfolk",
-    "ability": "Each night* either 1) receive a potion, or if you hold a potion 2) choose a potion you think you are holding and a player (not yourself) to receive that potion.",
+    "otherNightReminder": "Wake up the Merchant and have them choose 1 or 2. They may only choose 2 if they are, to their knowledge, holding a potion. If they choose 1, put a potion on them. If they choose 2, have them name a potion they think they hold and another, alive player. If they hold that potion, move it to the chosen player.",
+    "ability": "Each night*, choose either 1) receive a potion, or if you hold a potion 2) choose a potion you think you are holding and a player (not yourself) to receive that potion.",
     "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
   },
   {
@@ -394,6 +414,8 @@
     ],
     "name": "Megalomaniac",
     "team": "demon",
+    "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
+    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. Put the Megalomaniac to sleep. Put the Megalomaniac's Dead reminder token on the chosen player. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
     "ability": "Each night*, choose a player; they die. Each night a player might receive a Potion of Panic. The dusk following the 3rd time a face-down Potion of Panic broke, evil wins.",
     "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
   },
@@ -409,6 +431,7 @@
     ],
     "name": "Caetrum",
     "team": "demon",
+    "otherNightReminder": "Wake up the Caetrum and have them choose a player. Put the Caetrum to sleep. Put the Caetrum's Dead reminder token on the chosen player. As you remove the potions from the chosen player, you may move 1 of them to another player instead.",
     "ability": "Each night*, choose a player; they die. When a player dies this way, instead of breaking another player might receive 1 of their potions. Each night, a potion might break.",
     "flavor": "Guaranteed to solve any minor problem by turning it into a major desaster."
   },
@@ -422,7 +445,8 @@
     ],
     "name": "Fugitive",
     "team": "traveler",
-    "ability": "Each night* 2 players choose either 1) The other receives a Good potion, or 2) to learn the other and their potions. If both choose 2, each receive an Evil potion instead.",
+    "otherNightReminder": "Wake up a living player and have them choose either 1 or 2, then put them to sleep. Wake up another living player and have them choose 1 or 2, then put them to sleep. If at least 1 of them choose 1, put a Good Potion on the other player. If only 1 of them chose 2, wake them and show them the other player and their potions. If both players chose 2, put an evil potion on both.",
+    "ability": "Each night* 2 alive players choose either 1) The other receives a Good potion, or 2) to learn the other and their potions. If both choose 2, each receive an Evil potion instead.",
     "flavor": "I've run so far away,\nI ran all night and day,\nso far away,\nbut I couldn't get away."
   },
 
