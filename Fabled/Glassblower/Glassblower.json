@@ -3,6 +3,8 @@
   "edition": "custom",
   "name": "Glassblower",
   "team": "fabled",
+  "firstNightReminder": "Hand out as many potions as the voting majority minus 1 divided amongst any number of players.",
+  "otherNightReminder": "Hand out as many potions as the voting majority minus 1 divided amongst any number of alive players.",
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
   ],

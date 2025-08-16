@@ -10,6 +10,7 @@
   ],
   "name": "Botanist",
   "team": "townsfolk",
+  "firstNightReminder": "Wake up the Botanist and show them the tokens of 2 good characters one which is in play and one that is one of the demons bluffs.",
   "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
   "flavor": "Man, that's groovy.",
   "special": [

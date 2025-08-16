@@ -10,6 +10,7 @@
   ],
   "name": "Commira",
   "team": "demon",
+  "otherNightReminder": "Wake up the Commira and have them choose a player, put the Commira's Dead reminder token on that player. Then show them the Cauldron and have them pick up to 3 players (their choice) and put them back to sleep. Put a potion on each of the chosen players.",
   "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion.",
   "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation.",
   "special": [

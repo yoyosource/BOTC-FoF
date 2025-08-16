@@ -7,6 +7,8 @@
   ],
   "name": "Farrier",
   "team": "townsfolk",
+  "firstNightReminder": "Wake up the Farrier and have them choose another player. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
+  "otherNightReminder": "Wake up the Farrier and have them choose another player that they have not chosen previously. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
   "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (not themselves) than you are.",
   "flavor": "Well, that is close. But close only counts for hand grenades.",
   "special": [

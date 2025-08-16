@@ -7,6 +7,7 @@
   ],
   "name": "Distiller",
   "team": "townsfolk",
-  "ability": "Each night*, choose 2 players; 1 receives a good potion or 1 of their evil potions break.",
+  "otherNightReminder": "Wake up the Distiller and have them choose 2 alive players. Then put them to sleep and either put a good Potion on one of the chosen players, or remove an evil potion from one of the chosen players.",
+  "ability": "Each night*, choose 2 alive players; 1 receives a good potion or 1 of their evil potions break.",
   "flavor": "Ein Glas ist fabelhaft, zwei sind zu viel, und drei zu wenig."
 }
