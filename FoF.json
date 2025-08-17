@@ -99,7 +99,7 @@
     ],
     "name": "Botanist",
     "team": "townsfolk",
-    "First Night Reminder": "Wake up the Botanist and show them the tokens of 2 good characters, 1 which is in play and 1 that is one of the demon's bluffs.",
+    "firstNightReminder": "Wake up the Botanist and show them the tokens of 2 good characters, 1 which is in play and 1 that is one of the demon's bluffs.",
     "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
     "flavor": "Man, that's groovy.",
     "special": [
@@ -121,7 +121,7 @@
     "setup": true,
     "name": "Scout",
     "team": "townsfolk",
-    "First Night Reminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
+    "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
     "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
     "special": [
       {
@@ -138,8 +138,8 @@
     "edition": "custom",
     "name": "Glassblower",
     "team": "fabled",
-    "First Night Reminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of players.",
-    "Other Night Reminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of alive players.",
+    "firstNightReminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of players.",
+    "otherNightReminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of alive players.",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
     ],
@@ -156,8 +156,8 @@
     ],
     "name": "Toxicologist",
     "team": "traveler",
-    "First Night Reminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
-    "Other Night Reminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other, alive players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
+    "firstNightReminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
+    "otherNightReminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other, alive players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
     "ability": "Each night eye the cauldron, choose 2 alive players (not yourself); a potion one of them holds break.",
     "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
   },
@@ -183,8 +183,8 @@
     ],
     "name": "Farrier",
     "team": "townsfolk",
-    "First Night Reminder": "Wake up the Farrier and have them choose another player. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
-    "Other Night Reminder": "Wake up the Farrier and have them choose another player that they have not chosen previously. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
+    "firstNightReminder": "Wake up the Farrier and have them choose another player. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
+    "otherNightReminder": "Wake up the Farrier and have them choose another player that they have not chosen previously. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
     "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (not themselves) than you are.",
     "flavor": "Well, that is close. But close only counts for hand grenades.",
     "special": [
@@ -226,8 +226,8 @@
     ],
     "name": "Chemist",
     "team": "minion",
-    "First Night Reminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
-    "Other Night Reminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "firstNightReminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "otherNightReminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
   },
@@ -869,7 +869,7 @@
     "name": "Obsession",
     "team": "potion evil",
     "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
-    "otherNightReminder": "1. spot) Choose a player to receive a potion.\n 2. spot) Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+    "otherNightReminder": "1. spot) Choose a player to receive a potion.\n2. spot) Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
     "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
     "special": [
       {
