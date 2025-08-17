@@ -141,7 +141,7 @@
     ],
     "name": "Panic",
     "team": "special",
-    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced.",
+    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced at dawn.",
     "special": [
       {
         "type": "selection",
@@ -282,6 +282,8 @@
     ],
     "name": "Obsession",
     "team": "potion evil",
+    "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+    "otherNightReminder": "1. spot) Choose a player to receive a potion.\n2. spot) Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
     "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
     "special": [
       {
@@ -438,6 +440,8 @@
     ],
     "name": "Conviction",
     "team": "potion good",
+    "firstNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
+    "otherNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
     "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
     "special": [
       {
@@ -514,6 +518,8 @@
     ],
     "name": "Empathy",
     "team": "potion good",
+    "firstNightReminder": "Wake up the holder and show them the tokens of each type of evil potion held by their living neighbors.",
+    "otherNightReminder": "Wake up the holder and show them the tokens of each type of evil potion held by their living neighbors.",
     "ability": "Each night you learn what evil potions your living neighbors are holding.",
     "flavor": "Now I know for certain; you feel for me as I feel for you.",
     "special": [
@@ -564,8 +570,7 @@
         "global": "traveler"
       }
     ]
-  }
-,
+  },
   {
     "id": "botc_fof:potionofgenerosity",
     "edition": "custom",
