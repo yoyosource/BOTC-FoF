@@ -57,7 +57,7 @@
       "botc_fof:distiller",
       "botc_fof:farrier",
       "botc_fof:clerk",
-      "botc_fof:potionofobsession",
+      "botc_fof:potionofobsession2",
       "botc_fof:potionofempathy",
       "botc_fof:potionofconviction",
       "DAWN"
@@ -927,7 +927,7 @@
     "name": "Obsession",
     "team": "potion evil",
     "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
-    "otherNightReminder": "1. spot) Choose a player to receive a potion.\n2. spot) Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+    "otherNightReminder": "Choose a player to receive a potion.",
     "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
     "special": [
       {
@@ -975,6 +975,23 @@
         "value": "You are holding an Obsession.",
         "time": "night",
         "global": "traveler"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofobsession2",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
+    ],
+    "name": "[Obsession]",
+    "team": "potion evil",
+    "otherNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+    "ability": " ",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
       }
     ]
   },

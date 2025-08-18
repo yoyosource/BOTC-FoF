@@ -1,0 +1,17 @@
+{
+  "id": "potionofobsession2",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
+  ],
+  "name": "[Obsession]",
+  "team": "potion evil",
+  "otherNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+  "ability": " ",
+  "special": [
+    {
+      "type": "selection",
+      "name": "bag-disabled"
+    }
+  ]
+}
