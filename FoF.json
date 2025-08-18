@@ -525,7 +525,8 @@
     ],
     "name": "Crone",
     "team": "minion",
-    "ability": "When you are attacked by the Demon you do not die. Instead, you swap characters."
+    "ability": "When you are attacked by the Demon you do not die. Instead, you swap characters.",
+    "flavor": "Why, dearie! You ain't afraid of little old me, are you? Not when there are so much worse things, lurking in the dark?"
   },
   {
     "id": "botc_fof:aberration",
@@ -808,7 +809,7 @@
     "name": "Apathy",
     "team": "potion evil",
     "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
-    "flavor": "No death, no doom, no anguish can arouse the surpassing despair which flows from a loss of identity.",
+    "flavor": "...",
     "special": [
       {
         "type": "selection",
