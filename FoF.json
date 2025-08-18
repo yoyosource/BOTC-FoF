@@ -464,6 +464,9 @@
   {
     "id": "botc_fof:connoisseur",
     "edition": "custom",
+    "reminders": [
+      "Stacked"
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image_evil.png?raw=true"
@@ -531,6 +534,9 @@
   {
     "id": "botc_fof:aberration",
     "edition": "custom",
+    "reminders": [
+      "Poisoned"
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image_good.png?raw=true"

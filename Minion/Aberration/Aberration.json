@@ -1,6 +1,9 @@
 {
   "id": "aberration",
   "edition": "custom",
+  "reminders": [
+    "Poisoned"
+  ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image.png?raw=true",
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image_good.png?raw=true"

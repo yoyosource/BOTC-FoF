@@ -1,6 +1,9 @@
 {
   "id": "connoisseur",
   "edition": "custom",
+  "reminders": [
+    "Stacked"
+  ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image.png?raw=true",
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image_evil.png?raw=true"
