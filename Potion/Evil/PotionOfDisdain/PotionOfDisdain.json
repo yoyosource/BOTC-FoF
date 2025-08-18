@@ -57,6 +57,13 @@
     {
       "type": "selection",
       "name": "bag-disabled"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "Another not in play character is: ",
+      "time": "night",
+      "global": "demon"
     }
   ]
 }

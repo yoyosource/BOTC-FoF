@@ -446,7 +446,51 @@
     "team": "traveler",
     "otherNightReminder": "Wake up a living player and have them choose either 1 or 2, then put them to sleep. Wake up another living player and have them choose 1 or 2, then put them to sleep. If at least 1 of them choose 1, put a Good Potion on the other player. If only 1 of them chose 2, wake them and show them the other player and their potions. If both players chose 2, put an evil potion on both.",
     "ability": "Each night* 2 alive players choose either 1) The other receives a Good potion, or 2) to learn the other and their potions. If both choose 2, each receive an Evil potion instead.",
-    "flavor": "I've run so far away,\nI ran all night and day,\nso far away,\nbut I couldn't get away."
+    "flavor": "I've run so far away,\nI ran all night and day,\nso far away,\nbut I couldn't get away.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The fugitive is making you an offer. Pick 1 or 2.",
+        "time": "night",
+        "global": "townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The fugitive is making you an offer. Pick 1 or 2.",
+        "time": "night",
+        "global": "outsider"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The fugitive is making you an offer. Pick 1 or 2.",
+        "time": "night",
+        "global": "minion"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The fugitive is making you an offer. Pick 1 or 2.",
+        "time": "night",
+        "global": "demon"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The fugitive is making you an offer. Pick 1 or 2.",
+        "time": "night",
+        "global": "traveller"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The fugitive is making you an offer. Pick 1 or 2.",
+        "time": "night",
+        "global": "traveler"
+      }
+    ]
   },
 
   {
@@ -781,6 +825,13 @@
       {
         "type": "selection",
         "name": "bag-disabled"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Another not in play character is: ",
+        "time": "night",
+        "global": "demon"
       }
     ]
   },
@@ -882,6 +933,48 @@
       {
         "type": "selection",
         "name": "bag-disabled"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are holding an Obsession.",
+        "time": "night",
+        "global": "townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are holding an Obsession.",
+        "time": "night",
+        "global": "outsider"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are holding an Obsession.",
+        "time": "night",
+        "global": "minion"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are holding an Obsession.",
+        "time": "night",
+        "global": "demon"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are holding an Obsession.",
+        "time": "night",
+        "global": "traveller"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are holding an Obsession.",
+        "time": "night",
+        "global": "traveler"
       }
     ]
   },

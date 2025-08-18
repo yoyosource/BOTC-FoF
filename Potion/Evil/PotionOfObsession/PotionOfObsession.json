@@ -57,6 +57,48 @@
     {
       "type": "selection",
       "name": "bag-disabled"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "You are holding an Obsession.",
+      "time": "night",
+      "global": "townsfolk"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "You are holding an Obsession.",
+      "time": "night",
+      "global": "outsider"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "You are holding an Obsession.",
+      "time": "night",
+      "global": "minion"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "You are holding an Obsession.",
+      "time": "night",
+      "global": "demon"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "You are holding an Obsession.",
+      "time": "night",
+      "global": "traveller"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "You are holding an Obsession.",
+      "time": "night",
+      "global": "traveler"
     }
   ]
 }
