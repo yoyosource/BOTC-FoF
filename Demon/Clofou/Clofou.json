@@ -10,8 +10,8 @@
   ],
   "name": "Clofou",
   "team": "demon",
-  "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's Dead reminder token on the chosen player. Then put an evil potion on an Outsider if possible.",
+  "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's Dead reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
   "setup": true,
-  "ability": "Each night*, choose a player; they die. Then an Outsider receives an evil potion. [+1 Outsider]",
+  "ability": "Each night*, choose a player; they die. The first time an Outsider is your living neighbor, they become evil. [+1 Outsider]",
   "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him."
 }
