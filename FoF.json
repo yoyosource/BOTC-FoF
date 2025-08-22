@@ -1222,7 +1222,7 @@
     "team": "potion good",
     "firstNightReminder": "Wake up the holder and show them the tokens of each type of evil potion held by their living neighbors.",
     "otherNightReminder": "Wake up the holder and show them the tokens of each type of evil potion held by their living neighbors.",
-    "ability": "Each night you learn what evil potions your living neighbors are holding.",
+    "ability": "Each night you learn what good and evil potions your living neighbors are holding.",
     "flavor": "Now I know for certain; you feel for me as I feel for you.",
     "special": [
       {
