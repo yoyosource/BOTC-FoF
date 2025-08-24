@@ -73,11 +73,9 @@
       "global": "traveller"
     },
     {
-      "type": "signal",
-      "name": "card",
-      "value": "Your neighbours hold:",
-      "time": "night",
-      "global": "traveler"
+      "type": "ability",
+      "name": "potion",
+      "alignment": "good"
     }
   ]
 }

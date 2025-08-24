@@ -64,6 +64,16 @@
       "value": "Another not in play character is: ",
       "time": "night",
       "global": "demon"
+    },
+    {
+      "type": "ability",
+      "name": "potion",
+      "alignment": "evil"
+    },
+    {
+      "type": "ability",
+      "name": "show_potion",
+      "time": "night"
     }
   ]
 }

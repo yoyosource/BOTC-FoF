@@ -94,11 +94,14 @@
       "global": "traveller"
     },
     {
-      "type": "signal",
-      "name": "card",
-      "value": "You are holding an Obsession.",
-      "time": "night",
-      "global": "traveler"
+      "type": "ability",
+      "name": "potion",
+      "alignment": "evil"
+    },
+    {
+      "type": "ability",
+      "name": "show_potion",
+      "time": "night"
     }
   ]
 }

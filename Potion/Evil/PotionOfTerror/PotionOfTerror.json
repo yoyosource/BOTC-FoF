@@ -33,6 +33,22 @@
     {
       "type": "selection",
       "name": "bag-disabled"
+    },
+    {
+      "type": "ability",
+      "name": "potion",
+      "alignment": "evil"
+    },
+    {
+      "type": "ability",
+      "name": "show_potion",
+      "time": "night"
+    },
+    {
+      "type": "ability",
+      "name": "show_potion",
+      "time": "night",
+      "alignment": "good"
     }
   ]
 }

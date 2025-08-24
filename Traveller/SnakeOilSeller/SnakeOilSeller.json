@@ -7,7 +7,7 @@
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/SnakeOilSeller/image_evil.png?raw=true"
   ],
   "name": "Snake Oil Seller",
-  "team": "traveler",
+  "team": "traveller",
   "firstNightReminder": "Point to a good and a evil Potion. Then ask the Snake Oil Seller to either point to one of the shown Potions or to a Player. Put them to sleep. If they pointed at a Potion, wake any player and tell them they received that Potion. If they pointed at a player, wake that player and tell them that they received 1 of the 2 shown Potions.",
   "otherNightReminder": "Point to a good and a evil Potion. Then ask the Snake Oil Seller to either point to one of the shown Potions or to a Player. Put them to sleep. If they pointed at a Potion, wake any player and tell them they received that Potion. If they pointed at a player, wake that player and tell them that they received 1 of the 2 shown Potions.",
   "ability": "Each night you learn a good and an evil potion. Choose either 1) which potion for a player to receive, or 2) which player to receive either potion.",

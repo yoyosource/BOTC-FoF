@@ -567,7 +567,7 @@
         "name": "card",
         "value": "Your neighbours hold:",
         "time": "night",
-        "global": "traveler"
+        "global": "traveller"
       }
     ]
   },
