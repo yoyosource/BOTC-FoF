@@ -88,7 +88,7 @@
   },
 
   {
-    "id": "thecauldron",
+    "id": "botc_fof:thecauldron",
     "edition": "custom",
     "reminders": [
       "Eyed the Cauldron",
@@ -139,6 +139,46 @@
     ],
     "ability": " ",
     "flavor": "Inside it bubbles a fel substance."
+  },
+  {
+    "id": "botc_fof:thecauldron2",
+    "edition": "custom",
+    "reminders": [
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions",
+      "Show Potions"
+    ],
+    "name": "[The Cauldron]",
+    "team": "fabled",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/TheCauldron/image.png?raw=true"
+    ],
+    "ability": " ",
+    "special": [
+      {
+        "type": "ability",
+        "name": "show_potion",
+        "time": "day",
+        "alignment": "good"
+      }
+    ]
   },
 
   {
