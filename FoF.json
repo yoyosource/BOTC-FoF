@@ -949,7 +949,7 @@
       },
       {
         "type": "potion",
-        "name": "potion",
+        "name": "type",
         "alignment": "evil"
       },
       {
