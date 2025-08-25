@@ -94,13 +94,13 @@
       "global": "traveller"
     },
     {
-      "type": "ability",
-      "name": "potion",
+      "type": "potion",
+      "name": "type",
       "alignment": "evil"
     },
     {
-      "type": "ability",
-      "name": "show_potion",
+      "type": "potion",
+      "name": "show",
       "time": "night"
     }
   ]

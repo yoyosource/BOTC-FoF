@@ -1,5 +1,5 @@
 {
-  "id": "thecauldron2",
+  "id": "theothercauldron",
   "edition": "custom",
   "reminders": [
     "Show Potions",
@@ -31,10 +31,16 @@
   "ability": " ",
   "special": [
     {
-      "type": "ability",
-      "name": "show_potion",
+      "type": "potion",
+      "name": "show",
       "time": "day",
       "alignment": "good"
+    },
+    {
+      "type": "potion",
+      "name": "show",
+      "time": "day",
+      "alignment": "special"
     }
   ]
 }

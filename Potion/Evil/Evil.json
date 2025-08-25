@@ -16,8 +16,8 @@
       "name": "bag-disabled"
     },
     {
-      "type": "ability",
-      "name": "potion_backside",
+      "type": "potion",
+      "name": "backside",
       "alignment": "evil"
     }
   ]

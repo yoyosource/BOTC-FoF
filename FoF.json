@@ -141,7 +141,7 @@
     "flavor": "Inside it bubbles a fel substance."
   },
   {
-    "id": "botc_fof:thecauldron2",
+    "id": "botc_fof:theothercauldron",
     "edition": "custom",
     "reminders": [
       "Show Potions",
@@ -173,10 +173,16 @@
     "ability": " ",
     "special": [
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "day",
         "alignment": "good"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "day",
+        "alignment": "special"
       }
     ]
   },
@@ -816,9 +822,9 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
-        "alignment": "good"
+        "type": "potion",
+        "name": "type",
+        "alignment": "special"
       }
     ]
   },
@@ -859,9 +865,17 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
-        "alignment": "good"
+        "type": "potion",
+        "name": "type",
+        "alignment": "special"
+      },
+      {
+        "type": "potion",
+        "name": "on-show",
+        "special": {
+          "type": "potion",
+          "name": "show"
+        }
       }
     ]
   },
@@ -934,13 +948,13 @@
         "global": "demon"
       },
       {
-        "type": "ability",
+        "type": "potion",
         "name": "potion",
         "alignment": "evil"
       },
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "night"
       }
     ]
@@ -983,13 +997,13 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "evil"
       },
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "night"
       }
     ]
@@ -1090,13 +1104,13 @@
         "global": "traveller"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "evil"
       },
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "night"
       }
     ]
@@ -1177,13 +1191,13 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "evil"
       },
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "night"
       }
     ]
@@ -1225,18 +1239,18 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "evil"
       },
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "night"
       },
       {
-        "type": "ability",
-        "name": "show_potion",
+        "type": "potion",
+        "name": "show",
         "time": "night",
         "alignment": "good"
       }
@@ -1260,8 +1274,8 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion_backside",
+        "type": "potion",
+        "name": "backside",
         "alignment": "evil"
       }
     ]
@@ -1306,8 +1320,8 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "good"
       }
     ]
@@ -1349,8 +1363,8 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "good"
       }
     ]
@@ -1430,8 +1444,8 @@
         "global": "traveller"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "good"
       }
     ]
@@ -1474,8 +1488,8 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "good"
       }
     ]
@@ -1517,8 +1531,8 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion",
+        "type": "potion",
+        "name": "type",
         "alignment": "good"
       }
     ]
@@ -1541,9 +1555,14 @@
         "name": "bag-disabled"
       },
       {
-        "type": "ability",
-        "name": "potion_backside",
+        "type": "potion",
+        "name": "backside",
         "alignment": "good"
+      },
+      {
+        "type": "potion",
+        "name": "backside",
+        "alignment": "special"
       }
     ]
   }

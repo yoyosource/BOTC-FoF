@@ -35,8 +35,8 @@
       "name": "bag-disabled"
     },
     {
-      "type": "ability",
-      "name": "potion",
+      "type": "potion",
+      "name": "type",
       "alignment": "good"
     }
   ]
