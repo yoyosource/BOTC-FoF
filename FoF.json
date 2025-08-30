@@ -223,6 +223,7 @@
     "team": "townsfolk",
     "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
     "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
+    "flavor": "Var redo! Alltid redo!",
     "special": [
       {
         "type": "signal",
@@ -711,7 +712,8 @@
     ],
     "name": "Pigeon Fancier",
     "team": "townsfolk",
-    "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]"
+    "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]",
+    "flavor": "Fancy a pigeon?"
   },
   {
     "id": "botc_fof:solicitor",
@@ -728,7 +730,8 @@
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
     ],
-    "ability": "2 living players may choose to trade all potions, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability."
+    "ability": "2 living players may choose to trade all potions, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
+    "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
   },
   {
     "id": "botc_fof:socialist",
@@ -859,6 +862,7 @@
     "name": "Panic",
     "team": "special",
     "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced at dawn.",
+    "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
     "special": [
       {
         "type": "selection",
@@ -1233,6 +1237,7 @@
     "name": "Terror",
     "team": "potion evil",
     "ability": "Your good potions are face up during the night.",
+    "flavor": "Trademarked by the Institute of Pandemonium Inc.",
     "special": [
       {
         "type": "selection",
@@ -1482,6 +1487,7 @@
     "name": "Generosity",
     "team": "potion good",
     "ability": "If you would receive an evil Potion, this one breaks and another person receives that potion instead.",
+    "flavor": "I give that you may give.",
     "special": [
       {
         "type": "selection",
@@ -1525,6 +1531,7 @@
     "name": "Joy",
     "team": "potion good",
     "ability": "If the demon kills you at night, a number of players equal to the number of living evil players receive a good potion.",
+    "flavor": "Sometimes confused with Potion of Alcohol.",
     "special": [
       {
         "type": "selection",

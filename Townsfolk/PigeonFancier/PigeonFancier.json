@@ -10,5 +10,6 @@
   ],
   "name": "Pigeon Fancier",
   "team": "townsfolk",
-  "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]"
+  "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]",
+  "flavor": "Fancy a pigeon?"
 }
