@@ -41,7 +41,27 @@
     "Flipped Potions",
     "Flipped Potions",
     "Flipped Potions",
-    "Flipped Potions"
+    "Flipped Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions",
+    "Show Potions"
   ],
   "name": "The Cauldron",
   "team": "fabled",
@@ -49,5 +69,21 @@
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/TheCauldron/image.png?raw=true"
   ],
   "ability": " ",
-  "flavor": "Inside it bubbles a fel substance."
+  "flavor": "Inside it bubbles a fel substance.",
+  "special": [
+    {
+      "type": "potion",
+      "name": "show",
+      "time": "day",
+      "alignment": "good",
+      "reminder": "Show Potions"
+    },
+    {
+      "type": "potion",
+      "name": "show",
+      "time": "day",
+      "alignment": "special",
+      "reminder": "Show Potions"
+    }
+  ]
 }
