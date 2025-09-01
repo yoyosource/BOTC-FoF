@@ -247,8 +247,8 @@
     ],
     "name": "Toxicologist",
     "team": "traveller",
-    "firstNightReminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
-    "otherNightReminder": "Wake up the Toxicologist and show them the Cauldron. Then have them choose 2 other, alive players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
+    "firstNightReminder": "Wake up the Toxicologist and show them the *Cauldron*. Then have them choose 2 other players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
+    "otherNightReminder": "Wake up the Toxicologist and show them the *Cauldron*. Then have them choose 2 other, alive players. Put the Toxicologist to sleep and then remove a potion from 1 of the chosen players if possible.",
     "ability": "Each night eye the cauldron, choose 2 alive players (not yourself); a potion one of them holds break.",
     "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
   },
@@ -317,8 +317,8 @@
     ],
     "name": "Chemist",
     "team": "minion",
-    "firstNightReminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
-    "otherNightReminder": "Wake up the Chemist and show them the Cauldron. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
   },
@@ -334,8 +334,8 @@
     ],
     "name": "Thug",
     "team": "minion",
-    "firstNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's Mad reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
-    "otherNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's Mad reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
+    "firstNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
+    "otherNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
     "ability": "Each night, choose a player and a character; tomorrow they are \"mad\" that that character is NOT play or 2 players might receive an evil potion.",
     "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
   },
@@ -349,7 +349,7 @@
     ],
     "name": "Toll Inspector",
     "team": "townsfolk",
-    "otherNightReminder":"Wake up the Toll Inspector and show them the cauldron.",
+    "otherNightReminder":"Wake up the Toll Inspector and show them the *Cauldron*.",
     "ability": "Each night*, eye the cauldron.",
     "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
   },
@@ -378,7 +378,7 @@
     ],
     "name": "Clofou",
     "team": "demon",
-    "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's Dead reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
+    "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's *Dead* reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
     "setup": true,
     "ability": "Each night*, choose a player; they die. The first time an Outsider is your living neighbor, they become evil. [+1 Outsider]",
     "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him."
@@ -434,7 +434,7 @@
     ],
     "name": "Commira",
     "team": "demon",
-    "otherNightReminder":"Wake up the Commira and have them choose a player, put the Commira's Dead reminder token on that player. Then show them the Cauldron and have them pick up to 3 players (their choice) and put them back to sleep. Put a potion on each of the chosen players.",
+    "otherNightReminder":"Wake up the Commira and have them choose a player, put the Commira's *Dead* reminder token on that player. Then show them the *Cauldron* and have them pick up to 3 players (their choice) and put them back to sleep. Put a potion on each of the chosen players.",
     "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion.",
     "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation.",
     "special": [
@@ -509,7 +509,7 @@
     "name": "Megalomaniac",
     "team": "demon",
     "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. Put the Megalomaniac to sleep. Put the Megalomaniac's Dead reminder token on the chosen player. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
+    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
     "ability": "Each night*, choose a player; they die. Each night a player might receive a Potion of Panic. The dusk following the 3rd time a face-down Potion of Panic broke, evil wins.",
     "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
   },
@@ -525,7 +525,7 @@
     ],
     "name": "Caetrum",
     "team": "demon",
-    "otherNightReminder": "Wake up the Caetrum and have them choose a player. Put the Caetrum to sleep. Put the Caetrum's Dead reminder token on the chosen player. As you remove the potions from the chosen player, you may move 1 of them to another player instead.",
+    "otherNightReminder": "Wake up the Caetrum and have them choose a player. Put the Caetrum to sleep. Put the Caetrum's *Dead* reminder token on the chosen player. As you remove the potions from the chosen player, you may move 1 of them to another player instead.",
     "ability": "Each night*, choose a player; they die. When a player dies this way, instead of breaking another player might receive 1 of their potions. Each night, a potion might break.",
     "flavor": "Guaranteed to solve any minor problem by turning it into a major desaster."
   },
@@ -675,8 +675,8 @@
     ],
     "name": "Aberration",
     "team": "minion",
-    "firstNightReminder": "Wake up the Aberration and show them the Cauldron. Have them choose a player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
-    "otherNightReminder": "Wake up the Aberration and show them the Cauldron. Have them choose a living player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
+    "firstNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
+    "otherNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a living player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
     "ability": "When a Potion of Panic is revealed, a player is poisoned until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic.",
     "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range."
   },
@@ -712,7 +712,7 @@
   {
     "id": "botc_fof:solicitor",
     "edition": "custom",
-    "otherNightReminder": "Remove any 'No Ability' Reminder token. Put the 'No Ability' Reminder on any Townsfolk with any 'Trade' Reminder token on them. Wake each player with a 'Trade' Reminder on them and tell them they have received the Potions of the player with the corresponding 'Trade' Reminder on them.",
+    "otherNightReminder": "Remove any *No Ability* Reminder token. Put the *No Ability* Reminder on any Townsfolk with any *Trade* Reminder token on them.",
     "reminders": [
       "Trade 1",
       "Trade 2",
@@ -1058,7 +1058,7 @@
     ],
     "name": "Obsession",
     "team": "potion evil",
-    "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+    "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the *Potion of Obsession* token.",
     "otherNightReminder": "Choose a player to receive a potion.",
     "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
     "special": [
@@ -1121,7 +1121,7 @@
     ],
     "name": "[Obsession]",
     "team": "potion evil",
-    "otherNightReminder": "Wake up the holder of the Potion of Obsession and show them the Potion of Obsession token.",
+    "otherNightReminder": "Wake up the holder of the Potion of Obsession and show them the *Potion of Obsession* token.",
     "ability": " ",
     "special": [
       {

@@ -1,7 +1,7 @@
 {
   "id": "solicitor",
   "edition": "custom",
-  "otherNightReminder": "Remove any 'No Ability' Reminder token. Put the 'No Ability' Reminder on any Townsfolk with any 'Trade' Reminder token on them. Wake each player with a 'Trade' Reminder on them and tell them they have received the Potions of the player with the corresponding 'Trade' Reminder on them.",
+  "otherNightReminder": "Remove any *No Ability* Reminder token. Put the *No Ability* Reminder on any Townsfolk with any *Trade* Reminder token on them.",
   "reminders": [
     "Trade 1",
     "Trade 2",

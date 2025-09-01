@@ -8,8 +8,8 @@
   ],
   "name": "Toxicologist",
   "team": "traveller",
-  "firstNightReminder": "Wake up the Toxicologist and show them the cauldron. Then have them choose two other players. Put the Toxicologist to sleep and then remove a potion from one of the chosen players if possible.",
-  "otherNightReminder": "Wake up the Toxicologist and show them the cauldron. Then have them choose two other, alive players. Put the Toxicologist to sleep and then remove a potion from one of the chosen players if possible.",
+  "firstNightReminder": "Wake up the Toxicologist and show them the *Cauldron*. Then have them choose two other players. Put the Toxicologist to sleep and then remove a potion from one of the chosen players if possible.",
+  "otherNightReminder": "Wake up the Toxicologist and show them the *Cauldron*. Then have them choose two other, alive players. Put the Toxicologist to sleep and then remove a potion from one of the chosen players if possible.",
   "ability": "Each night eye the cauldron, choose 2 alive players (not yourself); a potion one of them holds break.",
   "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
 }
