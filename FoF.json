@@ -317,8 +317,8 @@
     ],
     "name": "Chemist",
     "team": "minion",
-    "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
-    "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2. If they choose 1, have them choose 2 potions in the Cauldron and then swap those potion's places. If they choose 2, have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
   },
@@ -492,7 +492,7 @@
     ],
     "name": "Merchant",
     "team": "townsfolk",
-    "otherNightReminder": "Wake up the Merchant and have them choose 1 or 2. They may only choose 2 if they are, to their knowledge, holding a potion. If they choose 1, put a potion on them. If they choose 2, have them name a potion they think they hold and another, alive player. If they hold that potion, move it to the chosen player.",
+    "otherNightReminder": "Wake up the Merchant and have them choose 1 or 2. They may only choose 2 if they are, to their knowledge, holding a potion.\n  1 - Put a potion on them.\n  2 - Have them name a potion they think they hold and another, alive player. If they hold that potion, move it to the chosen player.",
     "ability": "Each night*, choose either 1) receive a potion, or if you hold a potion 2) choose a potion you think you are holding and a player (not yourself) to receive that potion.",
     "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
   },
@@ -539,7 +539,7 @@
     ],
     "name": "Fugitive",
     "team": "traveller",
-    "otherNightReminder": "Wake up a living player and have them choose either 1 or 2, then put them to sleep. Wake up another living player and have them choose 1 or 2, then put them to sleep. If at least 1 of them choose 1, put a Good Potion on the other player. If only 1 of them chose 2, wake them and show them the other player and their potions. If both players chose 2, put an evil potion on both.",
+    "otherNightReminder": "Wake up a living player and have them choose either 1 or 2, then put them to sleep.\nWake up another living player and have them choose 1 or 2, then put them to sleep.\n  If at least 1 of them choose 1, put a Good Potion on the other player.\n  If only 1 of them chose 2, wake them and show them the other player and their potions.\n  If both players chose 2, put an evil potion on both.",
     "ability": "Each night* 2 alive players choose either 1) The other receives a Good potion, or 2) to learn the other and their potions. If both choose 2, each receive an Evil potion instead.",
     "flavor": "I've run so far away,\nI ran all night and day,\nso far away,\nbut I couldn't get away.",
     "special": [
@@ -1399,8 +1399,8 @@
     ],
     "name": "Empathy",
     "team": "potion good",
-    "firstNightReminder": "Wake up the holder and show them the tokens of each type of evil potion held by their living neighbors.",
-    "otherNightReminder": "Wake up the holder and show them the tokens of each type of evil potion held by their living neighbors.",
+    "firstNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
+    "otherNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
     "ability": "Each night you learn what good and evil potions your living neighbors are holding.",
     "flavor": "Now I know for certain; you feel for me as I feel for you.",
     "special": [
