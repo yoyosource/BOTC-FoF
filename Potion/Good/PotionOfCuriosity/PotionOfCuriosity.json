@@ -29,6 +29,7 @@
   "name": "Curiosity",
   "team": "potion good",
   "ability": "Each day you may exchange this Potion with the Storyteller privately for an Empty Potion to learn a player you have something in common with.",
+  "flavor": "WARNING: Not safe for cat consumption.",
   "special": [
     {
       "type": "selection",
