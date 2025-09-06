@@ -53,6 +53,7 @@
   "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the *Potion of Obsession* token.",
   "otherNightReminder": "Choose a player to receive a potion.",
   "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
+  "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
   "special": [
     {
       "type": "selection",
