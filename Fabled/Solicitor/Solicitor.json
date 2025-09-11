@@ -4,8 +4,16 @@
   "otherNightReminder": "Remove any *No Ability* Reminder token. Put the *No Ability* Reminder on any Townsfolk with any *Trade* Reminder token on them.",
   "reminders": [
     "Trade 1",
+    "Trade 1",
+    "Trade 2",
     "Trade 2",
     "Trade 3",
+    "Trade 3",
+    "No Ability",
+    "No Ability",
+    "No Ability",
+    "No Ability",
+    "No Ability",
     "No Ability"
   ],
   "name": "Solicitor",
