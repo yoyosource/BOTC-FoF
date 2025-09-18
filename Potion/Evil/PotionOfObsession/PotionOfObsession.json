@@ -50,49 +50,12 @@
   ],
   "name": "Obsession",
   "team": "potion evil",
-  "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the *Potion of Obsession* token.",
-  "otherNightReminder": "Choose a player to receive a potion.",
-  "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
+  "ability": "When this potion is revealed; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
   "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
   "special": [
     {
       "type": "selection",
       "name": "bag-disabled"
-    },
-    {
-      "type": "signal",
-      "name": "card",
-      "value": "You are holding an Obsession.",
-      "time": "night",
-      "global": "townsfolk"
-    },
-    {
-      "type": "signal",
-      "name": "card",
-      "value": "You are holding an Obsession.",
-      "time": "night",
-      "global": "outsider"
-    },
-    {
-      "type": "signal",
-      "name": "card",
-      "value": "You are holding an Obsession.",
-      "time": "night",
-      "global": "minion"
-    },
-    {
-      "type": "signal",
-      "name": "card",
-      "value": "You are holding an Obsession.",
-      "time": "night",
-      "global": "demon"
-    },
-    {
-      "type": "signal",
-      "name": "card",
-      "value": "You are holding an Obsession.",
-      "time": "night",
-      "global": "traveller"
     },
     {
       "type": "potion",

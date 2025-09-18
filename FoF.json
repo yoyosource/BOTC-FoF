@@ -28,14 +28,12 @@
       "botc_fof:scout",
       "botc_fof:aberration",
       "botc_fof:farrier",
-      "botc_fof:potionofobsession",
       "botc_fof:potionofempathy",
       "botc_fof:potionofconviction",
       "DAWN"
     ],
     "otherNight": [
       "DUSK",
-      "botc_fof:potionofobsession",
       "botc_fof:solicitor",
       "botc_fof:butterfingers",
       "botc_fof:glassblower",
@@ -57,7 +55,6 @@
       "botc_fof:distiller",
       "botc_fof:farrier",
       "botc_fof:clerk",
-      "botc_fof:potionofobsession2",
       "botc_fof:potionofempathy",
       "botc_fof:potionofconviction",
       "botc_fof:auctioneer",
@@ -1075,49 +1072,14 @@
     ],
     "name": "Obsession",
     "team": "potion evil",
-    "firstNightReminder": "Wake up the holder of the Potion of Obsession and show them the *Potion of Obsession* token.",
-    "otherNightReminder": "Choose a player to receive a potion.",
-    "ability": "If you are \"mad\" that you are a townsfolk, this potion might break and tonight another player receives a potion. You know that you are holding this potion.",
+    "firstNightReminder": "",
+    "otherNightReminder": "",
+    "ability": "When this potion is revealed; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
     "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
     "special": [
       {
         "type": "selection",
         "name": "bag-disabled"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "You are holding an Obsession.",
-        "time": "night",
-        "global": "townsfolk"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "You are holding an Obsession.",
-        "time": "night",
-        "global": "outsider"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "You are holding an Obsession.",
-        "time": "night",
-        "global": "minion"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "You are holding an Obsession.",
-        "time": "night",
-        "global": "demon"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "You are holding an Obsession.",
-        "time": "night",
-        "global": "traveller"
       },
       {
         "type": "potion",
@@ -1128,23 +1090,6 @@
         "type": "potion",
         "name": "show",
         "time": "night"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionofobsession2",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
-    ],
-    "name": "[Obsession]",
-    "team": "potion evil",
-    "otherNightReminder": "Wake up the holder of the Potion of Obsession and show them the *Potion of Obsession* token.",
-    "ability": " ",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
       }
     ]
   },
