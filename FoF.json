@@ -623,7 +623,7 @@
     ],
     "name": "Auctioneer",
     "team": "townsfolk",
-    "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive on the Market Day, at dawn good potions equal to the day number are given out.",
+    "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive the night before your stated day, good potions equal to the day number are given out.",
     "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
   },
 
