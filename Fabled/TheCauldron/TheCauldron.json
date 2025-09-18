@@ -84,6 +84,13 @@
       "time": "day",
       "alignment": "special",
       "reminder": "Show Potions"
+    },
+    {
+      "type": "potion",
+      "name": "show",
+      "time": "day",
+      "alignment": "evil",
+      "reminder": "Show Potions"
     }
   ]
 }

@@ -10,7 +10,7 @@
     "bootlegger": [
       "When a player is about to die or be exiled all their potions break before death. You cannot hold multiple Potion of the same type. [+0/+1 Storyteller]",
       "This Script is run with a Cauldron which contains the public information of potions held by players. During the day all potions are by default displayed as face down. During the night all evil potions are displayed as face up. Once nominations begin players may not eye the cauldron.",
-      "While eyeing the cauldron any player may once per day request to reveal the good potions they are holding to all currently eyeing the cauldron. After such a reveal the potions are once again flipped face down. While eyeing the cauldron players may not document its content."
+      "While eyeing the cauldron any player may once per day request to reveal potions they are holding to all currently eyeing the cauldron. After such a reveal the potions are once again flipped face down. While eyeing the cauldron players may not document its content."
     ],
     "background": "https://raw.githubusercontent.com/yoyosource/BOTC-FoF/refs/heads/master/_images/Background.webp",
     "almanac": "https://yoyosource.github.io/BOTC-FoF/Almanac.html",
@@ -173,6 +173,13 @@
         "name": "show",
         "time": "day",
         "alignment": "special",
+        "reminder": "Show Potions"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "day",
+        "alignment": "evil",
         "reminder": "Show Potions"
       }
     ]
