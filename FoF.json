@@ -962,7 +962,8 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil"
+        "alignment": "evil",
+        "reminder": "Disdain"
       },
       {
         "type": "potion",
@@ -1084,7 +1085,8 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil"
+        "alignment": "evil",
+        "reminder": "Obsession"
       },
       {
         "type": "potion",
@@ -1155,7 +1157,8 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil"
+        "alignment": "evil",
+        "reminder": "Stress"
       },
       {
         "type": "potion",

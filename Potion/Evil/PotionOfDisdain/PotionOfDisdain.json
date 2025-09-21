@@ -69,7 +69,8 @@
     {
       "type": "potion",
       "name": "type",
-      "alignment": "evil"
+      "alignment": "evil",
+      "reminder": "Disdain"
     },
     {
       "type": "potion",
