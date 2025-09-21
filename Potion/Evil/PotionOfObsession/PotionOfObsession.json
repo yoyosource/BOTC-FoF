@@ -1,28 +1,6 @@
 {
   "id": "potionofobsession",
   "edition": "custom",
-  "reminders": [
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke",
-    "Broke"
-  ],
   "remindersGlobal": [
     "Obsession",
     "Obsession",
@@ -60,8 +38,7 @@
     {
       "type": "potion",
       "name": "type",
-      "alignment": "evil",
-      "reminder": "Obsession"
+      "alignment": "evil"
     },
     {
       "type": "potion",
