@@ -623,6 +623,7 @@
     ],
     "name": "Auctioneer",
     "team": "townsfolk",
+    "otherNightReminder": "Hand out a number of good potions equal to the upcoming day count.",
     "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive the night before your stated day, good potions equal to the day number are given out.",
     "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
   },
@@ -1042,8 +1043,6 @@
     ],
     "name": "Obsession",
     "team": "potion evil",
-    "firstNightReminder": "",
-    "otherNightReminder": "",
     "ability": "When this potion is revealed; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
     "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
     "special": [
