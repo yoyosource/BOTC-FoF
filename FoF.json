@@ -993,7 +993,7 @@
     ],
     "name": "Apathy",
     "team": "potion evil",
-    "ability": "When you are targeted by an evil player, if you are good, this potion breaks; they learn your character.",
+    "ability": "If you are targeted by a player, they might receive an evil potion.",
     "flavor": "...",
     "special": [
       {
