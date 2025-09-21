@@ -10,5 +10,15 @@
   "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
   "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
   "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
-  "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
+  "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed.",
+  "special": [
+    {
+      "type": "signal",
+      "name": "grimoire"
+    },
+    {
+      "type": "signal",
+      "name": "cauldron"
+    }
+  ]
 }

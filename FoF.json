@@ -348,7 +348,19 @@
     "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
-    "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed."
+    "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      }
+    ]
   },
   {
     "id": "botc_fof:thug",
@@ -379,7 +391,19 @@
     "team": "townsfolk",
     "otherNightReminder":"Wake up the Toll Inspector and show them the *Cauldron*.",
     "ability": "Each night*, eye the cauldron.",
-    "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick."
+    "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      }
+    ]
   },
   {
     "id": "botc_fof:distiller",
@@ -471,6 +495,16 @@
         "name": "card",
         "value": "Choose 3 players to receive potions.",
         "time": "otherNight"
+      },
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
       }
     ]
   },
@@ -686,7 +720,19 @@
     "firstNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
     "otherNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a living player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
     "ability": "When a Potion of Panic is revealed, a player is poisoned until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic.",
-    "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range."
+    "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      }
+    ]
   },
 
   {

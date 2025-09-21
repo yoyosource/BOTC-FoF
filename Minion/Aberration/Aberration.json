@@ -13,5 +13,15 @@
   "firstNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
   "otherNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a living player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
   "ability": "When a Potion of Panic is revealed, a player is poisoned until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic.",
-  "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range."
+  "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
+  "special": [
+    {
+      "type": "signal",
+      "name": "grimoire"
+    },
+    {
+      "type": "signal",
+      "name": "cauldron"
+    }
+  ]
 }
