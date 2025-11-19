@@ -2,11 +2,11 @@
   "id": "glassblower",
   "edition": "custom",
   "name": "Glassblower",
-  "team": "loric",
+  "team": "fabled",
   "firstNightReminder": "Hand out as many potions as the voting majority minus 1 divided amongst any number of players.",
   "otherNightReminder": "Hand out as many potions as the voting majority minus 1 divided amongst any number of alive players.",
   "image": [
-    "https://github.com/yoyosource/BOTC-FoF/blob/master/Loric/Glassblower/image.png?raw=true"
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
   ],
   "ability": "Each night, potions equal to the voting majority minus 1 are given out.",
   "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
