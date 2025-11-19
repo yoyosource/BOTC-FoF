@@ -5,9 +5,11 @@
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image.png?raw=true",
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image_evil.png?raw=true"
   ],
+  "reminders": [
+    "Is Trading"
+  ],
   "name": "Merchant",
   "team": "townsfolk",
-  "otherNightReminder": "Wake up the Merchant and have them choose 1 or 2. They may only choose 2 if they are, to their knowledge, holding a potion.\n  1 - Put a potion on them.\n  2 - Have them name a potion they think they hold and another, alive player. If they hold that potion, move it to the chosen player.",
-  "ability": "Each night*, choose either 1) receive a potion, or if you hold a potion 2) choose a potion you think you are holding and a player (not yourself) to receive that potion.",
+  "ability": "When you trade either player receives an additional potion. Empty Potions you trade become good potions.",
   "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
 }

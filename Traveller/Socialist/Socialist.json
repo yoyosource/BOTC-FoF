@@ -8,6 +8,7 @@
   ],
   "name": "Socialist",
   "team": "traveller",
-  "ability": "Up to three times each night when a player receives a potion (not from the Socialist); another player receives a potion of the opposite alignment.",
+  "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
+  "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
   "flavor": "The workers must seize the means of production!"
 }

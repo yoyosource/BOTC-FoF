@@ -7,6 +7,6 @@
   ],
   "name": "Student",
   "team": "outsider",
-  "ability": "You may not nominate or vote if you have eyed the cauldron since dusk.",
+  "ability": "You may only vote or nominate if you have a trade active.",
   "flavor": "Education is not the filling of a pail, but the lighting of a fire."
 }

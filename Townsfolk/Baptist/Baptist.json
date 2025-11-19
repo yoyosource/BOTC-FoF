@@ -11,6 +11,6 @@
   "name": "Baptist",
   "team": "townsfolk",
   "otherNightReminder": "Wake up the Baptist and have them choose 2 other, living players. Put the Baptist back to sleep. Then decide if you will put a Potion on one of them chosen players, and what type. If you put an evil Potion on either player, put the Cannot Die reminder token on the Baptist.",
-  "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. If either received an evil potion you cannot die tonight.",
+  "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. You cannot die on nights players received evil potions from you.",
   "flavor": "It's never too soon to contemplate eternal damnation, sir!"
 }

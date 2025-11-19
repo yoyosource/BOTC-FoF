@@ -9,6 +9,18 @@
     "Trade 2",
     "Trade 3",
     "Trade 3",
+    "Trade 4",
+    "Trade 4",
+    "Trade 5",
+    "Trade 5",
+    "Trade 6",
+    "Trade 6",
+    "No Ability",
+    "No Ability",
+    "No Ability",
+    "No Ability",
+    "No Ability",
+    "No Ability",
     "No Ability",
     "No Ability",
     "No Ability",
@@ -21,6 +33,6 @@
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
   ],
-  "ability": "2 living players may choose to trade all potions, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
+  "ability": "2 living players may publicly choose to trade all potions once per day, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
   "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
 }

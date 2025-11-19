@@ -35,7 +35,9 @@
     ],
     "otherNight": [
       "DUSK",
+      "botc_fof:socialist",
       "botc_fof:solicitor",
+      "botc_fof:crone",
       "botc_fof:butterfingers",
       "botc_fof:glassblower",
       "botc_fof:thug",
@@ -48,7 +50,6 @@
       "botc_fof:commira",
       "botc_fof:caetrum",
       "botc_fof:clofou",
-      "botc_fof:merchant",
       "botc_fof:chemist",
       "botc_fof:tollinspector",
       "botc_fof:aberration",
@@ -369,7 +370,7 @@
     "team": "minion",
     "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
     "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
-    "ability": "Each night, eye the cauldron; either choose 1) 2 potions to swap places, or 2) a good potion another player holds; you receive it, theirs is emptied.",
+    "ability": "Each night, eye the cauldron; either choose 1) 2 potions to be traded, or 2) a good potion another player holds; you receive it, theirs is emptied.",
     "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed.",
     "special": [
       {
@@ -444,7 +445,8 @@
     "id": "botc_fof:clofou",
     "edition": "custom",
     "reminders": [
-      "Dead"
+      "Dead",
+      "Turn Evil"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image.png?raw=true",
@@ -454,7 +456,7 @@
     "team": "demon",
     "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's *Dead* reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
     "setup": true,
-    "ability": "Each night*, choose a player; they die. The first time an Outsider is your living neighbor, they become evil. [+1 Outsider]",
+    "ability": "Each night*, choose a player; they die. The first time you neighbour or trade with a living Outsider, they become evil. [+1 Outsider]",
     "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him."
   },
   {
@@ -542,7 +544,7 @@
     ],
     "name": "Baptist",
     "team": "townsfolk",
-    "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. If either received an evil potion you cannot die tonight.",
+    "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. You cannot die on nights players received evil potions from you.",
     "otherNightReminder": "Wake up the Baptist and have them choose 2 other, living players. Put the Baptist back to sleep. Then decide if you will put a Potion on one of them chosen players, and what type. If you put an evil Potion on either player, put the Cannot Die reminder token on the Baptist.",
     "flavor": "It's never too soon to contemplate eternal damnation, sir!"
   },
@@ -553,17 +555,20 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image_evil.png?raw=true"
     ],
+    "reminders": [
+      "Is Trading"
+    ],
     "name": "Merchant",
     "team": "townsfolk",
-    "otherNightReminder": "Wake up the Merchant and have them choose 1 or 2. They may only choose 2 if they are, to their knowledge, holding a potion.\n  1 - Put a potion on them.\n  2 - Have them name a potion they think they hold and another, alive player. If they hold that potion, move it to the chosen player.",
-    "ability": "Each night*, choose either 1) receive a potion, or if you hold a potion 2) choose a potion you think you are holding and a player (not yourself) to receive that potion.",
+    "ability": "When you trade either player receives an additional potion. Empty Potions you trade become good potions.",
     "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
   },
   {
     "id": "botc_fof:megalomaniac",
     "edition": "custom",
     "reminders": [
-      "Dead"
+      "Dead",
+      "Booom"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image.png?raw=true",
@@ -572,8 +577,8 @@
     "name": "Megalomaniac",
     "team": "demon",
     "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-    "ability": "Each night*, choose a player; they die. Each night a player might receive a Potion of Panic. The dusk following the 3rd time a face-down Potion of Panic broke, evil wins.",
+    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. If you announced a Potion of Panic the previous dawn have them choose 2 instead. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player(s). Decide if a player should receive a Potion of Panic, and if one will, choose who.",
+    "ability": "Each night*, choose a player; they die. If a Potion of Panic was announced previous dawn, choose 2 players instead. Each night a player might receive a Potion of Panic.",
     "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
   },
   {
@@ -695,7 +700,7 @@
     ],
     "name": "Student",
     "team": "outsider",
-    "ability": "You may not nominate or vote if you have eyed the cauldron since dusk.",
+    "ability": "You may only vote or nominate if you have a trade active.",
     "flavor": "Education is not the filling of a pail, but the lighting of a fire."
   },
 
@@ -724,7 +729,12 @@
     ],
     "name": "Crone",
     "team": "minion",
-    "ability": "When you are attacked by the Demon you do not die. Instead, you swap characters with them.",
+    "reminders": [
+      "Trading, Evil",
+      "Trading, Good"
+    ],
+    "otherNightReminder": "If the Crone traded with an evil player tonight, swap the character tokens of those players on the Grimoire, then wake them up and show them their new tokens. If they traded with a good player tonight, wake them up and show them that player’s token.",
+    "ability": "Each night if you traded with an evil player you swap characters. When you traded with a good player you learn their character.",
     "flavor": "Why, dearie! You ain't afraid of little old me, are you? Not when there are so much worse things, lurking in the dark?"
   },
   {
@@ -796,6 +806,18 @@
       "Trade 2",
       "Trade 3",
       "Trade 3",
+      "Trade 4",
+      "Trade 4",
+      "Trade 5",
+      "Trade 5",
+      "Trade 6",
+      "Trade 6",
+      "No Ability",
+      "No Ability",
+      "No Ability",
+      "No Ability",
+      "No Ability",
+      "No Ability",
       "No Ability",
       "No Ability",
       "No Ability",
@@ -808,7 +830,7 @@
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
     ],
-    "ability": "2 living players may choose to trade all potions, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
+    "ability": "2 living players may publicly choose to trade all potions once per day, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
     "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
   },
   {
@@ -821,7 +843,8 @@
     ],
     "name": "Socialist",
     "team": "traveller",
-    "ability": "Up to three times each night when a player receives a potion (not from the Socialist); another player receives a potion of the opposite alignment.",
+    "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
+    "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
     "flavor": "The workers must seize the means of production!"
   },
 
