@@ -28,7 +28,7 @@
   ],
   "name": "Apathy",
   "team": "potion evil",
-  "ability": "If you are targeted by a player, they might receive an evil potion.",
+  "ability": "If you are targeted by a player, they might receive an evil potion. Then this potion might break.",
   "flavor": "...",
   "special": [
     {
