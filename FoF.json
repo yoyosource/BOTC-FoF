@@ -585,7 +585,9 @@
     "id": "botc_fof:caetrum",
     "edition": "custom",
     "reminders": [
-      "Dead"
+      "Dead",
+      "Dead",
+      "Booom"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image.png?raw=true",
