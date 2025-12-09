@@ -1363,7 +1363,7 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
     ],
     "name": "Conviction",
-    "team": "potion good",
+    "team": "loric",
     "firstNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
     "otherNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
     "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
@@ -1379,6 +1379,16 @@
         "alignment": "good"
       }
     ]
+  },
+  {
+    "id": "botc_fof:potionofconviction_ability",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
+    ],
+    "name": "Conviction",
+    "team": "potion good",
+    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break."
   },
   {
     "id": "botc_fof:potionofcuriosity",
@@ -1453,7 +1463,7 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
     ],
     "name": "Empathy",
-    "team": "potion good",
+    "team": "loric",
     "firstNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
     "otherNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
     "ability": "Each night you learn what good and evil potions your living neighbors are holding.",
@@ -1504,8 +1514,17 @@
         "alignment": "good"
       }
     ]
-  }
-,
+  },
+  {
+    "id": "botc_fof:potionofempathy_ability",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
+    ],
+    "name": "Empathy",
+    "team": "potion good",
+    "ability": "Each night you learn what good and evil potions your living neighbors are holding."
+  },
   {
     "id": "botc_fof:potionofgenerosity",
     "edition": "custom",
