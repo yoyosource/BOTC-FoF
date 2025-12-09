@@ -14,7 +14,7 @@
   "team": "demon",
   "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and one will, choose who.",
   "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. If you announced a Potion of Panic the previous dawn have them choose 2 instead. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player(s). Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-  "ability": "Each night*, choose a player; they die. If a Potion of Panic was announced previous dawn, choose 2 players instead. Each night a player might receive a Potion of Panic.",
+  "ability": "Each night*, choose a player; they die. Each night, a player might receive a Potion of Panic.",
   "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides.",
   "special": [
     {

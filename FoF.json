@@ -57,9 +57,9 @@
       "botc_fof:distiller",
       "botc_fof:farrier",
       "botc_fof:clerk",
+      "botc_fof:auctioneer",
       "botc_fof:potionofempathy",
       "botc_fof:potionofconviction",
-      "botc_fof:auctioneer",
       "DAWN"
     ],
     "characterTypes": {
@@ -591,7 +591,7 @@
     "team": "demon",
     "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
     "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. If you announced a Potion of Panic the previous dawn have them choose 2 instead. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player(s). Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-    "ability": "Each night*, choose a player; they die. If a Potion of Panic was announced previous dawn, choose 2 players instead. Each night a player might receive a Potion of Panic.",
+    "ability": "Each night*, choose a player; they die. Each night, a player might receive a Potion of Panic.",
     "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides.",
     "special": [
       {
@@ -707,14 +707,18 @@
   {
     "id": "botc_fof:auctioneer",
     "edition": "custom",
+    "reminders": [
+      "Market Day (Tomorrow)",
+      "Market Day (Today)"
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image_evil.png?raw=true"
     ],
     "name": "Auctioneer",
     "team": "townsfolk",
-    "otherNightReminder": "Hand out a number of good potions equal to the upcoming day count.",
-    "ability": "On your 1st day, publicly declare a future day to be a Market Day. If you are alive the night before your stated day, good potions equal to the day number are given out.",
+    "otherNightReminder": "If today was a Market Day wake up the Auctioneer and signal them how many evil players traded tonight.",
+    "ability": "Once per game, during the day publicly declare tomorrow to be Market Day. The night after a Market Day learn how many evil players traded.",
     "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
   },
 
@@ -838,26 +842,14 @@
       "Trade 5",
       "Trade 5",
       "Trade 6",
-      "Trade 6",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability",
-      "No Ability"
+      "Trade 6"
     ],
     "name": "Solicitor",
     "team": "fabled",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
     ],
-    "ability": "2 living players may publicly choose to trade all potions once per day, and Townsfolk that do lose their ability till dawn. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
+    "ability": "2 living players may publicly choose to trade all potions once per day. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
     "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
   },
   {
@@ -1015,28 +1007,6 @@
   {
     "id": "botc_fof:potionofdisdain",
     "edition": "custom",
-    "reminders": [
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
-    ],
     "remindersGlobal": [
       "Disdain",
       "Disdain",
@@ -1057,7 +1027,27 @@
       "Disdain",
       "Disdain",
       "Disdain",
-      "Disdain"
+      "Disdain",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
