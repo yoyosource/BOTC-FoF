@@ -27,6 +27,11 @@
     {
       "type": "signal",
       "name": "cauldron"
+    },
+    {
+      "type": "potion",
+      "name": "dead",
+      "reminder": "Dead"
     }
   ]
 }

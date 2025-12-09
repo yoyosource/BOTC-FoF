@@ -457,7 +457,14 @@
     "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's *Dead* reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
     "setup": true,
     "ability": "Each night*, choose a player; they die. The first time you neighbour or trade with a living Outsider, they become evil. [+1 Outsider]",
-    "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him."
+    "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him.",
+    "special": [
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
   },
   {
     "id": "botc_fof:fof_harlot",
@@ -529,6 +536,11 @@
         "type": "signal",
         "name": "cauldron",
         "time": "night"
+      },
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
       }
     ]
   },
@@ -580,7 +592,14 @@
     "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
     "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. If you announced a Potion of Panic the previous dawn have them choose 2 instead. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player(s). Decide if a player should receive a Potion of Panic, and if one will, choose who.",
     "ability": "Each night*, choose a player; they die. If a Potion of Panic was announced previous dawn, choose 2 players instead. Each night a player might receive a Potion of Panic.",
-    "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides."
+    "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides.",
+    "special": [
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
   },
   {
     "id": "botc_fof:caetrum",
@@ -596,7 +615,14 @@
     "team": "demon",
     "otherNightReminder": "Wake up the Caetrum and have them choose a player. Put the Caetrum to sleep. Put the Caetrum's *Dead* reminder token on the chosen player. As you remove the potions from the chosen player, you may move 1 of them to another player instead.",
     "ability": "Each night*, choose a player; they die. When a player dies this way, instead of breaking another player might receive 1 of their potions. Each night, a potion might break.",
-    "flavor": "Guaranteed to solve any minor problem by turning it into a major disaster."
+    "flavor": "Guaranteed to solve any minor problem by turning it into a major disaster.",
+    "special": [
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
   },
   {
     "id": "botc_fof:fugitive",
