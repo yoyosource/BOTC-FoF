@@ -86,7 +86,668 @@
       }
     }
   },
-
+  {
+    "id": "botc_fof:botanist",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image_evil.png?raw=true"
+    ],
+    "reminders": [
+      "In Play"
+    ],
+    "name": "Botanist",
+    "team": "townsfolk",
+    "firstNightReminder": "Wake up the Botanist and show them the tokens of 2 good characters, 1 which is in play and 1 that is one of the demon's bluffs.",
+    "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
+    "flavor": "Man, that's groovy.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your characters",
+        "time": "firstNight"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:scout",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image_evil.png?raw=true"
+    ],
+    "setup": true,
+    "name": "Scout",
+    "team": "townsfolk",
+    "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
+    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
+    "flavor": "Var redo! Alltid redo!",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "The longest chain of townsfolk players is:",
+        "time": "firstNight"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:clerk",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image_evil.png?raw=true"
+    ],
+    "name": "Clerk",
+    "team": "townsfolk",
+    "ability": "Each night, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
+    "firstNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
+    "otherNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
+    "flavor": "Employers are like horses — they require management.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "An evil player received this potion",
+        "time": "otherNight"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:farrier",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image_evil.png?raw=true"
+    ],
+    "reminders": [
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen",
+      "Chosen"
+    ],
+    "name": "Farrier",
+    "team": "townsfolk",
+    "firstNightReminder": "Wake up the Farrier and have them choose another player. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
+    "otherNightReminder": "Wake up the Farrier and have them choose another player that they have not chosen previously. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
+    "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (not themselves) than you are. If equidistant, this info is arbitrary.",
+    "flavor": "Well, that is close. But close only counts for hand grenades.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "You are closer to an evil player.",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "They are closer to an evil player.",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:tollinspector",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image_evil.png?raw=true"
+    ],
+    "name": "Toll Inspector",
+    "team": "townsfolk",
+    "otherNightReminder": "Wake up the Toll Inspector and show them the *Cauldron*.",
+    "ability": "Each night*, eye the cauldron.",
+    "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:distiller",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image_evil.png?raw=true"
+    ],
+    "name": "Distiller",
+    "team": "townsfolk",
+    "otherNightReminder": "Wake up the Distiller and have them choose 2 alive players. Then put them to sleep and either put a good Potion on one of the choosen players, or remove an evil potion from one of the choosen players.",
+    "ability": "Each night*, choose 2 alive players; 1 receives a good potion or 1 of their evil potions break.",
+    "flavor": "Ein Glas ist fabelhaft, zwei sind zu viel, und drei zu wenig."
+  },
+  {
+    "id": "botc_fof:druid",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image_evil.png?raw=true"
+    ],
+    "name": "Druid",
+    "team": "townsfolk",
+    "ability": "Each night* you may choose a dead player; learn their character type and you might receive an evil potion.",
+    "otherNightReminder": "Wake up the Druid and have them signal if they wish to use their ability. If they do, have them choose a dead player; they learn that player's character type. Put them to sleep, then decide if you want to put an evil potion of them or not.",
+    "flavor": "The great use of life is to spend it for something that will outlast it.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Select a dead player.",
+        "time": "otherNight"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:baptist",
+    "edition": "custom",
+    "reminders": [
+      "Cannot die"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Baptist/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Baptist/image_evil.png?raw=true"
+    ],
+    "name": "Baptist",
+    "team": "townsfolk",
+    "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. You cannot die on nights players received evil potions from you.",
+    "otherNightReminder": "Wake up the Baptist and have them choose 2 other, living players. Put the Baptist back to sleep. Then decide if you will put a Potion on one of them chosen players, and what type. If you put an evil Potion on either player, put the Cannot Die reminder token on the Baptist.",
+    "flavor": "It's never too soon to contemplate eternal damnation, sir!"
+  },
+  {
+    "id": "botc_fof:connoisseur",
+    "edition": "custom",
+    "reminders": [
+      "Stacked"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image_evil.png?raw=true"
+    ],
+    "name": "Connoisseur",
+    "team": "townsfolk",
+    "ability": "Each day, you may visit the storyteller to learn a player that is a non-neutral execution for your team today. If you did not use this ability the last day you learn 2 players instead.",
+    "flavor": "Everything in life that’s any fun, as somebody wisely observed, is either immoral, illegal or fattening."
+  },
+  {
+    "id": "botc_fof:auctioneer",
+    "edition": "custom",
+    "reminders": [
+      "Market Day (Tomorrow)",
+      "Market Day (Today)"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image_evil.png?raw=true"
+    ],
+    "name": "Auctioneer",
+    "team": "townsfolk",
+    "otherNightReminder": "If today was a Market Day wake up the Auctioneer and signal them how many evil players traded tonight.",
+    "ability": "Once per game, during the day publicly declare tomorrow to be Market Day. The night after a Market Day learn how many evil players traded.",
+    "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
+  },
+  {
+    "id": "botc_fof:merchant",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image_evil.png?raw=true"
+    ],
+    "reminders": [
+      "Is Trading"
+    ],
+    "name": "Merchant",
+    "team": "townsfolk",
+    "ability": "When you trade either player receives an additional potion. Empty Potions you trade become good potions.",
+    "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
+  },
+  {
+    "id": "botc_fof:apothecary",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image_evil.png?raw=true"
+    ],
+    "name": "Apothecary",
+    "team": "townsfolk",
+    "ability": "All types of potions you are holding are nullified.",
+    "flavor": "Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided."
+  },
+  {
+    "id": "botc_fof:pigeonfancier",
+    "edition": "custom",
+    "reminders": [
+      "Active"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image_evil.png?raw=true"
+    ],
+    "name": "Pigeon Fancier",
+    "team": "townsfolk",
+    "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]",
+    "flavor": "Fancy a pigeon?"
+  },
+  {
+    "id": "botc_fof:sommelier",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image_evil.png?raw=true"
+    ],
+    "name": "Sommelier",
+    "team": "outsider",
+    "ability": "Each night one player who would receive a potion might receive one of the opposite alignment instead.",
+    "flavor": "The discovery of a wine is of greater moment than the discovery of a constellation. The universe is too full of stars.",
+    "howtorun": "If a person would receive a duplicate potion they cannot and this ability cannot trigger!"
+  },
+  {
+    "id": "botc_fof:tramp",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image_evil.png?raw=true"
+    ],
+    "name": "Tramp",
+    "team": "outsider",
+    "ability": "Each day & night cycle a player might receive false information. When you die, if you were mad that you are an Outsider, you keep your ability.",
+    "flavor": "Bugrit, millennium hand an' shrimp..."
+  },
+  {
+    "id": "botc_fof:student",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image_evil.png?raw=true"
+    ],
+    "name": "Student",
+    "team": "outsider",
+    "ability": "You may only vote or nominate if you have a trade active.",
+    "flavor": "Education is not the filling of a pail, but the lighting of a fire."
+  },
+  {
+    "id": "botc_fof:butterfingers",
+    "edition": "custom",
+    "reminders": [
+      "Died today"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image_evil.png?raw=true"
+    ],
+    "name": "Butterfingers",
+    "team": "outsider",
+    "otherNightReminder": "If Butterfingers was executed the previous day, replace each Good Potion in the Cauldron with Empty Potions.",
+    "ability": "When you are executed, each good potion in play is emptied.",
+    "flavor": "It took a special kind of man to cut his sword hand with his own sword."
+  },
+  {
+    "id": "botc_fof:crone",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image_good.png?raw=true"
+    ],
+    "name": "Crone",
+    "team": "minion",
+    "reminders": [
+      "Trading, Evil",
+      "Trading, Good"
+    ],
+    "otherNightReminder": "If the Crone traded with an evil player tonight, swap the character tokens of those players on the Grimoire, then wake them up and show them their new tokens. If they traded with a good player tonight, wake them up and show them that player’s token.",
+    "ability": "Each night if you traded with an evil player you swap characters. When you traded with a good player you learn their character.",
+    "flavor": "Why, dearie! You ain't afraid of little old me, are you? Not when there are so much worse things, lurking in the dark?"
+  },
+  {
+    "id": "botc_fof:thug",
+    "edition": "custom",
+    "reminders": [
+      "Mad"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image_good.png?raw=true"
+    ],
+    "name": "Thug",
+    "team": "minion",
+    "firstNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
+    "otherNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
+    "ability": "Each night, choose a player and a character; tomorrow they are \"mad\" that that character is NOT in play or 2 players might receive an evil potion.",
+    "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
+  },
+  {
+    "id": "botc_fof:chemist",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image_good.png?raw=true"
+    ],
+    "name": "Chemist",
+    "team": "minion",
+    "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
+    "ability": "Each night, eye the cauldron; either choose 1) 2 potions to be traded, or 2) a good potion another player holds; you receive it, theirs is emptied.",
+    "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:aberration",
+    "edition": "custom",
+    "reminders": [
+      "Poisoned"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image_good.png?raw=true"
+    ],
+    "name": "Aberration",
+    "team": "minion",
+    "firstNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
+    "otherNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a living player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
+    "ability": "When a Potion of Panic is revealed, a player is poisoned until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic.",
+    "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:megalomaniac",
+    "edition": "custom",
+    "reminders": [
+      "Dead",
+      "Dead",
+      "Booom"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image_good.png?raw=true"
+    ],
+    "name": "Megalomaniac",
+    "team": "demon",
+    "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
+    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. If you announced a Potion of Panic the previous dawn have them choose 2 instead. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player(s). Decide if a player should receive a Potion of Panic, and if one will, choose who.",
+    "ability": "Each night*, choose a player; they die. Each night, a player might receive a Potion of Panic.",
+    "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides.",
+    "special": [
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:commira",
+    "edition": "custom",
+    "reminders": [
+      "Dead"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image_good.png?raw=true"
+    ],
+    "name": "Commira",
+    "team": "demon",
+    "otherNightReminder": "Wake up the Commira and have them choose a player, put the Commira's *Dead* reminder token on that player. Then show them the *Cauldron* and have them pick up to 3 players (their choice) and put them back to sleep. Put a potion on each of the chosen players.",
+    "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion.",
+    "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Choose 3 players to receive potions.",
+        "time": "otherNight"
+      },
+      {
+        "type": "signal",
+        "name": "grimoire",
+        "time": "night"
+      },
+      {
+        "type": "signal",
+        "name": "cauldron",
+        "time": "night"
+      },
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:clofou",
+    "edition": "custom",
+    "reminders": [
+      "Dead",
+      "Turn Evil"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image_good.png?raw=true"
+    ],
+    "name": "Clofou",
+    "team": "demon",
+    "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's *Dead* reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
+    "setup": true,
+    "ability": "Each night*, choose a player; they die. The first time you neighbour or trade with a living Outsider, they become evil. [+1 Outsider]",
+    "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him.",
+    "special": [
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:caetrum",
+    "edition": "custom",
+    "reminders": [
+      "Dead"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image_good.png?raw=true"
+    ],
+    "name": "Caetrum",
+    "team": "demon",
+    "otherNightReminder": "Wake up the Caetrum and have them choose a player. Put the Caetrum to sleep. Put the Caetrum's *Dead* reminder token on the chosen player. As you remove the potions from the chosen player, you may move 1 of them to another player instead.",
+    "ability": "Each night*, choose a player; they die. When a player dies this way, instead of breaking another player might receive 1 of their potions. Each night, a potion might break.",
+    "flavor": "Guaranteed to solve any minor problem by turning it into a major disaster.",
+    "special": [
+      {
+        "type": "potion",
+        "name": "dead",
+        "reminder": "Dead"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofempathy",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy",
+      "Empathy"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
+    ],
+    "name": "Empathy",
+    "team": "loric",
+    "firstNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
+    "otherNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
+    "ability": "Each night you learn what good and evil potions your living neighbors are holding.",
+    "flavor": "Now I know for certain; you feel for me as I feel for you.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "townsfolk"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "outsider"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "minion"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "demon"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your neighbours hold:",
+        "time": "night",
+        "global": "traveller"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "good"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofconviction",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
+    ],
+    "name": "Conviction",
+    "team": "loric",
+    "firstNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
+    "otherNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
+    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
+    "flavor": "I'm quite certain drinking this was a good choice!",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "good"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:glassblower",
+    "edition": "custom",
+    "name": "Glassblower",
+    "team": "fabled",
+    "firstNightReminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of players.",
+    "otherNightReminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of alive players.",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
+    ],
+    "ability": "Each night, potions equal to the voting majority minus 1 are given out.",
+    "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
+  },
   {
     "id": "botc_fof:thecauldron",
     "edition": "custom",
@@ -183,66 +844,41 @@
       }
     ]
   },
-
   {
-    "id": "botc_fof:botanist",
+    "id": "botc_fof:solicitor",
     "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Botanist/image_evil.png?raw=true"
-    ],
+    "otherNightReminder": "Remove any *No Ability* Reminder token. Put the *No Ability* Reminder on any Townsfolk with any *Trade* Reminder token on them.",
     "reminders": [
-      "In Play"
+      "Trade 1",
+      "Trade 1",
+      "Trade 2",
+      "Trade 2",
+      "Trade 3",
+      "Trade 3",
+      "Trade 4",
+      "Trade 4",
+      "Trade 5",
+      "Trade 5",
+      "Trade 6",
+      "Trade 6"
     ],
-    "name": "Botanist",
-    "team": "townsfolk",
-    "firstNightReminder": "Wake up the Botanist and show them the tokens of 2 good characters, 1 which is in play and 1 that is one of the demon's bluffs.",
-    "ability": "You start knowing 2 good characters; 1 is in play and 1 is a demon bluff.",
-    "flavor": "Man, that's groovy.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your characters",
-        "time": "firstNight"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:scout",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image_evil.png?raw=true"
-    ],
-    "setup": true,
-    "name": "Scout",
-    "team": "townsfolk",
-    "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
-    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
-    "flavor": "Var redo! Alltid redo!",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "The longest chain of townsfolk players is:",
-        "time": "firstNight"
-      }
-    ]
-  },
-
-  {
-    "id": "botc_fof:glassblower",
-    "edition": "custom",
-    "name": "Glassblower",
+    "name": "Solicitor",
     "team": "fabled",
-    "firstNightReminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of players.",
-    "otherNightReminder": "Hand out as many potions as the voting majority minus 1, divided amongst any number of alive players.",
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Glassblower/image.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
     ],
-    "ability": "Each night, potions equal to the voting majority minus 1 are given out.",
-    "flavor": "Sometimes, the most beautiful creations are born from shattered dreams."
+    "ability": "2 living players may publicly choose to trade all potions once per day. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
+    "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
+  },
+  {
+    "id": "botc_fof:potionofempathy_ability",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
+    ],
+    "name": "Empathy",
+    "team": "potion good",
+    "ability": "Each night you learn what good and evil potions your living neighbors are holding."
   },
   {
     "id": "botc_fof:toxicologist",
@@ -260,91 +896,6 @@
     "flavor": "Exposure to toxins in our environment can have serious health consequences, so it’s important to take steps to minimize our exposure."
   },
   {
-    "id": "botc_fof:sommelier",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Sommelier/image_evil.png?raw=true"
-    ],
-    "name": "Sommelier",
-    "team": "outsider",
-    "ability": "Each night one player who would receive a potion might receive one of the opposite alignment instead.",
-    "flavor": "The discovery of a wine is of greater moment than the discovery of a constellation. The universe is too full of stars.",
-    "howtorun": "If a person would receive a duplicate potion they cannot and this ability cannot trigger!"
-  },
-  {
-    "id": "botc_fof:farrier",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image_evil.png?raw=true"
-    ],
-    "reminders": [
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen",
-      "Chosen"
-    ],
-    "name": "Farrier",
-    "team": "townsfolk",
-    "firstNightReminder": "Wake up the Farrier and have them choose another player. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
-    "otherNightReminder": "Wake up the Farrier and have them choose another player that they have not chosen previously. Then signal them either yes or no, dependent on if that player is seated closer to an evil player other than themselves, than the Farrier is seated to an evil player.",
-    "ability": "Each night, choose a new player (not yourself); you learn if they are closer to an evil player (not themselves) than you are. If equidistant, this info is arbitrary.",
-    "flavor": "Well, that is close. But close only counts for hand grenades.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "You are closer to an evil player.",
-        "time": "night"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "They are closer to an evil player.",
-        "time": "night"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:clerk",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image_evil.png?raw=true"
-    ],
-    "name": "Clerk",
-    "team": "townsfolk",
-    "ability": "Each night, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
-    "firstNightReminder":"Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
-    "otherNightReminder":"Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
-    "flavor": "Employers are like horses — they require management.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "An evil player received this potion",
-        "time": "otherNight"
-      }
-    ]
-  },
-  {
     "id": "botc_fof:snakeoilseller",
     "edition": "custom",
     "image": [
@@ -360,111 +911,14 @@
     "flavor": "In my scientific opinion, the existence of a Demon would have an impact of gigantic proportions: mythology and legend would become history and science. One could really make a quick buck with it"
   },
   {
-    "id": "botc_fof:chemist",
+    "id": "botc_fof:potionofconviction_ability",
     "edition": "custom",
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Chemist/image_good.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
     ],
-    "name": "Chemist",
-    "team": "minion",
-    "firstNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
-    "otherNightReminder": "Wake up the Chemist and show them the *Cauldron*. Have them choose either 1 or 2:\n  1 - Have them choose 2 potions in the Cauldron and then swap those potion's places.\n  2 - Have them choose a good potion held by another player; move it to them and replace it with an Empty Potion.",
-    "ability": "Each night, eye the cauldron; either choose 1) 2 potions to be traded, or 2) a good potion another player holds; you receive it, theirs is emptied.",
-    "flavor": "Life is just chemicals. A drop here, a drip there, everything's changed.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "grimoire",
-        "time": "night"
-      },
-      {
-        "type": "signal",
-        "name": "cauldron",
-        "time": "night"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:thug",
-    "edition": "custom",
-    "reminders": [
-      "Mad"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image_good.png?raw=true"
-    ],
-    "name": "Thug",
-    "team": "minion",
-    "firstNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
-    "otherNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
-    "ability": "Each night, choose a player and a character; tomorrow they are \"mad\" that that character is NOT in play or 2 players might receive an evil potion.",
-    "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
-  },
-
-  {
-    "id": "botc_fof:tollinspector",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/TollInspector/image_evil.png?raw=true"
-    ],
-    "name": "Toll Inspector",
-    "team": "townsfolk",
-    "otherNightReminder":"Wake up the Toll Inspector and show them the *Cauldron*.",
-    "ability": "Each night*, eye the cauldron.",
-    "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "grimoire",
-        "time": "night"
-      },
-      {
-        "type": "signal",
-        "name": "cauldron",
-        "time": "night"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:distiller",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Distiller/image_evil.png?raw=true"
-    ],
-    "name": "Distiller",
-    "team": "townsfolk",
-    "otherNightReminder": "Wake up the Distiller and have them choose 2 alive players. Then put them to sleep and either put a good Potion on one of the choosen players, or remove an evil potion from one of the choosen players.",
-    "ability": "Each night*, choose 2 alive players; 1 receives a good potion or 1 of their evil potions break.",
-    "flavor": "Ein Glas ist fabelhaft, zwei sind zu viel, und drei zu wenig."
-  },
-  {
-    "id": "botc_fof:clofou",
-    "edition": "custom",
-    "reminders": [
-      "Dead",
-      "Turn Evil"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Clofou/image_good.png?raw=true"
-    ],
-    "name": "Clofou",
-    "team": "demon",
-    "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's *Dead* reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
-    "setup": true,
-    "ability": "Each night*, choose a player; they die. The first time you neighbour or trade with a living Outsider, they become evil. [+1 Outsider]",
-    "flavor": "The saints were his friends, and blessed him; the monsters were his friends, and guarded him.",
-    "special": [
-      {
-        "type": "potion",
-        "name": "dead",
-        "reminder": "Dead"
-      }
-    ]
+    "name": "Conviction",
+    "team": "potion good",
+    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break."
   },
   {
     "id": "botc_fof:fof_harlot",
@@ -485,144 +939,18 @@
     "flavor": "Enchanté, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good."
   },
   {
-    "id": "botc_fof:druid",
+    "id": "botc_fof:socialist",
     "edition": "custom",
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Druid/image_evil.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image_good.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image_evil.png?raw=true"
     ],
-    "name": "Druid",
-    "team": "townsfolk",
-    "ability": "Each night* you may choose a dead player; learn their character type and you might receive an evil potion.",
-    "otherNightReminder": "Wake up the Druid and have them signal if they wish to use their ability. If they do, have them choose a dead player; they learn that player's character type. Put them to sleep, then decide if you want to put an evil potion of them or not.",
-    "flavor": "The great use of life is to spend it for something that will outlast it.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Select a dead player.",
-        "time": "otherNight"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:commira",
-    "edition": "custom",
-    "reminders": [
-      "Dead"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Commira/image_good.png?raw=true"
-    ],
-    "name": "Commira",
-    "team": "demon",
-    "otherNightReminder":"Wake up the Commira and have them choose a player, put the Commira's *Dead* reminder token on that player. Then show them the *Cauldron* and have them pick up to 3 players (their choice) and put them back to sleep. Put a potion on each of the chosen players.",
-    "ability": "Each night*, choose a player; they die. Then eye the cauldron and choose up to 3 players to receive a potion.",
-    "flavor": "Although mankind runs, ever fearful, from that pale rider, Death—\nscouring the globe for a hidden key to save them from reckoning—\nI have no need for secret salvation.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Choose 3 players to receive potions.",
-        "time": "otherNight"
-      },
-      {
-        "type": "signal",
-        "name": "grimoire",
-        "time": "night"
-      },
-      {
-        "type": "signal",
-        "name": "cauldron",
-        "time": "night"
-      },
-      {
-        "type": "potion",
-        "name": "dead",
-        "reminder": "Dead"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:baptist",
-    "edition": "custom",
-    "reminders": [
-      "Cannot die"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Baptist/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Baptist/image_evil.png?raw=true"
-    ],
-    "name": "Baptist",
-    "team": "townsfolk",
-    "ability": "Each night*, choose 2 living players (not yourself); either player might receive a potion. You cannot die on nights players received evil potions from you.",
-    "otherNightReminder": "Wake up the Baptist and have them choose 2 other, living players. Put the Baptist back to sleep. Then decide if you will put a Potion on one of them chosen players, and what type. If you put an evil Potion on either player, put the Cannot Die reminder token on the Baptist.",
-    "flavor": "It's never too soon to contemplate eternal damnation, sir!"
-  },
-  {
-    "id": "botc_fof:merchant",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Merchant/image_evil.png?raw=true"
-    ],
-    "reminders": [
-      "Is Trading"
-    ],
-    "name": "Merchant",
-    "team": "townsfolk",
-    "ability": "When you trade either player receives an additional potion. Empty Potions you trade become good potions.",
-    "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
-  },
-  {
-    "id": "botc_fof:megalomaniac",
-    "edition": "custom",
-    "reminders": [
-      "Dead",
-      "Dead",
-      "Booom"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Megalomaniac/image_good.png?raw=true"
-    ],
-    "name": "Megalomaniac",
-    "team": "demon",
-    "firstNightReminder": "Do not wake the Megalomaniac. Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-    "otherNightReminder": "Wake up the Megalomaniac and have them choose a player. If you announced a Potion of Panic the previous dawn have them choose 2 instead. Put the Megalomaniac to sleep. Put the Megalomaniac's *Dead* reminder token on the chosen player(s). Decide if a player should receive a Potion of Panic, and if one will, choose who.",
-    "ability": "Each night*, choose a player; they die. Each night, a player might receive a Potion of Panic.",
-    "flavor": "I believe you find life such a problem because you think there are the good people and the bad people. You're wrong, of course. There are, always and only, the bad people, but some of them are on opposite sides.",
-    "special": [
-      {
-        "type": "potion",
-        "name": "dead",
-        "reminder": "Dead"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:caetrum",
-    "edition": "custom",
-    "reminders": [
-      "Dead"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Demon/Caetrum/image_good.png?raw=true"
-    ],
-    "name": "Caetrum",
-    "team": "demon",
-    "otherNightReminder": "Wake up the Caetrum and have them choose a player. Put the Caetrum to sleep. Put the Caetrum's *Dead* reminder token on the chosen player. As you remove the potions from the chosen player, you may move 1 of them to another player instead.",
-    "ability": "Each night*, choose a player; they die. When a player dies this way, instead of breaking another player might receive 1 of their potions. Each night, a potion might break.",
-    "flavor": "Guaranteed to solve any minor problem by turning it into a major disaster.",
-    "special": [
-      {
-        "type": "potion",
-        "name": "dead",
-        "reminder": "Dead"
-      }
-    ]
+    "name": "Socialist",
+    "team": "traveller",
+    "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
+    "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
+    "flavor": "The workers must seize the means of production!"
   },
   {
     "id": "botc_fof:fugitive",
@@ -675,198 +1003,105 @@
       }
     ]
   },
-
   {
-    "id": "botc_fof:tramp",
+    "id": "botc_fof:potionofcuriosity",
     "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image_evil.png?raw=true"
-    ],
-    "name": "Tramp",
-    "team": "outsider",
-    "ability": "Each day & night cycle a player might receive false information. When you die, if you were mad that you are an Outsider, you keep your ability.",
-    "flavor": "Bugrit, millennium hand an' shrimp..."
-  },
-  {
-    "id": "botc_fof:connoisseur",
-    "edition": "custom",
-    "reminders": [
-      "Stacked"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Connoisseur/image_evil.png?raw=true"
-    ],
-    "name": "Connoisseur",
-    "team": "townsfolk",
-    "ability": "Each day, you may visit the storyteller to learn a player that is a non-neutral execution for your team today. If you did not use this ability the last day you learn 2 players instead.",
-    "flavor": "Everything in life that’s any fun, as somebody wisely observed, is either immoral, illegal or fattening."
-  },
-
-  {
-    "id": "botc_fof:auctioneer",
-    "edition": "custom",
-    "reminders": [
-      "Market Day (Tomorrow)",
-      "Market Day (Today)"
+    "remindersGlobal": [
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity",
+      "Curiosity"
     ],
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image_evil.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfCuriosity/image.png?raw=true"
     ],
-    "name": "Auctioneer",
-    "team": "townsfolk",
-    "otherNightReminder": "If today was a Market Day wake up the Auctioneer and signal them how many evil players traded tonight.",
-    "ability": "Once per game, during the day publicly declare tomorrow to be Market Day. The night after a Market Day learn how many evil players traded.",
-    "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
-  },
-
-  {
-    "id": "botc_fof:student",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Student/image_evil.png?raw=true"
-    ],
-    "name": "Student",
-    "team": "outsider",
-    "ability": "You may only vote or nominate if you have a trade active.",
-    "flavor": "Education is not the filling of a pail, but the lighting of a fire."
-  },
-
-  {
-    "id": "botc_fof:butterfingers",
-    "edition": "custom",
-    "reminders": [
-      "Died today"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image_evil.png?raw=true"
-    ],
-    "name": "Butterfingers",
-    "team": "outsider",
-    "otherNightReminder": "If Butterfingers was executed the previous day, replace each Good Potion in the Cauldron with Empty Potions.",
-    "ability": "When you are executed, each good potion in play is emptied.",
-    "flavor": "It took a special kind of man to cut his sword hand with his own sword."
-  },
-  {
-    "id": "botc_fof:crone",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Crone/image_good.png?raw=true"
-    ],
-    "name": "Crone",
-    "team": "minion",
-    "reminders": [
-      "Trading, Evil",
-      "Trading, Good"
-    ],
-    "otherNightReminder": "If the Crone traded with an evil player tonight, swap the character tokens of those players on the Grimoire, then wake them up and show them their new tokens. If they traded with a good player tonight, wake them up and show them that player’s token.",
-    "ability": "Each night if you traded with an evil player you swap characters. When you traded with a good player you learn their character.",
-    "flavor": "Why, dearie! You ain't afraid of little old me, are you? Not when there are so much worse things, lurking in the dark?"
-  },
-  {
-    "id": "botc_fof:aberration",
-    "edition": "custom",
-    "reminders": [
-      "Poisoned"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Aberration/image_good.png?raw=true"
-    ],
-    "name": "Aberration",
-    "team": "minion",
-    "firstNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
-    "otherNightReminder": "Wake up the Aberration and show them the *Cauldron*. Have them choose a living player. Put the Aberration back to sleep and put a Potion of Panic on the chosen player.",
-    "ability": "When a Potion of Panic is revealed, a player is poisoned until dawn. Each night, eye the cauldron and choose a player to receive a Potion of Panic.",
-    "flavor": "There are horrors beyond life's edge that we do not suspect, and once in a while man's evil prying calls them just within our range.",
+    "name": "Curiosity",
+    "team": "potion good",
+    "ability": "Each day you may exchange this Potion with the Storyteller privately for an Empty Potion to learn a player you have something in common with.",
+    "flavor": "WARNING: Not safe for cat consumption.",
     "special": [
       {
-        "type": "signal",
-        "name": "grimoire",
-        "time": "night"
+        "type": "selection",
+        "name": "bag-disabled"
       },
       {
-        "type": "signal",
-        "name": "cauldron",
-        "time": "night"
+        "type": "potion",
+        "name": "type",
+        "alignment": "good"
       }
     ]
   },
-
   {
-    "id": "botc_fof:apothecary",
+    "id": "botc_fof:potionofterror",
     "edition": "custom",
+    "remindersGlobal": [
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror"
+    ],
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image_evil.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
     ],
-    "name": "Apothecary",
-    "team": "townsfolk",
-    "ability": "All types of potions you are holding are nullified.",
-    "flavor": "Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided."
+    "name": "Terror",
+    "team": "potion evil",
+    "ability": "Your good potions are face up during the night.",
+    "flavor": "Trademarked by the Institute of Pandemonium Inc.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "evil"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "night"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "night",
+        "alignment": "good"
+      }
+    ]
   },
-
-  {
-    "id": "botc_fof:pigeonfancier",
-    "edition": "custom",
-    "reminders": [
-      "Active"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image_evil.png?raw=true"
-    ],
-    "name": "Pigeon Fancier",
-    "team": "townsfolk",
-    "ability": "While dead, if you died at night, the Glassblower only gives out good potions. [+Glassblower]",
-    "flavor": "Fancy a pigeon?"
-  },
-  {
-    "id": "botc_fof:solicitor",
-    "edition": "custom",
-    "otherNightReminder": "Remove any *No Ability* Reminder token. Put the *No Ability* Reminder on any Townsfolk with any *Trade* Reminder token on them.",
-    "reminders": [
-      "Trade 1",
-      "Trade 1",
-      "Trade 2",
-      "Trade 2",
-      "Trade 3",
-      "Trade 3",
-      "Trade 4",
-      "Trade 4",
-      "Trade 5",
-      "Trade 5",
-      "Trade 6",
-      "Trade 6"
-    ],
-    "name": "Solicitor",
-    "team": "fabled",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
-    ],
-    "ability": "2 living players may publicly choose to trade all potions once per day. If either player is dead when the trade would happen, no trade occurs and no player loses their ability.",
-    "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
-  },
-  {
-    "id": "botc_fof:socialist",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image_good.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Traveller/Socialist/image_evil.png?raw=true"
-    ],
-    "name": "Socialist",
-    "team": "traveller",
-    "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
-    "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
-    "flavor": "The workers must seize the means of production!"
-  },
-
   {
     "id": "botc_fof:emptypotion",
     "edition": "custom",
@@ -952,110 +1187,37 @@
     ]
   },
   {
-    "id": "botc_fof:potionofpanic",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
-    ],
-    "remindersGlobal": [
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic"
-    ],
-    "name": "Panic",
-    "team": "special",
-    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced at dawn.",
-    "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "special"
-      },
-      {
-        "type": "potion",
-        "name": "on-show",
-        "special": {
-          "type": "potion",
-          "name": "show"
-        }
-      }
-    ]
-  },
-
-  {
-    "id": "botc_fof:potionofdisdain",
+    "id": "botc_fof:potionofobsession",
     "edition": "custom",
     "remindersGlobal": [
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession",
+      "Obsession"
     ],
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
     ],
-    "name": "Disdain",
+    "name": "Obsession",
     "team": "potion evil",
-    "ability": "At dusk this potion is nullified and breaks. If you nominate this potion breaks. When this potion breaks, you might be poisoned for one night & day cycle.",
-    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "ability": "When this potion is revealed; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
+    "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
     "special": [
       {
         "type": "selection",
@@ -1064,8 +1226,7 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil",
-        "reminder": "Disdain"
+        "alignment": "evil"
       },
       {
         "type": "potion",
@@ -1122,398 +1283,6 @@
         "time": "night"
       }
     ]
-  },
-  {
-    "id": "botc_fof:potionofobsession",
-    "edition": "custom",
-    "remindersGlobal": [
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession",
-      "Obsession"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
-    ],
-    "name": "Obsession",
-    "team": "potion evil",
-    "ability": "When this potion is revealed; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
-    "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "evil"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionofstress",
-    "edition": "custom",
-    "reminders": [
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed",
-      "Stressed"
-    ],
-    "remindersGlobal": [
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress",
-      "Stress"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfStress/image.png?raw=true"
-    ],
-    "name": "Stress",
-    "team": "potion evil",
-    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment once until dawn.",
-    "flavor": "Some say it's just caffeinated water.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "evil",
-        "reminder": "Stress"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionofterror",
-    "edition": "custom",
-    "remindersGlobal": [
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
-    ],
-    "name": "Terror",
-    "team": "potion evil",
-    "ability": "Your good potions are face up during the night.",
-    "flavor": "Trademarked by the Institute of Pandemonium Inc.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "evil"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night",
-        "alignment": "good"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionevil",
-    "edition": "custom",
-    "remindersGlobal": [
-      " "
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/image.png?raw=true"
-    ],
-    "name": "Evil",
-    "team": "potion evil",
-    "ability": " ",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "backside",
-        "alignment": "evil"
-      }
-    ]
-  },
-
-  {
-    "id": "botc_fof:potionofconviction",
-    "edition": "custom",
-    "remindersGlobal": [
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
-    ],
-    "name": "Conviction",
-    "team": "loric",
-    "firstNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
-    "otherNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
-    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
-    "flavor": "I'm quite certain drinking this was a good choice!",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "good"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionofconviction_ability",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
-    ],
-    "name": "Conviction",
-    "team": "potion good",
-    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break."
-  },
-  {
-    "id": "botc_fof:potionofcuriosity",
-    "edition": "custom",
-    "remindersGlobal": [
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity",
-      "Curiosity"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfCuriosity/image.png?raw=true"
-    ],
-    "name": "Curiosity",
-    "team": "potion good",
-    "ability": "Each day you may exchange this Potion with the Storyteller privately for an Empty Potion to learn a player you have something in common with.",
-    "flavor": "WARNING: Not safe for cat consumption.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "good"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionofempathy",
-    "edition": "custom",
-    "remindersGlobal": [
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy",
-      "Empathy"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
-    ],
-    "name": "Empathy",
-    "team": "loric",
-    "firstNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
-    "otherNightReminder": "Wake up the holder and show them the tokens of each type of good and evil potion held by their living neighbors.",
-    "ability": "Each night you learn what good and evil potions your living neighbors are holding.",
-    "flavor": "Now I know for certain; you feel for me as I feel for you.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your neighbours hold:",
-        "time": "night",
-        "global": "townsfolk"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your neighbours hold:",
-        "time": "night",
-        "global": "outsider"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your neighbours hold:",
-        "time": "night",
-        "global": "minion"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your neighbours hold:",
-        "time": "night",
-        "global": "demon"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your neighbours hold:",
-        "time": "night",
-        "global": "traveller"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "good"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:potionofempathy_ability",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfEmpathy/image.png?raw=true"
-    ],
-    "name": "Empathy",
-    "team": "potion good",
-    "ability": "Each night you learn what good and evil potions your living neighbors are holding."
   },
   {
     "id": "botc_fof:potionofgenerosity",
@@ -1604,6 +1373,30 @@
     ]
   },
   {
+    "id": "botc_fof:potionevil",
+    "edition": "custom",
+    "remindersGlobal": [
+      " "
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/image.png?raw=true"
+    ],
+    "name": "Evil",
+    "team": "potion evil",
+    "ability": " ",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "backside",
+        "alignment": "evil"
+      }
+    ]
+  },
+  {
     "id": "botc_fof:potiongood",
     "edition": "custom",
     "remindersGlobal": [
@@ -1629,6 +1422,200 @@
         "type": "potion",
         "name": "backside",
         "alignment": "special"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofpanic",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
+    ],
+    "remindersGlobal": [
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic"
+    ],
+    "name": "Panic",
+    "team": "special",
+    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced at dawn.",
+    "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "special"
+      },
+      {
+        "type": "potion",
+        "name": "on-show",
+        "special": {
+          "type": "potion",
+          "name": "show"
+        }
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofstress",
+    "edition": "custom",
+    "reminders": [
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed",
+      "Stressed"
+    ],
+    "remindersGlobal": [
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress",
+      "Stress"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfStress/image.png?raw=true"
+    ],
+    "name": "Stress",
+    "team": "potion evil",
+    "ability": "This potion might break to have its holder register as the opposite alignment or a character types of the opposite alignment once until dawn.",
+    "flavor": "Some say it's just caffeinated water.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "evil",
+        "reminder": "Stress"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofdisdain",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+    ],
+    "name": "Disdain",
+    "team": "potion evil",
+    "ability": "At dusk this potion is nullified and breaks. If you nominate this potion breaks. When this potion breaks, you might be poisoned for one night & day cycle.",
+    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "evil",
+        "reminder": "Disdain"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "night"
       }
     ]
   }
