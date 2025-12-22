@@ -22,11 +22,8 @@
     },
     {
       "type": "signal",
-      "name": "grimoire"
-    },
-    {
-      "type": "signal",
-      "name": "cauldron"
+      "name": "cauldron",
+      "time": "night"
     },
     {
       "type": "potion",
