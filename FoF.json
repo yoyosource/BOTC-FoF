@@ -525,7 +525,7 @@
       {
         "type": "signal",
         "name": "card",
-        "value": "Choose 3 players to receive potions.",
+        "value": "Choose up to 3 players to receive potions.",
         "time": "otherNight"
       },
       {
