@@ -327,6 +327,7 @@
                     for (const key in result) {
                         const elements = result[key];
                         const htmlElement = document.getElementById(key);
+                        if (!htmlElement) continue;
                         let html = "";
                         for (const data of elements) {
                             html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3>" + data.name + "</h3><br>" + data.ability;
