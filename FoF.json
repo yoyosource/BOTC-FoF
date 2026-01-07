@@ -858,7 +858,8 @@
     ],
     "name": "Empathy",
     "team": "potion good",
-    "ability": "Each night you learn what good and evil potions your living neighbors are holding."
+    "ability": "Each night you learn what good and evil potions your living neighbors are holding.",
+    "flavor": "Now I know for certain; you feel for me as I feel for you."
   },
   {
     "id": "botc_fof:toxicologist",
@@ -898,7 +899,8 @@
     ],
     "name": "Conviction",
     "team": "potion good",
-    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break."
+    "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
+    "flavor": "I'm quite certain drinking this was a good choice!"
   },
   {
     "id": "botc_fof:fof_harlot",
