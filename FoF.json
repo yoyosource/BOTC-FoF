@@ -1437,7 +1437,7 @@
     ],
     "name": "Panic",
     "team": "special",
-    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced at dawn.",
+    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, the Megalomaniac acts twice next night.",
     "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
     "special": [
       {
