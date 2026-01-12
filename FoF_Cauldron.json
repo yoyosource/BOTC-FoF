@@ -141,7 +141,7 @@
     ],
     "name": "Panic",
     "team": "special",
-    "ability": "Cannot be nullified. This potion cannot be flipped back face down. When broken, if face down, it is announced at dawn.",
+    "ability": "Cannot be nullified. This potion cannot be flipped back veiled. When broken, if veiled, it is announced at dawn.",
     "special": [
       {
         "type": "selection",
@@ -382,7 +382,7 @@
     ],
     "name": "Terror",
     "team": "potion evil",
-    "ability": "Your good potions are face up during the night.",
+    "ability": "Your good potions are unveiled during the night.",
     "special": [
       {
         "type": "selection",

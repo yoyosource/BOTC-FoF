@@ -7,6 +7,6 @@
   ],
   "name": "Tramp",
   "team": "outsider",
-  "ability": "Each day & night cycle a player might receive false information. When you die, if you were mad that you are an Outsider, you keep your ability.",
+  "ability": "Each night, a player receive a Potion of Panic. Veiled PoP:s might make the holder drunk. If you were \"mad\" about being the Tramp, you keep your ability while dead.",
   "flavor": "Bugrit, millennium hand an' shrimp..."
 }
