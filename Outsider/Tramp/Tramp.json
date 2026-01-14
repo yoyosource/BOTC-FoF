@@ -1,6 +1,9 @@
 {
   "id": "tramp",
   "edition": "custom",
+  "reminders": [
+    "Drunk"
+  ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image_evil.png?raw=true"

@@ -22,6 +22,7 @@
       "botc_fof:thug",
       "botc_fof:megalomaniac",
       "botc_fof:chemist",
+      "botc_fof:tramp",
       "botc_fof:snakeoilseller",
       "botc_fof:toxicologist",
       "botc_fof:botanist",
@@ -40,6 +41,7 @@
       "botc_fof:butterfingers",
       "botc_fof:glassblower",
       "botc_fof:thug",
+      "botc_fof:tramp",
       "botc_fof:baptist",
       "botc_fof:snakeoilseller",
       "botc_fof:toxicologist",
@@ -363,6 +365,9 @@
   {
     "id": "botc_fof:tramp",
     "edition": "custom",
+    "reminders": [
+      "Drunk"
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image_evil.png?raw=true"
