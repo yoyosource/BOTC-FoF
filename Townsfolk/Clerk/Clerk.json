@@ -9,7 +9,7 @@
   "team": "townsfolk",
   "firstNightReminder":"Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
   "otherNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
-  "ability": "Each night, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
+  "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
   "flavor": "Employers are like horses — they require management.",
   "special": [
     {
