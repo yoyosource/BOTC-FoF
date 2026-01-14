@@ -415,7 +415,7 @@
       "Trading, Good"
     ],
     "otherNightReminder": "If the Crone traded with an evil player tonight, swap the character tokens of those players on the Grimoire, then wake them up and show them their new tokens. If they traded with a good player tonight, wake them up and show them that player’s token.",
-    "ability": "Each night if you traded with an evil player you swap characters. When you traded with a good player you learn their character.",
+    "ability": "Each night if you traded with an evil player you swap characters. If you traded with a good player you learn their character.",
     "flavor": "Why, dearie! You ain't afraid of little old me, are you? Not when there are so much worse things, lurking in the dark?"
   },
   {
