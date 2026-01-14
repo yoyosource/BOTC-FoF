@@ -10,6 +10,6 @@
   ],
   "name": "Connoisseur",
   "team": "townsfolk",
-  "ability": "Each day, you may visit the storyteller to learn a player that is a non-neutral execution for your team today. If you did not use this ability the last day you learn 2 players instead.",
+  "ability": "Each day, you may visit the storyteller to learn a player that is a non-neutral execution for your team today.",
   "flavor": "Everything in life that’s any fun, as somebody wisely observed, is either immoral, illegal or fattening."
 }
