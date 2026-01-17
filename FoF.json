@@ -123,13 +123,13 @@
     "name": "Scout",
     "team": "townsfolk",
     "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
-    "ability": "You start knowing the longest chain of Townfolk players. [+0/+1 Outsiders]",
+    "ability": "You start knowing the length of your chain of townsfolk. [+0/+1 Outsider]",
     "flavor": "Var redo! Alltid redo!",
     "special": [
       {
         "type": "signal",
         "name": "card",
-        "value": "The longest chain of townsfolk players is:",
+        "value": "Your chain of townsfolk players is:",
         "time": "firstNight"
       }
     ]
