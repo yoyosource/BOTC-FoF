@@ -16,6 +16,7 @@
     "almanac": "https://yoyosource.github.io/BOTC-FoF/Almanac.html",
     "firstNight": [
       "DUSK",
+      "botc_fof:tollinspector",
       "MINIONINFO",
       "DEMONINFO",
       "botc_fof:glassblower",
@@ -53,7 +54,6 @@
       "botc_fof:caetrum",
       "botc_fof:clofou",
       "botc_fof:chemist",
-      "botc_fof:tollinspector",
       "botc_fof:aberration",
       "botc_fof:druid",
       "botc_fof:distiller",
@@ -215,8 +215,12 @@
     ],
     "name": "Toll Inspector",
     "team": "townsfolk",
+    "setup": true,
     "otherNightReminder": "Wake up the Toll Inspector and show them the *Cauldron*.",
-    "ability": "Each night*, eye the cauldron.",
+    "reminders": [
+      "Wake Toll Inspector"
+    ],
+    "ability": "Each night*, eye the cauldron. [You choose your slot on the night order.]",
     "flavor": "I had to pay a ransom of six hundred pounds in gold. All might have gone well even yet, only that, by ins and outs and crookedness of laws, I was shorn like a sheep that is clipped to the quick.",
     "special": [
       {
