@@ -28,7 +28,7 @@
   ],
   "name": "Panic",
   "team": "special",
-  "ability": "Cannot be nullified. This potion cannot be flipped back veiled. When broken, if veiled, the Megalomaniac acts twice next night.",
+  "ability": "Cannot be nullified. This potion cannot be veiled once unveiled. When broken, if veiled, the Megalomaniac acts twice next night.",
   "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
   "special": [
     {
