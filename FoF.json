@@ -158,7 +158,7 @@
     ]
   },
   {
-    "id": "farrier",
+    "id": "botc_fof:farrier",
     "edition": "custom",
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Farrier/image.png?raw=true",
