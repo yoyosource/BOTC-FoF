@@ -11,6 +11,7 @@
   ],
   "name": "Auctioneer",
   "team": "townsfolk",
+  "otherNightReminder": " ",
   "ability": "Each night*, learn if an evil player traded tonight.",
   "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!",
   "special": [

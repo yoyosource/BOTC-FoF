@@ -166,6 +166,8 @@
     ],
     "name": "Farrier",
     "team": "townsfolk",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
     "ability": "Each night, you learn a good player. There is an evil player that registers as good to you.",
     "flavor": "Well, that is close. But close only counts for hand grenades."
   },
@@ -179,6 +181,7 @@
     "name": "Toll Inspector",
     "team": "townsfolk",
     "setup": true,
+    "firstNightReminder": " ",
     "otherNightReminder": "Wake up the Toll Inspector and show them the *Cauldron*.",
     "reminders": [
       "Wake Toll Inspector"
@@ -271,6 +274,7 @@
     ],
     "name": "Auctioneer",
     "team": "townsfolk",
+    "otherNightReminder": " ",
     "ability": "Each night*, learn if an evil player traded tonight.",
     "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!",
     "special": [
@@ -355,6 +359,8 @@
     ],
     "name": "Tramp",
     "team": "outsider",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
     "ability": "Each night, a player receive a Potion of Panic. Veiled PoP:s might make the holder drunk. If you were \"mad\" about being the Tramp, you keep your ability while dead.",
     "flavor": "Bugrit, millennium hand an' shrimp..."
   },
@@ -414,6 +420,8 @@
     ],
     "name": "Thug",
     "team": "minion",
+    "firstNightReminder": " ",
+    "otherNightReminder": " ",
     "ability": "Each night, choose a player and a task. If they do not perform that task tomorrow, a player might receive a potion and a potion might break.",
     "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
   },
@@ -535,6 +543,7 @@
     ],
     "name": "Clofou",
     "team": "demon",
+    "firstNightReminder": " ",
     "otherNightReminder": "Wake up the Clofou and have them choose a player. Then put them back to sleep and put the Clofou's *Dead* reminder token on the chosen player. The first time they are neighbouring an alive Outsider wake them and tell them that they are evil.",
     "setup": true,
     "ability": "Each night*, choose a player; they die. The first time you neighbour or trade with a living Outsider, they become evil. [+1 Outsider]",
@@ -1472,6 +1481,7 @@
     ],
     "name": "Disdain",
     "team": "loric",
+    "otherNightReminder": " ",
     "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
     "flavor": "I do not HATE you. You don't DESERVE hatred.",
     "special": [

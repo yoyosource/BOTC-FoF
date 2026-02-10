@@ -10,6 +10,8 @@
   ],
   "name": "Thug",
   "team": "minion",
+  "firstNightReminder": " ",
+  "otherNightReminder": " ",
   "ability": "Each night, choose a player and a task. If they do not perform that task tomorrow, a player might receive a potion and a potion might break.",
   "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
 }

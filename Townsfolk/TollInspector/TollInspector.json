@@ -8,6 +8,7 @@
   "name": "Toll Inspector",
   "team": "townsfolk",
   "setup": true,
+  "firstNightReminder": " ",
   "otherNightReminder": "Wake up the Toll Inspector and show them the *Cauldron*.",
   "reminders": [
     "Wake Toll Inspector"

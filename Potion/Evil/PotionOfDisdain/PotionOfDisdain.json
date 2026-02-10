@@ -48,6 +48,7 @@
   ],
   "name": "Disdain",
   "team": "potion evil",
+  "otherNightReminder": " ",
   "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
   "flavor": "I do not HATE you. You don't DESERVE hatred.",
   "special": [

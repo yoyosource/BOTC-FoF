@@ -10,6 +10,8 @@
   ],
   "name": "Tramp",
   "team": "outsider",
+  "firstNightReminder": " ",
+  "otherNightReminder": " ",
   "ability": "Each night, a player receive a Potion of Panic. Veiled PoP:s might make the holder drunk. If you were \"mad\" about being the Tramp, you keep your ability while dead.",
   "flavor": "Bugrit, millennium hand an' shrimp..."
 }
