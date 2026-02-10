@@ -20,7 +20,6 @@
       "MINIONINFO",
       "DEMONINFO",
       "botc_fof:glassblower",
-      "botc_fof:thug",
       "botc_fof:megalomaniac",
       "botc_fof:clofou",
       "botc_fof:chemist",
@@ -31,6 +30,7 @@
       "botc_fof:scout",
       "botc_fof:aberration",
       "botc_fof:farrier",
+      "botc_fof:thug",
       "botc_fof:potionofempathy",
       "botc_fof:potionofconviction",
       "DAWN"
@@ -43,7 +43,6 @@
       "botc_fof:potionofdisdain",
       "botc_fof:butterfingers",
       "botc_fof:glassblower",
-      "botc_fof:thug",
       "botc_fof:tramp",
       "botc_fof:baptist",
       "botc_fof:snakeoilseller",
@@ -60,6 +59,7 @@
       "botc_fof:distiller",
       "botc_fof:farrier",
       "botc_fof:clerk",
+      "botc_fof:thug",
       "botc_fof:auctioneer",
       "botc_fof:potionofempathy",
       "botc_fof:potionofconviction",
@@ -410,7 +410,7 @@
     "id": "botc_fof:thug",
     "edition": "custom",
     "reminders": [
-      "Mad"
+      "Has Task"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Minion/Thug/image.png?raw=true",
@@ -418,9 +418,7 @@
     ],
     "name": "Thug",
     "team": "minion",
-    "firstNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
-    "otherNightReminder": "Wake up the Thug and have them choose a player and a character. Put the Thug's *Mad* reminder token on that player. Put the Thug to sleep and wake up the chosen player. Inform them that they were chosen by the Thug and the character chosen by the Thug.",
-    "ability": "Each night, choose a player and a character; tomorrow they are \"mad\" that that character is NOT in play or 2 players might receive an evil potion.",
+    "ability": "Each night, choose a player and a task. If they do not perform that task tomorrow, a player might receive a potion and a potion might break.",
     "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
   },
   {
