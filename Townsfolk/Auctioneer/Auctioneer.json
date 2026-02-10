@@ -12,5 +12,19 @@
   "name": "Auctioneer",
   "team": "townsfolk",
   "ability": "Each night*, learn if an evil player traded tonight.",
-  "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
+  "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!",
+  "special": [
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "An Evil player traded tonight.",
+      "time": "otherNight"
+    },
+    {
+      "type": "signal",
+      "name": "card",
+      "value": "NO Evil player traded tonight.",
+      "time": "otherNight"
+    }
+  ]
 }
