@@ -87,6 +87,28 @@
     }
   },
   {
+    "id": "botc_fof:scout",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image_evil.png?raw=true"
+    ],
+    "setup": true,
+    "name": "Scout",
+    "team": "townsfolk",
+    "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
+    "ability": "You start knowing the length of your chain of townsfolk. [+0/+1 Outsider]",
+    "flavor": "Var redo! Alltid redo!",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Your chain of townsfolk players is:",
+        "time": "firstNight"
+      }
+    ]
+  },
+  {
     "id": "botc_fof:botanist",
     "edition": "custom",
     "image": [
@@ -111,50 +133,6 @@
     ]
   },
   {
-    "id": "botc_fof:scout",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Scout/image_evil.png?raw=true"
-    ],
-    "setup": true,
-    "name": "Scout",
-    "team": "townsfolk",
-    "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
-    "ability": "You start knowing the length of your chain of townsfolk. [+0/+1 Outsider]",
-    "flavor": "Var redo! Alltid redo!",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "Your chain of townsfolk players is:",
-        "time": "firstNight"
-      }
-    ]
-  },
-  {
-    "id": "botc_fof:clerk",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image_evil.png?raw=true"
-    ],
-    "name": "Clerk",
-    "team": "townsfolk",
-    "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
-    "firstNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
-    "otherNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
-    "flavor": "Employers are like horses — they require management.",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "An evil player received this potion",
-        "time": "otherNight"
-      }
-    ]
-  },
-  {
     "id": "botc_fof:farrier",
     "edition": "custom",
     "image": [
@@ -170,6 +148,37 @@
     "otherNightReminder": " ",
     "ability": "Each night, you learn a good player. There is an evil player that registers as good to you.",
     "flavor": "Well, that is close. But close only counts for hand grenades."
+  },
+  {
+    "id": "botc_fof:auctioneer",
+    "edition": "custom",
+    "reminders": [
+      "Evil Traded",
+      "Evil Not Traded"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image_evil.png?raw=true"
+    ],
+    "name": "Auctioneer",
+    "team": "townsfolk",
+    "otherNightReminder": " ",
+    "ability": "Each night*, learn if an evil player traded tonight.",
+    "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "An Evil player traded tonight.",
+        "time": "otherNight"
+      },
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "NO Evil player traded tonight.",
+        "time": "otherNight"
+      }
+    ]
   },
   {
     "id": "botc_fof:tollinspector",
@@ -231,6 +240,28 @@
     ]
   },
   {
+    "id": "botc_fof:clerk",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Clerk/image_evil.png?raw=true"
+    ],
+    "name": "Clerk",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
+    "firstNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
+    "otherNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
+    "flavor": "Employers are like horses — they require management.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "An evil player received this potion",
+        "time": "otherNight"
+      }
+    ]
+  },
+  {
     "id": "botc_fof:baptist",
     "edition": "custom",
     "reminders": [
@@ -262,37 +293,6 @@
     "flavor": "Everything in life that’s any fun, as somebody wisely observed, is either immoral, illegal or fattening."
   },
   {
-    "id": "botc_fof:auctioneer",
-    "edition": "custom",
-    "reminders": [
-      "Evil Traded",
-      "Evil Not Traded"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image_evil.png?raw=true"
-    ],
-    "name": "Auctioneer",
-    "team": "townsfolk",
-    "otherNightReminder": " ",
-    "ability": "Each night*, learn if an evil player traded tonight.",
-    "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!",
-    "special": [
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "An Evil player traded tonight.",
-        "time": "otherNight"
-      },
-      {
-        "type": "signal",
-        "name": "card",
-        "value": "NO Evil player traded tonight.",
-        "time": "otherNight"
-      }
-    ]
-  },
-  {
     "id": "botc_fof:merchant",
     "edition": "custom",
     "image": [
@@ -308,18 +308,6 @@
     "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
   },
   {
-    "id": "botc_fof:apothecary",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image.png?raw=true",
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image_evil.png?raw=true"
-    ],
-    "name": "Apothecary",
-    "team": "townsfolk",
-    "ability": "All types of potions you are holding are nullified.",
-    "flavor": "Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided."
-  },
-  {
     "id": "botc_fof:pigeonfancier",
     "edition": "custom",
     "reminders": [
@@ -333,6 +321,18 @@
     "team": "townsfolk",
     "ability": "If you died at night, from now on the Glassblower only gives out good potions. [+Glassblower]",
     "flavor": "Fancy a pigeon?"
+  },
+  {
+    "id": "botc_fof:apothecary",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Apothecary/image_evil.png?raw=true"
+    ],
+    "name": "Apothecary",
+    "team": "townsfolk",
+    "ability": "All types of potions you are holding are nullified.",
+    "flavor": "Medicine is not only a science; it is also an art. It does not consist of compounding pills and plasters; it deals with the very processes of life, which must be understood before they may be guided."
   },
   {
     "id": "botc_fof:sommelier",
@@ -661,6 +661,77 @@
     ]
   },
   {
+    "id": "botc_fof:potionofdisdain",
+    "edition": "custom",
+    "remindersGlobal": [
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Disdain",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Poisoned"
+    ],
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+    ],
+    "name": "Disdain",
+    "team": "loric",
+    "otherNightReminder": " ",
+    "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
+    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "evil",
+        "reminder": "Disdain"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "night"
+      }
+    ]
+  },
+  {
     "id": "botc_fof:glassblower",
     "edition": "custom",
     "name": "Glassblower",
@@ -843,50 +914,6 @@
     "flavor": "In my scientific opinion, the existence of a Demon would have an impact of gigantic proportions: mythology and legend would become history and science. One could really make a quick buck with it"
   },
   {
-    "id": "botc_fof:potionofconviction",
-    "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
-    ],
-    "remindersGlobal": [
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction",
-      "Conviction"
-    ],
-    "name": "Conviction",
-    "team": "potion good",
-    "ability": "This potion cannot be nullified. You may publicly break this potion to nominate a player that was previously nominated today even if you have nominated today.",
-    "flavor": "I'm quite certain drinking this was a good choice!",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "good"
-      }
-    ]
-  },
-  {
     "id": "botc_fof:fof_harlot",
     "edition": "custom",
     "image": [
@@ -917,6 +944,23 @@
     "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
     "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
     "flavor": "The workers must seize the means of production!"
+  },
+  {
+    "id": "botc_fof:potionofdisdain_ability",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+    ],
+    "name": "Disdain",
+    "team": "potion evil",
+    "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
+    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
+      }
+    ]
   },
   {
     "id": "botc_fof:fugitive",
@@ -1014,37 +1058,37 @@
     ]
   },
   {
-    "id": "botc_fof:potionofterror",
+    "id": "botc_fof:potionofgenerosity",
     "edition": "custom",
     "remindersGlobal": [
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror",
-      "Terror"
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity",
+      "Generosity"
     ],
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfGenerosity/image.png?raw=true"
     ],
-    "name": "Terror",
-    "team": "potion evil",
-    "ability": "Your good potions are unveiled during the night.",
-    "flavor": "Trademarked by the Institute of Pandemonium Inc.",
+    "name": "Generosity",
+    "team": "potion good",
+    "ability": "When this potion is traded, an evil potion part of that trade breaks. If an evil potion breaks this way, this potion breaks.",
+    "flavor": "I give that you may give.",
     "special": [
       {
         "type": "selection",
@@ -1053,17 +1097,6 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night",
         "alignment": "good"
       }
     ]
@@ -1167,50 +1200,6 @@
     ]
   },
   {
-    "id": "botc_fof:potionofgenerosity",
-    "edition": "custom",
-    "remindersGlobal": [
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity",
-      "Generosity"
-    ],
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfGenerosity/image.png?raw=true"
-    ],
-    "name": "Generosity",
-    "team": "potion good",
-    "ability": "When this potion is traded, an evil potion part of that trade breaks. If an evil potion breaks this way, this potion breaks.",
-    "flavor": "I give that you may give.",
-    "special": [
-      {
-        "type": "selection",
-        "name": "bag-disabled"
-      },
-      {
-        "type": "potion",
-        "name": "type",
-        "alignment": "good"
-      }
-    ]
-  },
-  {
     "id": "botc_fof:potionofjoy",
     "edition": "custom",
     "remindersGlobal": [
@@ -1308,37 +1297,37 @@
     ]
   },
   {
-    "id": "botc_fof:potionofpanic",
+    "id": "botc_fof:potionofterror",
     "edition": "custom",
-    "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
-    ],
     "remindersGlobal": [
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic",
-      "Panic"
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror",
+      "Terror"
     ],
-    "name": "Panic",
-    "team": "special",
-    "ability": "Cannot be nullified. This potion cannot be veiled once unveiled. When broken, if veiled, the Megalomaniac acts twice next night.",
-    "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
+    ],
+    "name": "Terror",
+    "team": "potion evil",
+    "ability": "Your good potions are unveiled during the night.",
+    "flavor": "Trademarked by the Institute of Pandemonium Inc.",
     "special": [
       {
         "type": "selection",
@@ -1347,15 +1336,18 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "special"
+        "alignment": "evil"
       },
       {
         "type": "potion",
-        "name": "on-show",
-        "special": {
-          "type": "potion",
-          "name": "show"
-        }
+        "name": "show",
+        "time": "night"
+      },
+      {
+        "type": "potion",
+        "name": "show",
+        "time": "night",
+        "alignment": "good"
       }
     ]
   },
@@ -1432,58 +1424,37 @@
     ]
   },
   {
-    "id": "botc_fof:potionofdisdain",
+    "id": "botc_fof:potionofpanic",
     "edition": "custom",
-    "remindersGlobal": [
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Disdain",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned",
-      "Poisoned"
-    ],
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Special/PotionOfPanic/image.png?raw=true"
     ],
-    "name": "Disdain",
-    "team": "loric",
-    "otherNightReminder": " ",
-    "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
-    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "remindersGlobal": [
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic",
+      "Panic"
+    ],
+    "name": "Panic",
+    "team": "special",
+    "ability": "Cannot be nullified. This potion cannot be veiled once unveiled. When broken, if veiled, the Megalomaniac acts twice next night.",
+    "flavor": "Has a somewhat greenish-teal hue, unlike the Potion of Pain which is a pinkish purple.",
     "special": [
       {
         "type": "selection",
@@ -1492,30 +1463,59 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil",
-        "reminder": "Disdain"
+        "alignment": "special"
       },
       {
         "type": "potion",
-        "name": "show",
-        "time": "night"
+        "name": "on-show",
+        "special": {
+          "type": "potion",
+          "name": "show"
+        }
       }
     ]
   },
   {
-    "id": "botc_fof:potionofdisdain_ability",
+    "id": "botc_fof:potionofconviction",
     "edition": "custom",
     "image": [
-      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Good/PotionOfConviction/image.png?raw=true"
     ],
-    "name": "Disdain",
-    "team": "potion evil",
-    "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
-    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "remindersGlobal": [
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction",
+      "Conviction"
+    ],
+    "name": "Conviction",
+    "team": "potion good",
+    "ability": "This potion cannot be nullified. You may publicly break this potion to nominate a player that was previously nominated today even if you have nominated today.",
+    "flavor": "I'm quite certain drinking this was a good choice!",
     "special": [
       {
         "type": "selection",
         "name": "bag-disabled"
+      },
+      {
+        "type": "potion",
+        "name": "type",
+        "alignment": "good"
       }
     ]
   }
