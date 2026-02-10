@@ -48,7 +48,7 @@
   ],
   "name": "Disdain",
   "team": "potion evil",
-  "ability": "At dusk this potion is nullified and breaks. If you nominate this potion breaks. When this potion breaks, you might be poisoned for one night & day cycle.",
+  "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
   "flavor": "I do not HATE you. You don't DESERVE hatred.",
   "special": [
     {
