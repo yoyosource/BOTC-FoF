@@ -28,7 +28,7 @@
   ],
   "name": "Generosity",
   "team": "potion good",
-  "ability": "If you would receive an evil Potion, this one breaks and another player receives that potion instead.",
+  "ability": "When this potion is traded, an evil potion part of that trade breaks. If an evil potion breaks this way, this potion breaks.",
   "flavor": "I give that you may give.",
   "special": [
     {
