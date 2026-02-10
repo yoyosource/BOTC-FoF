@@ -1471,7 +1471,7 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
     ],
     "name": "Disdain",
-    "team": "potion evil",
+    "team": "loric",
     "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
     "flavor": "I do not HATE you. You don't DESERVE hatred.",
     "special": [
@@ -1489,6 +1489,23 @@
         "type": "potion",
         "name": "show",
         "time": "night"
+      }
+    ]
+  },
+  {
+    "id": "botc_fof:potionofdisdain_ability",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfDisdain/image.png?raw=true"
+    ],
+    "name": "Disdain",
+    "team": "potion evil",
+    "ability": "Each night*, a player you nominated today might be poisoned until dusk. When this potion is traded it is nullified until dawn.",
+    "flavor": "I do not HATE you. You don't DESERVE hatred.",
+    "special": [
+      {
+        "type": "selection",
+        "name": "bag-disabled"
       }
     ]
   }
