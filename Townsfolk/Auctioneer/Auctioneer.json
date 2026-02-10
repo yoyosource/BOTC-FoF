@@ -2,8 +2,8 @@
   "id": "auctioneer",
   "edition": "custom",
   "reminders": [
-    "Market Day (Tomorrow)",
-    "Market Day (Today)"
+    "Evil Traded",
+    "Evil Not Traded"
   ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Auctioneer/image.png?raw=true",
@@ -11,7 +11,6 @@
   ],
   "name": "Auctioneer",
   "team": "townsfolk",
-  "otherNightReminder": "If today was a Market Day wake up the Auctioneer and signal them how many evil players traded tonight.",
-  "ability": "Once per game, during the day publicly declare tomorrow to be Market Day. The night after a Market Day learn how many evil players traded.",
+  "ability": "Each night*, learn if an evil player traded tonight.",
   "flavor": "Aaaaaaaand, sold to the robed stranger with the pitchfork!"
 }
