@@ -28,9 +28,7 @@
   ],
   "name": "Conviction",
   "team": "potion good",
-  "firstNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
-  "otherNightReminder": "If either living neighbor of the holder is holding at least 1 Potion that is not an Empty Potion, replace 1 of those Potions with a Potion of Conviction. Then replace this potion with an Empty Potion.",
-  "ability": "Each night, a living neighbor's non-empty potion becomes a Potion of Conviction and this potion is Emptied. When this potion breaks, all Empty Potions break.",
+  "ability": "This potion cannot be nullified. You may publicly break this potion to nominate a player that was previously nominated today even if you have nominated today.",
   "flavor": "I'm quite certain drinking this was a good choice!",
   "special": [
     {

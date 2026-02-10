@@ -10,6 +10,6 @@
   ],
   "name": "Merchant",
   "team": "townsfolk",
-  "ability": "When you trade either player receives an additional potion. Empty Potions you trade become good potions.",
+  "ability": "When you trade either player receives an additional potion. An evil potion might become a good potion.",
   "flavor": "I will buy with you, sell with you, talk with you, walk with you, and so following, but I will not eat with you, drink with you, nor pray with you."
 }

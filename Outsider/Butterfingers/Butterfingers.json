@@ -2,7 +2,7 @@
   "id": "butterfingers",
   "edition": "custom",
   "reminders": [
-    "Died today"
+    "Townsfolk is Drunk"
   ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image.png?raw=true",
@@ -10,7 +10,6 @@
   ],
   "name": "Butterfingers",
   "team": "outsider",
-  "otherNightReminder": "If Butterfingers was executed the previous day, replace each Good Potion in the Cauldron with Empty Potions.",
-  "ability": "When you are executed, each good potion in play is emptied.",
+  "ability": "When you are executed, all Townsfolk players are drunk until dawn.",
   "flavor": "It took a special kind of man to cut his sword hand with his own sword."
 }
