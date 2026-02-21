@@ -14,7 +14,13 @@
     {
       "type": "signal",
       "name": "card",
-      "value": "Select a dead player.",
+      "value": "Select a dead player or no one.",
+      "time": "otherNight"
+    },
+    {
+      "type": "signal",
+      "name": "player",
+      "value": "No one.",
       "time": "otherNight"
     }
   ]
