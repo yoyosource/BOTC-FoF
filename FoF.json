@@ -429,7 +429,15 @@
     "firstNightReminder": " ",
     "otherNightReminder": " ",
     "ability": "Each night, choose a player and a task. If they do not perform that task tomorrow, a player might receive a potion and a potion might break.",
-    "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody."
+    "flavor": "You're humming, Sam. That means that something awful is going to happen to somebody.",
+    "special": [
+      {
+        "type": "signal",
+        "name": "card",
+        "value": "Choose a Player and a Task.",
+        "time": "night"
+      }
+    ]
   },
   {
     "id": "botc_fof:chemist",
