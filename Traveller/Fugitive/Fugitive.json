@@ -16,7 +16,8 @@
       "type": "signal",
       "name": "card",
       "value": "makes you an offer. Pick 1 or 2.",
-      "time": "night"
+      "time": "night",
+      "global": "townsfolk"
     },
     {
       "type": "signal",
