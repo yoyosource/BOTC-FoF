@@ -18,6 +18,24 @@
   "special": [
     {
       "type": "signal",
+      "name": "card",
+      "value": "Choose night order slot (after/before a character)",
+      "time": "firstNight"
+    },
+    {
+      "type": "signal",
+      "name": "player",
+      "value": "Before:",
+      "time": "firstNight"
+    },
+    {
+      "type": "signal",
+      "name": "player",
+      "value": "After:",
+      "time": "firstNight"
+    },
+    {
+      "type": "signal",
       "name": "cauldron",
       "time": "night"
     }
