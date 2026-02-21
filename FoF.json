@@ -220,11 +220,6 @@
         "type": "signal",
         "name": "cauldron",
         "time": "night"
-      },
-      {
-        "type": "signal",
-        "name": "cauldron",
-        "time": "night"
       }
     ]
   },
