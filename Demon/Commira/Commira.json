@@ -23,7 +23,7 @@
     {
       "type": "signal",
       "name": "cauldron",
-      "time": "night"
+      "time": "otherNight"
     },
     {
       "type": "potion",
