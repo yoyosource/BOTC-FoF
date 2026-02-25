@@ -1,5 +1,7 @@
 <img align="right" src="image.png" width="100" />
-<h1 style="border-bottom: 0 !important;">Thug</h1>
+<br/>
+
+# Thug
 Authors: Jonas, Marcus
 
 ## Summary
