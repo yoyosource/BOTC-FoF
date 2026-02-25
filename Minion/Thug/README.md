@@ -1,6 +1,4 @@
-<div style="text-align: right; float: right;">
-    <img src="image.png" width="100" />
-</div>
+<img align="right" src="image.png" width="100" />
 
 # Thug
 Authors: Jonas, Marcus
