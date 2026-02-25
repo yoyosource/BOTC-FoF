@@ -1,5 +1,5 @@
 <img align="right" src="image.png" width="100" />
-<h1 style="border-bottom: 0">Thug</h1>
+<h1 style="border-bottom: 0 !important;">Thug</h1>
 Authors: Jonas, Marcus
 
 ## Summary
