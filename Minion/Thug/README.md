@@ -10,6 +10,8 @@ Authors: Jonas, Marcus
 
 *You're humming, Sam. That means that something awful is going to happen to somebody.*
 
+The Thug creates discord and confusion withing the good team or alternatively spreads evil Potions amongst the players.
+
 ## How to run
 
 On the first night: Wake up the Thug and have them choose a player and a game related task for that player to perform

@@ -20,6 +20,6 @@ Each night except the first, wake the Commira.
 They point at any player.
 That player dies - mark them with the **DEAD** reminder.
 Start showing them the Cauldron.
-They can point at up to 3 players.
+They can point at up to 3 living players.
 Choose a Potion for each selected player and put it on that player.
 Put the Commira to sleep.
