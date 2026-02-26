@@ -1,3 +1,5 @@
+<img align="right" src="image_evil.png" width="100" />
+<img align="right" src="image_good.png" width="100" />
 <img align="right" src="image.png" width="100" />
 <br/>
 
