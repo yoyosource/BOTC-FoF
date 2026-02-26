@@ -18,7 +18,7 @@ The Commira stirs up the Cauldron by introducing potentially a large amount of P
 
 Each night except the first, wake the Commira.
 They point at any player.
-That player dies - mark them with the DEAD reminder.
+That player dies - mark them with the **DEAD** reminder.
 Start showing them the Cauldron.
 They can point at up to 3 players.
 Choose a Potion for each selected player and put it on that player.
