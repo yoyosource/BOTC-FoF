@@ -11,6 +11,8 @@ Authors: Jonas, Marcus
 
 *Oh, I love the Festival! It's my busiest workday of the year!*
 
+The Solicitor is used for players to be able to add interactions to the Potions even outside specific character abilities and facilitates the Trade mechanic.
+
 ## How to run
 
 Each day use the reminder tokens to mark down any Trades players announce that they wish to make.

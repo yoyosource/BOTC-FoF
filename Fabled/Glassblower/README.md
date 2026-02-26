@@ -11,6 +11,8 @@ Authors: Jonas, Marcus
 
 *Sometimes, the most beautiful creations are born from shattered dreams.*
 
+The Glassblower is a tool used to ensure that there are always potions in play and is also used as a means for balance between the two teams.
+
 ## How to run
 
 When it is the Glassblower's time in the night order, calculate the following:\
