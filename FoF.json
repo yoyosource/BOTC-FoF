@@ -895,7 +895,13 @@
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
     ],
     "ability": "2 living players may publicly choose to trade all potions once per day. If either player is dead when the trade would happen, no trade occurs.",
-    "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
+    "flavor": "Oh, I love the Festival! It's my busiest workday of the year!",
+    "special": [
+      {
+        "type": "reminder",
+        "name": "public"
+      }
+    ]
   },
   {
     "id": "botc_fof:potionofempathy_ability",
@@ -979,6 +985,20 @@
     ],
     "name": "Socialist",
     "team": "traveller",
+    "reminders": [
+      "Trade 1",
+      "Trade 1",
+      "Trade 2",
+      "Trade 2",
+      "Trade 3",
+      "Trade 3",
+      "Trade 4",
+      "Trade 4",
+      "Trade 5",
+      "Trade 5",
+      "Trade 6",
+      "Trade 6"
+    ],
     "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
     "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
     "flavor": "The workers must seize the means of production!"

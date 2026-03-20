@@ -22,5 +22,11 @@
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Fabled/Solicitor/image.png?raw=true"
   ],
   "ability": "2 living players may publicly choose to trade all potions once per day. If either player is dead when the trade would happen, no trade occurs.",
-  "flavor": "Oh, I love the Festival! It's my busiest workday of the year!"
+  "flavor": "Oh, I love the Festival! It's my busiest workday of the year!",
+  "special": [
+    {
+      "type": "reminder",
+      "name": "public"
+    }
+  ]
 }

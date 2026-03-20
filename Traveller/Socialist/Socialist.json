@@ -8,6 +8,20 @@
   ],
   "name": "Socialist",
   "team": "traveller",
+  "reminders": [
+    "Trade 1",
+    "Trade 1",
+    "Trade 2",
+    "Trade 2",
+    "Trade 3",
+    "Trade 3",
+    "Trade 4",
+    "Trade 4",
+    "Trade 5",
+    "Trade 5",
+    "Trade 6",
+    "Trade 6"
+  ],
   "otherNightReminder": "Wake the Socialist. Signal them all trades. Have them choose up to 1 trade to deny. This Trade will not happen.",
   "ability": "Each night*, you learn all ongoing trades; you may choose to deny one. Players may choose to trade in private.",
   "flavor": "The workers must seize the means of production!"
