@@ -375,7 +375,8 @@
     "id": "botc_fof:tramp",
     "edition": "custom",
     "reminders": [
-      "Drunk"
+      "Drunk",
+      "Messy"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
@@ -404,7 +405,7 @@
     "id": "botc_fof:butterfingers",
     "edition": "custom",
     "reminders": [
-      "Townsfolk is Drunk"
+      "OOPS"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Butterfingers/image.png?raw=true",
@@ -412,7 +413,7 @@
     ],
     "name": "Butterfingers",
     "team": "outsider",
-    "ability": "When you are executed, all Townsfolk players are drunk until dawn.",
+    "ability": "When you are executed, all Townsfolk players are drunk until dusk.",
     "flavor": "It took a special kind of man to cut his sword hand with his own sword."
   },
   {

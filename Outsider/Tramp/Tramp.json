@@ -2,7 +2,8 @@
   "id": "tramp",
   "edition": "custom",
   "reminders": [
-    "Drunk"
+    "Drunk",
+    "Messy"
   ],
   "image": [
     "https://github.com/yoyosource/BOTC-FoF/blob/master/Outsider/Tramp/image.png?raw=true",
