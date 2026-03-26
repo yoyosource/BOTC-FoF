@@ -1183,14 +1183,34 @@
       "Obsession",
       "Obsession",
       "Obsession",
-      "Obsession"
+      "Obsession",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed",
+      "Obsessed"
     ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfObsession/image.png?raw=true"
     ],
     "name": "Obsession",
     "team": "potion evil",
-    "ability": "When this potion is revealed; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
+    "ability": "When this potion is unveiled; until dusk, the number of votes needed to be marked for death is increased by one. This potion breaks.",
     "flavor": "I won't forget, I CAN'T forget. It nestles in my mind like a vicious parasite, clouding my thoughts on all but the thoughts of what could have been. Only, if only, I could turn back time, re-write history a million times, until what was wronged is right once more.",
     "special": [
       {
@@ -1200,7 +1220,8 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil"
+        "alignment": "evil",
+        "reminder": "Obsession"
       },
       {
         "type": "potion",
