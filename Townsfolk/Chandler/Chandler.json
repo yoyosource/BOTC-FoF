@@ -1,0 +1,16 @@
+{
+  "id": "chandler",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Chandler/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Chandler/image_evil.png?raw=true"
+  ],
+  "reminders": [
+    "Correct"
+  ],
+  "name": "Chandler",
+  "team": "townsfolk",
+  "otherNightReminder": "If the *Correct* reminder is on the Chandler they can only receive the selected Potion. Put one of the selected Potions on them.",
+  "ability": "Each day, visit the Storyteller & name a potion; learn an open statement; solve it & tonight receive, and only receive, that potion.",
+  "flavor": "Oh bright light,\ngrant me sight,\nfor what might,\nbe just right,\ntonight.\n-Sign outside the Chandler's shop"
+}

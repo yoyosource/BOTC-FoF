@@ -20,6 +20,7 @@
       "MINIONINFO",
       "DEMONINFO",
       "botc_fof:glassblower",
+      "botc_fof:diviner",
       "botc_fof:megalomaniac",
       "botc_fof:clofou",
       "botc_fof:chemist",
@@ -43,6 +44,7 @@
       "botc_fof:glassblower",
       "botc_fof:tramp",
       "botc_fof:baptist",
+      "botc_fof:diviner",
       "botc_fof:snakeoilseller",
       "botc_fof:toxicologist",
       "botc_fof:fof_harlot",
@@ -51,6 +53,7 @@
       "botc_fof:commira",
       "botc_fof:caetrum",
       "botc_fof:clofou",
+      "botc_fof:chandler",
       "botc_fof:chemist",
       "botc_fof:aberration",
       "botc_fof:druid",
@@ -148,6 +151,23 @@
     "otherNightReminder": " ",
     "ability": "Each night, you learn a good player. There is an evil player that registers as good to you.",
     "flavor": "Well, that is close. But close only counts for hand grenades."
+  },
+  {
+    "id": "botc_fof:diviner",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Diviner/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Diviner/image_evil.png?raw=true"
+    ],
+    "reminders": [
+      "Used"
+    ],
+    "name": "Diviner",
+    "team": "townsfolk",
+    "firstNightReminder": "Choose a player to receive a Potion.",
+    "otherNightReminder": "Choose a player to receive a Potion.",
+    "ability": "Each night, a player receives a potion. Once per game at night, when a player would die, their potions break instead.",
+    "flavor": "People were doubtful about their abilities. The tone quickly changed when they were banned from every local gambling hall."
   },
   {
     "id": "botc_fof:auctioneer",
@@ -1071,6 +1091,22 @@
         "global": "traveller"
       }
     ]
+  },
+  {
+    "id": "botc_fof:chandler",
+    "edition": "custom",
+    "image": [
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Chandler/image.png?raw=true",
+      "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Chandler/image_evil.png?raw=true"
+    ],
+    "reminders": [
+      "Correct"
+    ],
+    "name": "Chandler",
+    "team": "townsfolk",
+    "otherNightReminder": "If the *Correct* reminder is on the Chandler they can only receive the selected Potion. Put one of the selected Potions on them.",
+    "ability": "Each day, visit the Storyteller & name a potion; learn an open statement; solve it & tonight receive, and only receive, that potion.",
+    "flavor": "Oh bright light,\ngrant me sight,\nfor what might,\nbe just right,\ntonight.\n-Sign outside the Chandler's shop"
   },
   {
     "id": "botc_fof:potionofcuriosity",

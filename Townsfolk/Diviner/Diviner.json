@@ -1,0 +1,17 @@
+{
+  "id": "diviner",
+  "edition": "custom",
+  "image": [
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Diviner/image.png?raw=true",
+    "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/Diviner/image_evil.png?raw=true"
+  ],
+  "reminders": [
+    "Used"
+  ],
+  "name": "Diviner",
+  "team": "townsfolk",
+  "firstNightReminder": "Choose a player to receive a Potion.",
+  "otherNightReminder": "Choose a player to receive a Potion.",
+  "ability": "Each night, a player receives a potion. Once per game at night, when a player would die, their potions break instead.",
+  "flavor": "People were doubtful about their abilities. The tone quickly changed when they were banned from every local gambling hall."
+}
