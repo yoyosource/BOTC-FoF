@@ -7,16 +7,16 @@
   ],
   "name": "Clerk",
   "team": "townsfolk",
-  "firstNightReminder":"Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
+  "firstNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
   "otherNightReminder": "Wake up the Clerk and either show them a potion of a type that an evil player has received tonight, or if none has been received by an evil player tonight, signal a no.",
-  "ability": "Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.",
+  "ability": "Each night, if you did not eye the cauldron yesterday, you learn a type of potion that an evil player has received tonight, or if 0 has been received.",
   "flavor": "Employers are like horses — they require management.",
   "special": [
     {
       "type": "signal",
       "name": "card",
       "value": "An evil player received this potion",
-      "time": "otherNight"
+      "time": "night"
     }
   ]
 }

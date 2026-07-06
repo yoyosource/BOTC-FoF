@@ -6,7 +6,7 @@ Authors: Jonas, Marcus
 
 ## Summary
 
-> Each day, visit the Storyteller & name a potion; learn an open statement; solve it & tonight recieve, and only recieve, that potion.
+> Each day, visit the Storyteller & name a potion; learn an open statement; solve it & tonight receive, and only receive, that potion.
 
 *Oh bright light,  
 grant me sight,  
