@@ -6,6 +6,6 @@ Authors: Jonas, Marcus
 
 ## Summary
 
-> Each night*, you learn a type of potion that an evil player (not a traveller) has received tonight, or if none has been received.
+> Each night, if you did not eye the cauldron yesterday, you learn a type of potion that an evil player has received tonight, or if 0 has been received.
 
 *Employers are like horses — they require management.*
