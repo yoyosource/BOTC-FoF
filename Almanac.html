@@ -330,7 +330,11 @@
                         if (!htmlElement) continue;
                         let html = "";
                         for (const data of elements) {
-                            html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3><a href='https://github.com/yoyosource/BOTC-FoF/tree/master/" + htmlElement.getAttribute("data-dir") + data.name.replace(" ", "") + "'>" + data.name + "</a></h3><br>" + data.ability;
+                            let link = "https://github.com/yoyosource/BOTC-FoF/tree/master/" + htmlElement.getAttribute("data-dir") + data.name.replace(" ", "");
+                            if (data.name === "Harlot") {
+                                link = "https://wiki.bloodontheclocktower.com/Harlot";
+                            }
+                            html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3><a href='" + link + "'>" + data.name + "</a></h3><br>" + data.ability;
                             if (data.flavor !== undefined) {
                                 html += "<div class='flavor'>" + data.flavor + "</div>";
                             }
