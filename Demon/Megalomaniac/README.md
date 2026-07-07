@@ -21,8 +21,3 @@ Each night except the first, wake the Megalomaniac.
 They point at any player.
 Put the Megalomaniac to sleep.
 That player dies - mark them with the **DEAD** reminder.
-
-## Examples
-
-On the second night you are to make a decision if a player is to receive a Potion of Panic.
-You decide that Emma needs some Panic in their life and give one to her.

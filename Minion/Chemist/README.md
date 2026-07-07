@@ -18,10 +18,12 @@ Each night, wake the Chemist.
 Start showing them the Cauldron.
 Have them signal 1 or 2.
 
-If they signaled 1 let them choose 2 potions held by different living players.
+If they signaled 1, have them choose 2 potions held by different living players.
 Exchange the places of those 2 potions.
 
-If they signaled 2 let them choose 1 potion held by a living player (not themselves).
+If they signaled 2, have them choose 1 potion held by a living player (not themselves).
 Remove it from that player and move it onto the Chemist.
 
 Put the Chemist to sleep.
+
+## Examples

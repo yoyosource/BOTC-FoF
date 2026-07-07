@@ -23,3 +23,5 @@ Start showing them the Cauldron.
 They point at any living player.
 Give the chosen player a Potion of Panic
 Put the Aberration to sleep.
+
+## Examples

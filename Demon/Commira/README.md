@@ -23,3 +23,15 @@ Start showing them the Cauldron.
 They can point at up to 3 living players.
 Choose a Potion for each selected player and put it on that player.
 Put the Commira to sleep.
+
+## Examples
+Merling the Commira wakes up and chooses Marcus to die.
+After that Merling is shown the cauldron.
+Merling does not choose any player to receive a Potion.
+
+Dominik the Commira wakes up and chooses Jonas to die.
+After that Dominik is shown the cauldron.
+Dominik chooses Taki, Thor and Tom to receive a Potion.
+The storyteller puts Dominik back to sleep.
+The storyteller then decides to put a Potion of Empathy on Taki,
+a Potion of Disdain on Thor and a Potion of Stress on Tom.

@@ -6,7 +6,7 @@ Authors: Jonas, Marcus
 
 ## Summary
 
-> Each night if you traded with an evil player (not Travelers) you swap characters. If you traded with a good player you learn their character.
+> Each night, if you traded with an evil player (not Travelers), you swap characters. If you traded with a good player you learn their character.
 
 *Why, dearie! You ain't afraid of little old me, are you? Not when there are so much worse things, lurking in the dark?*
 
@@ -26,3 +26,5 @@ Put them back to sleep.
 And swap the character tokens between the 2 players on the Grimoire.
 
 Remove any **BEWITCHED** reminder tokens.
+
+## Examples

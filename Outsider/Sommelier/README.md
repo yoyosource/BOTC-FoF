@@ -20,7 +20,6 @@ If a person for any reason cannot receive a potion of the opposite alignment, th
 Potion of Panic is a "special" alignment potion, and therefor has no opposite. It cannot be replaced by the Sommelier.
 
 ## Examples
-
 Marcus the Distiller chooses Jonas the Druid.
 The Distiller said that Jonas should receive a good Potion but the Sommelier is used to change that potion to an evil one (e.g. Potion of Apathy).
 

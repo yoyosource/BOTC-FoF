@@ -28,3 +28,5 @@ Put the Clofou to sleep.
 That player dies - mark them with the **DEAD** reminder.
 If at this Point the Clofou has a living neighbour that is an Outsider and there is no evil Outsider in play rotate the Outsiders character token upside-down for evil.
 Then wake the Outsider give them a thumbs-down (indicating their new alignment), then put them back to sleep.
+
+// TODO: Write Examples!

@@ -26,3 +26,5 @@ chosen player, show them the Thug token and the given Task. Put that player to s
 1. If you judge that a Task is not fitting for the game you may deny it and make the Thug choose a different Task.
 2. If the person cannot perform the Task it is not treated as them failing to perform it.
 3. Revealing that the Thug has given you a Task instantly fails the Task.
+
+## Examples

@@ -21,7 +21,6 @@ To have a trade active means that you have asked to trade with a player and they
 If no player accepts a trade with the Student, they are unable to vote or nominate that day.
 
 ## Examples
-
 Tobi the Student asked Sandra to trade and she agreed.
 During the nomination Tobi is allowed to vote on Christopher's nomination.
 After that Tobi nominates Lisa.
