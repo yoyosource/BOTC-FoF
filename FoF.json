@@ -101,7 +101,7 @@
     "name": "Scout",
     "team": "townsfolk",
     "firstNightReminder": "Wake the Scout and signal a number equal to the highest number of Townsfolk players sitting in a line.",
-    "ability": "You start knowing the length of your chain of townsfolk. [+0/+1 Outsider]",
+    "ability": "You start knowing the length of your chain of Townsfolk. [+0/+1 Outsider]",
     "flavor": "Var redo! Alltid redo!",
     "special": [
       {

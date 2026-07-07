@@ -6,7 +6,7 @@ Authors: Jonas, Marcus
 
 ## Summary
 
-> You start knowing the length of your chain of townsfolk. [+0/+1 Outsider]
+> You start knowing the length of your chain of Townsfolk. [+0/+1 Outsider]
 
 *Var redo! Alltid redo!*
 

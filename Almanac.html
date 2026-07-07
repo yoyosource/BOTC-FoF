@@ -152,7 +152,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="townsfolk"></div>
+            <div id="townsfolk" data-dir="Townsfolk/"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -162,7 +162,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="outsider"></div>
+            <div id="outsider" data-dir="Outsider/"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -172,7 +172,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="minion"></div>
+            <div id="minion" data-dir="Minion/"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -182,7 +182,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="demon"></div>
+            <div id="demon" data-dir="Demon/"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -192,7 +192,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="traveller"></div>
+            <div id="traveller" data-dir="Traveller/"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -202,7 +202,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="fabled"></div>
+            <div id="fabled" data-dir="Fabled/"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px; padding-bottom: 50px">
@@ -256,7 +256,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="special"></div>
+            <div id="special" data-dir="Special/PotionOf"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -266,7 +266,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="potion good"></div>
+            <div id="potion good" data-dir="Potion/Good/PotionOf"></div>
         </div>
 
         <div style="display: flex; position: relative; padding-top: 20px">
@@ -276,7 +276,7 @@
             </div>
 
             <!-- Scrollable Content -->
-            <div id="potion evil"></div>
+            <div id="potion evil" data-dir="Potion/Evil/PotionOf"></div>
         </div>
 
         <script>
@@ -330,7 +330,7 @@
                         if (!htmlElement) continue;
                         let html = "";
                         for (const data of elements) {
-                            html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3>" + data.name + "</h3><br>" + data.ability;
+                            html += "<div class='character'><div class='token'><img src='" + data.image[0] + "'></div><div class='ability'><h3><a href='https://github.com/yoyosource/BOTC-FoF/tree/master/" + htmlElement.getAttribute("data-dir") + data.name.replace(" ", "") + "'>" + data.name + "</a></h3><br>" + data.ability;
                             if (data.flavor !== undefined) {
                                 html += "<div class='flavor'>" + data.flavor + "</div>";
                             }
