@@ -6,6 +6,6 @@ Authors: Jonas, Marcus
 
 ## Summary
 
-> Your good potions are unveiled during the night.
+> When unveiled, this potion breaks (even if nullified) and tonight something benefitting the evil team might happen to a player that eyed the unveiling.
 
 *Trademarked by the Institute of Pandemonium Inc.*

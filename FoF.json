@@ -50,6 +50,7 @@
       "botc_fof:toxicologist",
       "botc_fof:fof_harlot",
       "botc_fof:fugitive",
+      "botc_fof:potionofterror",
       "botc_fof:megalomaniac",
       "botc_fof:commira",
       "botc_fof:caetrum",
@@ -1438,12 +1439,34 @@
       "Terror",
       "Terror"
     ],
+    "reminders": [
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized",
+      "Terrorized"
+    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Potion/Evil/PotionOfTerror/image.png?raw=true"
     ],
     "name": "Terror",
     "team": "potion evil",
-    "ability": "Your good potions are unveiled during the night.",
+    "ability": "When unveiled, this potion breaks (even if nullified) and tonight something benefitting the evil team might happen to a player that eyed the unveiling.",
     "flavor": "Trademarked by the Institute of Pandemonium Inc.",
     "special": [
       {
@@ -1453,18 +1476,13 @@
       {
         "type": "potion",
         "name": "type",
-        "alignment": "evil"
+        "alignment": "evil",
+        "reminder": "Terror"
       },
       {
         "type": "potion",
         "name": "show",
         "time": "night"
-      },
-      {
-        "type": "potion",
-        "name": "show",
-        "time": "night",
-        "alignment": "good"
       }
     ]
   },
