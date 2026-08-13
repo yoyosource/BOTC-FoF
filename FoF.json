@@ -269,7 +269,7 @@
     "team": "townsfolk",
     "ability": "Each night* you may choose a dead player; learn their character type and you might receive an evil potion.",
     "otherNightReminder": "Wake up the Druid and have them signal if they wish to use their ability. If they do, have them choose a dead player; they learn that player's character type. Put them to sleep, then decide if you want to put an evil potion of them or not.",
-    "flavor": "The great use of life is to spend it for something that will outlast it.",
+    "flavor": "The greatest use of life is to spend it for something that will outlast it.",
     "special": [
       {
         "type": "signal",
