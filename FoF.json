@@ -55,6 +55,7 @@
       "botc_fof:commira",
       "botc_fof:caetrum",
       "botc_fof:clofou",
+      "botc_fof:pigeonfancier",
       "botc_fof:chandler",
       "botc_fof:chemist",
       "botc_fof:aberration",
@@ -356,16 +357,13 @@
   {
     "id": "botc_fof:pigeonfancier",
     "edition": "custom",
-    "reminders": [
-      "Active"
-    ],
     "image": [
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image.png?raw=true",
       "https://github.com/yoyosource/BOTC-FoF/blob/master/Townsfolk/PigeonFancier/image_evil.png?raw=true"
     ],
     "name": "Pigeon Fancier",
     "team": "townsfolk",
-    "ability": "If you died at night, from now on the Glassblower only gives out good potions. [+Glassblower]",
+    "ability": "If you died at night, you learn an evil player.",
     "flavor": "Fancy a pigeon?"
   },
   {
