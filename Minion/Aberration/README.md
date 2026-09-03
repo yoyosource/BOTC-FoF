@@ -25,3 +25,13 @@ Give the chosen player a Potion of Panic
 Put the Aberration to sleep.
 
 ## Examples
+
+Nadia the Aberration wakes up and is shown the Cauldron.
+She points at Leo, and the Storyteller puts a Potion of Panic on Leo.
+
+During the day, Quill asks the Storyteller to unveil his potions and a Potion of Panic is shown face up in the Cauldron.
+Because a Potion of Panic was just unveiled, the Storyteller may poison a player until dawn.
+The Storyteller puts the **POISONED** reminder token on Rhea - it does not have to be the player who unveiled it - and Rhea's ability malfunctions until dawn.
+
+Later that same day, Wren also unveils a Potion of Panic.
+As this is a new unveiling, the Storyteller may again choose a player to poison until dawn.
