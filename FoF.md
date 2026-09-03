@@ -9,10 +9,11 @@
 7. Potions are Personal! > It only affects yourself! / You are not making a decision for another player!
 
 ### Glossary
-**Emptied**: A potion that is "Emptied" is removed and replaced by an Empty Potion.  
+**Veiled/Unveiled**: A veiled potion is face down. A unveiled potion is face up.  
 **Cauldron**: A separate town square specifically for potions.  
 **Nullified**: A potion being nullified means that its ability has been removed.  
 **Type of Potion**: Specific Potion i.e. the name of the Potion.  
 **Potion Alignment**: The good and evil categories like for characters.  
 **Becomes**: The potion is changed from its current type to another, and is treated as if being received.  
+**Trade**: An exchange of one or multiple potions between two players. Each of the player receive the potion(s) of the other.  
 **Special**: A character type that is not included in the bag setup and can only be created by another character's ability. Special characters are neither good nor evil.  
