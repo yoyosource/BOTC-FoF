@@ -8,7 +8,7 @@ Authors: Jonas, Marcus
 
 > Each night* you may choose a dead player; learn their character type and you might receive an evil potion.
 
-*The great use of life is to spend it for something that will outlast it.*
+*The greatest use of life is to spend it for something that will outlast it.*
 
 The Druid confirms dead players as the character type they are, at the risk of being saddled with an Evil potion.
 
