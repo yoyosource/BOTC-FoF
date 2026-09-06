@@ -46,3 +46,21 @@ Freya the Baptist was holding a Potion of Apathy, and Lina was holding a Potion 
 Once the potions have swapped places, the Potion of Generosity triggers, breaking the Potion of Apathy.
 Since the evil potion held by the Baptist was received by another player, 
 the Storyteller puts the 'Cannot die' reminder token on Freya.
+
+## Tips & Tricks
+
+- Each night from the second on you choose 2 other living players, and the Storyteller decides whether neither, one, or both of them receive a potion.
+- You are a good source of potions for the town, so point your picks at players you want to arm with something beneficial.
+- On any night one of your picks receives an evil potion from you, you cannot die, so spreading a little damnation can shield you from the demon.
+- That protection also triggers when an evil potion leaves you through a trade, so trading an evil potion away on a dangerous night can keep you alive.
+- The catch is that you hand someone a harmful potion to earn that safety, so weigh your own survival against arming another player.
+- The Storyteller controls which potions actually go out, so you cannot guarantee the protection - treat it as an occasional shield rather than a plan.
+
+## Bluffing as the Baptist
+
+- The Baptist puts potions on players, so your claim is checkable against the Cauldron - keep your named picks in line with what actually appears.
+- Claiming the Baptist lets you take credit for potions that show up on your supposed picks, building trust as a good potion source.
+- The cannot-die clause is a handy excuse for why you, an evil player, survived a night the town expected the demon to kill you.
+- If your team is bluffing a Baptist, the demon can choose not to kill for a night so the bluffer can claim their cannot-die protection stopped an attack, selling the role to the town.
+- Lean on evil teammates like the Commira or Thug who place potions at night, so there is always a fresh potion to pass off as your own handout.
+- The Baptist wakes from the second night, so do not claim a first-night action.

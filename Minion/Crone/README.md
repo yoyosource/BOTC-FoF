@@ -43,3 +43,19 @@ The Storyteller then removes the **BEWITCHED** reminder token.
 
 Hilda the Crone trades with Petra the Toxicologist, a Traveller.
 Because Travelers are excluded, the Storyteller does not place a **BEWITCHED** reminder token and nothing happens that night.
+
+## Tips & Tricks
+
+- Trade with good players to learn their exact character, giving the evil team a steady stream of information on who is who.
+- Feed what you learn to your demon so it knows which townsfolk to kill and which to leave alone.
+- Trade with an evil teammate to swap characters, which lets your team dodge suspicion or move an ability to a better-placed player.
+- A little old trade is all it takes, so trade often and openly to look like a keen, town-friendly player while you gather your information.
+- Travelers do not count, so a trade with a Traveller does nothing for you.
+
+## Fighting the Crone
+
+- The Crone learns the exact character of any good player it trades with, so be wary of trading with a suspected Crone and handing the evil team your role.
+- Refusing trades with players you distrust starves the Crone of both its information and its swaps.
+- If two evil players appear to have swapped roles or claims mid-game, a Crone trade may be behind it.
+- A player who trades a lot and then seems to know others' characters is a strong Crone suspect.
+- Executing the Crone stops its information gathering and its character swaps.
