@@ -26,3 +26,15 @@ Potion of Panic cannot be nullified, thus an unveiled Potion of Panic will stay 
 Marcus the Apothecary is holding a Potion of Joy.
 At night the Caetrum targets Marcus, and he dies.
 At the time the Potion of Joy breaks, it was held by a living Apothecary, thus it was nullified and does not trigger.
+
+## Tips & Tricks
+- As the Apothecary you have a potentially very strong ability, so you want to stay under the radar to avoid getting killed.
+- Your character is one that benefits a lot from trading potions with other players, so bluffing a role that has a reason to trade is a good idea to gain the most out of your ability.
+- Note that there are potions that cannot be nullified, so getting hold of those potions are of less value to you.
+- Eye the cauldron daily to know how many Potions you are holding.
+- Flipping your Potions daily also helps with knowing your good Potions.
+
+## Bluffing as the Apothecary
+- Bluffing as the Apothecary is hard, as it's ability is unique and impossible to fake.
+- If you decide to bluff as the Apothecary, make sure to eye the cauldron daily and trade in a manner that will seem plausible for the purpose of a apothecary.
+- If a Potion seemingly did not work, and you are holding a Potion of the same alignment, take credit for the nullification.

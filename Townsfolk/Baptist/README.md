@@ -46,3 +46,17 @@ Freya the Baptist was holding a Potion of Apathy, and Lina was holding a Potion 
 Once the potions have swapped places, the Potion of Generosity triggers, breaking the Potion of Apathy.
 Since the evil potion held by the Baptist was received by another player, 
 the Storyteller puts the 'Cannot die' reminder token on Freya.
+
+## Tips & Tricks
+- Claim your role only to a select few and try to find people that agrees with being chosen by you in the night.
+- Choosing players with none or a low number of potions increases the odds of either receiving one from your ability.
+- Note that your ability does not require the chosen players to be the ones to have received an evil potion from your; trading one to any other player guarantee your safety tonight.
+- Remember that, if the demon attacked you, and you did not die, they will be almost certain that you are the Baptist, meaning that you can now out your role openly.
+
+## Bluffing as the Baptist
+- Eye the cauldron daily to know who received Potions tonight. You should only claim players you picked that also received a Potion tonight.
+- Select a player that received an evil Potion when nobody died to show that you protected yourself from being killed.
+- Trade, when you are holding an evil Potion, to not die during the night.
+- The Baptist does not wake on the first night.
+- Coordinate with your Demon to sink a kill on nights you want to bluff being protected.
+- Characters that are evil and hand out Potions can help your bluff.
